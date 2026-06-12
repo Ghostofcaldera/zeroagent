@@ -90,3 +90,4 @@
 2026-06-12 18:18:06,207 INFO skills.task_market: TaskMarket: keystore restored from env var
 2026-06-12 18:18:06,886 WARNING skills.task_market: TaskMarket CLI error: {"ok":false,"error":"POST /api/tasks/0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18/submissions failed (500): {\"message\":\"Winner not selected yet\",\"code\":\"INTERNAL_SERVER_ER
 2026-06-12 18:18:06,888 INFO ZeroAgent: task_market result: {'success': False, 'task_id': '0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18', 'reward': 1.0}
+2026-06-12 18:18:07,852 INFO ZeroAgent: === Cycle complete ===
