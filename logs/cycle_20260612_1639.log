@@ -63,3 +63,4 @@ KeyError: 'number'
 2026-06-12 16:42:00,394 INFO skills.task_market: TaskMarket: keystore restored from env var
 2026-06-12 16:42:01,152 WARNING skills.task_market: TaskMarket CLI error: {"ok":false,"error":"POST /api/tasks/{\"ok\":true,\"data\":{\"tasks\":[{\"id\":\"0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18\",\"requester\":\"0x8B66628AB709Fb597bB6EA5Ea2D81C59
 2026-06-12 16:42:01,154 INFO ZeroAgent: task_market result: {'success': False, 'task_id': '{"ok":true,"data":{"tasks":[{"id":"0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18","requester":"0x8B66628AB709Fb597bB6EA5Ea2D81C590e5aCB6e","requesterPubkey":"0x8B66628AB709Fb597bB6EA5Ea2D81C590e5aCB6e","description":"Test', 'reward': 0}
+2026-06-12 16:42:02,352 INFO ZeroAgent: === Cycle complete ===
