@@ -38,7 +38,7 @@ jobs:
           cache: 'pip'
 
       - name: Cache memory and logs
-        uses: actions/cache@v6
+        uses: actions/cache@v4
         with:
           path: |
             memory/
