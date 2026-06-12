@@ -122,8 +122,8 @@ def ai(
     """
     if task == "content":
         chain = [
-            lambda: call_gemini(prompt, system, max_tokens),
             lambda: call_groq(prompt, system, "llama-3.1-8b-instant", max_tokens),
+            lambda: call_gemini(prompt, system, max_tokens),
             lambda: call_openrouter(prompt, system, max_tokens),
             lambda: call_ollama(prompt, system),
         ]

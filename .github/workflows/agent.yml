@@ -1,11 +1,6 @@
 name: ZeroAgent Autonomous Cycle
 
 on:
-  schedule:
-    # Every 30 minutes — NOT every 5 minutes like the original
-    # Why: each cycle can take 5-15 min; 5-min cron creates overlapping runs
-    # Public repo = unlimited free minutes (confirmed June 2026 GitHub docs)
-    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       vehicle:
@@ -17,25 +12,25 @@ on:
         type: boolean
         default: false
 
-# CRITICAL: This permission is required for git push in the workflow
+# Required permissions for git push + self-trigger (dispatch next cycle)
 permissions:
   contents: write
+  actions: write
 
 jobs:
   agent:
     runs-on: ubuntu-latest
-    timeout-minutes: 25  # Hard cap per cycle
+    timeout-minutes: 35  # 30-min sleep + ~5 min for agent
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 1
-          # Use PAT so the agent can push back to the repo
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -67,6 +62,17 @@ jobs:
           git config user.name "ZeroAgent"
           git config user.email "agent@zero.local"
           git add memory/ logs/ || true
-          # Only commit if there are changes
           git diff --staged --quiet || git commit -m "Agent state $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push || echo "Push failed — likely no changes to push"
+
+      - name: Schedule next cycle in 30 minutes
+        if: ${{ inputs.dry_run != 'true' }}
+        run: |
+          # Sleep to maintain 30-min cycle spacing
+          sleep 1800
+          # Dispatch the next run
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/agent.yml/dispatches \
+            -d '{"ref":"main"}'
