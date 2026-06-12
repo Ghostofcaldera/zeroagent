@@ -668,20 +668,38 @@ def run(dry_run: bool = False) -> dict:
                     cwd=clone_dir / repo_short, capture_output=True,
                 )
                 # Fork-based PR creation for external repos (GITHUB_TOKEN can't push to external)
-                fork_owner = "Ghostofcaldera"  # current user
+                # Get authenticated user
+                user_r = requests.get("https://api.github.com/user", headers=GH_HEADERS, timeout=10)
+                fork_owner = user_r.json().get("login", "Ghostofcaldera") if user_r.ok else "Ghostofcaldera"
                 fork_repo = f"{fork_owner}/{repo_short}"
                 
-                # Create fork
-                logger.info(f"Creating fork of {best_repo}...")
-                fork_r = requests.post(
-                    f"https://api.github.com/repos/{best_repo}/forks",
-                    headers=GH_HEADERS, timeout=30,
-                )
-                if fork_r.status_code not in (201, 202):
-                    logger.warning(f"Fork creation failed: {fork_r.status_code} {fork_r.text[:200]}")
-                else:
-                    # Wait for fork to be ready
-                    time.sleep(5)
+                # Check if fork already exists
+                fork_check = requests.get(f"https://api.github.com/repos/{fork_repo}", headers=GH_HEADERS, timeout=10)
+                fork_exists = fork_check.status_code == 200
+                
+                if not fork_exists:
+                    # Create fork
+                    logger.info(f"Creating fork of {best_repo} for {fork_owner}...")
+                    fork_r = requests.post(
+                        f"https://api.github.com/repos/{best_repo}/forks",
+                        headers=GH_HEADERS, timeout=30,
+                    )
+                    logger.info(f"Fork creation response: {fork_r.status_code}")
+                    if fork_r.status_code not in (201, 202):
+                        logger.warning(f"Fork creation failed: {fork_r.status_code} {fork_r.text[:300]}")
+                        fork_exists = False
+                    else:
+                        fork_exists = True
+                
+                if fork_exists:
+                    # Wait for fork to be ready (poll)
+                    logger.info(f"Waiting for fork {fork_repo} to be ready...")
+                    for _ in range(10):
+                        time.sleep(3)
+                        check = requests.get(f"https://api.github.com/repos/{fork_repo}", headers=GH_HEADERS, timeout=10)
+                        if check.ok:
+                            logger.info(f"Fork {fork_repo} is ready")
+                            break
                     
                     # Add fork as remote
                     fork_clone_url = f"https://x-access-token:{GITHUB_TOKEN}@github.com/{fork_repo}.git"
@@ -714,9 +732,11 @@ def run(dry_run: bool = False) -> dict:
                             pr_url = pr_r.json().get("html_url", "")
                             logger.info(f"PR created: {pr_url}")
                         else:
-                            logger.warning(f"PR creation failed: {pr_r.status_code} {pr_r.text[:200]}")
+                            logger.warning(f"PR creation failed: {pr_r.status_code} {pr_r.text[:300]}")
                     else:
-                        logger.warning(f"Push to fork failed: {push.stderr.decode()[:200]}")
+                        logger.warning(f"Push to fork failed: {push.stderr.decode()[:300]}")
+                else:
+                    logger.warning(f"Fork {fork_repo} not available, skipping PR creation")
 
             shutil.rmtree(str(clone_dir), ignore_errors=True)
 
