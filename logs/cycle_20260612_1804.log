@@ -1,0 +1,92 @@
+2026-06-12 18:04:01,259 INFO ZeroAgent: === Cycle start 2026-06-12T18:04:01.259029+00:00 ===
+2026-06-12 18:04:01,261 INFO ZeroAgent: --- Running vehicle: content_affiliate ---
+2026-06-12 18:04:01,897 INFO skills.content_affiliate: Content affiliate cycle starting...
+2026-06-12 18:04:07,945 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:04:07,955 INFO skills.content_affiliate: Writing article: Developer take on: Slightly reducing the sloppiness of AI generated front end
+2026-06-12 18:04:10,134 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:04:10,727 INFO skills.content_affiliate: Published: https://dev.to/kelvin_kariuki_20f4bec616/developer-take-on-slightly-reducing-the-sloppiness-of-ai-generated-frontend-1g1g
+2026-06-12 18:04:10,730 INFO ZeroAgent: content_affiliate result: {'success': True, 'title': 'Developer Take on: Slightly Reducing the Sloppiness of AI-Generated Frontend', 'url': 'https://dev.to/kelvin_kariuki_20f4bec616/developer-take-on-slightly-reducing-the-sloppiness-of-ai-generated-frontend-1g1g', 'tags': ['webdev', 'programming', 'productivity', 'tutorial']}
+2026-06-12 18:04:10,730 INFO ZeroAgent: --- Running vehicle: bounty_hunting ---
+2026-06-12 18:04:10,737 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-12 18:04:11,536 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (13 claimers)
+2026-06-12 18:04:11,711 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5150 stranded
+2026-06-12 18:04:11,714 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-12 18:04:12,388 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-12 18:04:12,390 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (22 claimers)
+2026-06-12 18:04:12,390 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (11 claimers)
+2026-06-12 18:04:12,620 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-12 18:04:12,823 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-12 18:04:13,051 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-12 18:04:13,251 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-12 18:04:13,456 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-12 18:04:13,697 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-12 18:04:13,911 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-12 18:04:14,006 WARNING skills.bounty_hunter: Opire: GitHub check 404 for aueangpanit/electron-template#1, trusting Opire
+2026-06-12 18:04:14,221 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-12 18:04:14,222 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (9 claimers)
+2026-06-12 18:04:14,417 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-12 18:04:15,152 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-12 18:04:15,368 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-12 18:04:15,370 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-12 18:04:15,585 INFO skills.bounty_hunter: Opire: formbricks/formbricks#3302 closed, $60 stranded
+2026-06-12 18:04:16,117 INFO skills.bounty_hunter: Opire: sebastianbergmann/phpunit#4440 closed, $50 stranded
+2026-06-12 18:04:16,325 INFO skills.bounty_hunter: Opire: ToolJet/ToolJet#6655 closed, $45 stranded
+2026-06-12 18:04:16,709 INFO skills.bounty_hunter: Opire: mmccl5/go-task-task#1 closed, $41 stranded
+2026-06-12 18:04:16,711 INFO skills.bounty_hunter: Opire: 7 open bounties from 30 total
+2026-06-12 18:04:16,713 INFO skills.bounty_hunter: Opire: found 7 open bounties
+2026-06-12 18:04:42,731 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:04:42,735 INFO skills.bounty_hunter: Skipping onlybugs05/angular#1: clarity=2, solvability=2, scope=2 - The issue provides no concrete bug description or reproducible steps, only a vag
+2026-06-12 18:04:47,030 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:04:47,033 INFO skills.bounty_hunter: Candidate: hexgrad/kokoro#290 $1640.0 | clarity=8 solvability=9 scope=9 | EV=$1421
+2026-06-12 18:04:54,511 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:04:54,514 INFO skills.bounty_hunter: Candidate: aueangpanit/electron-template#1 $100.0 | clarity=8 solvability=10 scope=9 | EV=$90
+2026-06-12 18:05:02,274 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:05:02,276 INFO skills.bounty_hunter: Skipping denoland/deno#18147: clarity=9, solvability=7, scope=4 - While the requirement is clear and technically achievable with code changes, imp
+2026-06-12 18:05:58,135 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:05:58,137 INFO skills.bounty_hunter: Skipping XAMPPRocky/octocrab#224: clarity=0, solvability=0, scope=0 - Could not parse AI assessment
+2026-06-12 18:06:40,784 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:06:40,786 INFO skills.bounty_hunter: Skipping microg/GmsCore#2843: clarity=5, solvability=3, scope=2 - The request lacks detailed specifications for WearOS integration (e.g., which AP
+2026-06-12 18:06:51,627 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:06:51,629 INFO skills.bounty_hunter: Skipping radumarias/rencfs#3: clarity=0, solvability=0, scope=0 - Could not parse AI assessment
+2026-06-12 18:06:51,629 INFO skills.bounty_hunter: Best candidate: hexgrad/kokoro#290 from Opire $1640.0 (EV=$1421)
+2026-06-12 18:06:51,629 INFO skills.bounty_hunter: Target: hexgrad/kokoro#290: Donation/funding for german language (Opire $1640.0)
+2026-06-12 18:06:51,778 WARNING skills.bounty_hunter: Intent comment failed: 403 {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/issues/comments#create-an-issue-comment","status":"403"}
+2026-06-12 18:06:51,779 INFO skills.bounty_hunter: Intent comment posted (/try): False
+2026-06-12 18:06:51,779 INFO skills.bounty_hunter: Proceeding to PR without intent comment (external repo, bounty=$1640.0)
+2026-06-12 18:06:51,779 INFO skills.bounty_hunter: MASAI: attempting fix for $1640.0 bounty at hexgrad/kokoro#290
+2026-06-12 18:06:52,640 INFO skills.bounty_hunter: MASAI: using 3-phase solver for $1640.0 bounty
+2026-06-12 18:06:52,640 INFO agent.masai_solver: MASAI: solving 'Donation/funding for german language...'
+2026-06-12 18:06:52,953 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-06-12 18:06:52,953 INFO openai._base_client: Retrying request to /chat/completions in 0.380226 seconds
+2026-06-12 18:06:53,540 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-06-12 18:06:53,540 INFO openai._base_client: Retrying request to /chat/completions in 0.890053 seconds
+2026-06-12 18:06:57,347 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:11:27,705 INFO openai._base_client: Retrying request to /chat/completions in 0.413645 seconds
+2026-06-12 18:11:34,825 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:11:34,827 INFO agent.masai_solver: MASAI phase 1 (reproduce): OK
+2026-06-12 18:11:35,059 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-06-12 18:11:35,060 INFO openai._base_client: Retrying request to /chat/completions in 0.488348 seconds
+2026-06-12 18:11:35,758 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-06-12 18:11:35,758 INFO openai._base_client: Retrying request to /chat/completions in 0.822636 seconds
+2026-06-12 18:11:36,788 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-06-12 18:11:36,789 WARNING agent.ai_chain: NVIDIA NIM (qwen/qwen3.5-122b-a10b) failed: Error code: 500 - {'error': {'message': 'invalid type: unit variant, expected newtype variant at line 1 column 40', 'type': 'Internal Server Error', 'code': 500}}
+2026-06-12 18:11:44,617 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:11:44,619 INFO agent.masai_solver: MASAI phase 2 (localize): 8 files
+2026-06-12 18:16:13,571 INFO openai._base_client: Retrying request to /chat/completions in 0.440978 seconds
+2026-06-12 18:17:34,978 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:17:35,151 INFO agent.masai_solver: MASAI phase 3 (fix): 2 patches
+2026-06-12 18:17:35,166 INFO ZeroAgent: bounty_hunting result: {'success': False, 'repo': 'hexgrad/kokoro', 'issue': 290, 'title': 'Donation/funding for german language', 'approach': 'Add an Opire donation/badge link for German language support in the README (or a dedicated FUNDING.yml) with a brief description that contributions will fund German voice development.', 'source': 'opire', 'bounty_amount': 1640.0, 'action': 'intent_comment_posted', 'pr_url': ''}
+2026-06-12 18:17:35,166 INFO ZeroAgent: --- Running vehicle: task_market ---
+2026-06-12 18:17:35,168 INFO skills.task_market: TaskMarket cycle starting...
+2026-06-12 18:17:35,169 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 18:17:35,169 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 18:17:35,785 INFO skills.task_market: TaskMarket: 3 open tasks
+2026-06-12 18:17:35,785 INFO skills.task_market: TaskMarket best: 0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18 $1.0
+2026-06-12 18:17:35,786 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 18:17:36,400 INFO skills.task_market: TaskMarket: working on 0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18 ($1.0)
+2026-06-12 18:17:44,561 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:17:47,871 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:18:06,200 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:18:06,207 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 18:18:06,886 WARNING skills.task_market: TaskMarket CLI error: {"ok":false,"error":"POST /api/tasks/0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18/submissions failed (500): {\"message\":\"Winner not selected yet\",\"code\":\"INTERNAL_SERVER_ER
+2026-06-12 18:18:06,888 INFO ZeroAgent: task_market result: {'success': False, 'task_id': '0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18', 'reward': 1.0}
