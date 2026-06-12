@@ -180,7 +180,7 @@ def scan_opire_bounties() -> list[dict]:
                         continue
                 else:
                     logger.warning(f"Opire: GitHub check {gh_r.status_code} for {full_name}#{issue_num}, trusting Opire")
-                    issue_data = {"title": reward.get("title", ""), "state": "open"}
+                    issue_data = {"title": reward.get("title", ""), "state": "open", "number": int(issue_num)}
             except Exception as e:
                 logger.warning(f"Opire: GitHub check failed for {full_name}#{issue_num}: {e}")
                 issue_data = {"title": reward.get("title", ""), "state": "open"}

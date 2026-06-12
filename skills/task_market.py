@@ -71,6 +71,23 @@ def list_open_tasks() -> list[dict]:
         return []
 
     tasks = []
+
+    # Try parsing as JSON first (new CLI format)
+    try:
+        data = json.loads(output)
+        if isinstance(data, dict) and data.get("ok") and "data" in data:
+            for task in data["data"].get("tasks", []):
+                tasks.append({
+                    "id": task.get("id", ""),
+                    "description": task.get("description", ""),
+                    "reward": str(task.get("reward", 0)),
+                    "mode": "bounty",
+                })
+            return tasks
+    except json.JSONDecodeError:
+        pass
+
+    # Fallback: parse as table format (old CLI format)
     for line in output.strip().split("\n"):
         if not line.strip() or line.startswith("ID") or "---" in line:
             continue
@@ -92,6 +109,20 @@ def fetch_task_details(task_id: str) -> dict | None:
     if not output:
         return None
     result = {"id": task_id, "raw": output}
+    try:
+        data = json.loads(output)
+        if isinstance(data, dict) and data.get("ok") and "data" in data:
+            task = data["data"]
+            result.update({
+                "id": task.get("id", task_id),
+                "description": task.get("description", ""),
+                "reward": str(task.get("reward", 0)),
+            })
+            return result
+    except json.JSONDecodeError:
+        pass
+
+    # Fallback: parse as key:value lines
     for line in output.strip().split("\n"):
         if ":" in line:
             key, _, value = line.partition(":")
@@ -174,6 +205,17 @@ def run(dry_run: bool = False) -> dict:
     candidates.sort(key=lambda x: x[0], reverse=True)
     best_reward, best_task = candidates[0]
     task_id = best_task["id"]
+
+    # Handle case where task_id is accidentally the full JSON string
+    if isinstance(task_id, str) and task_id.startswith("{"):
+        try:
+            parsed = json.loads(task_id)
+            if "data" in parsed and "tasks" in parsed["data"] and parsed["data"]["tasks"]:
+                task_id = parsed["data"]["tasks"][0].get("id", task_id)
+            elif "id" in parsed:
+                task_id = parsed["id"]
+        except Exception:
+            pass
 
     logger.info(f"TaskMarket best: {task_id} ${best_reward}")
 
