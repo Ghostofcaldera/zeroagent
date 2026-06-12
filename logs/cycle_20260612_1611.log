@@ -45,3 +45,4 @@
 2026-06-12 16:12:39,169 INFO skills.task_market: TaskMarket: 1 open tasks
 2026-06-12 16:12:39,170 INFO skills.task_market: TaskMarket: no tasks >= $1
 2026-06-12 16:12:39,172 INFO ZeroAgent: task_market result: {'success': False, 'reason': 'below_minimum_reward'}
+2026-06-12 16:12:40,262 INFO ZeroAgent: === Cycle complete ===
