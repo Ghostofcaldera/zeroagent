@@ -195,6 +195,9 @@ def run(dry_run: bool = False) -> dict:
             reward = float(reward_str)
         except ValueError:
             reward = 0
+        # Convert from micro-USDC (1 USDC = 1,000,000 micro-USDC)
+        if reward > 1000:
+            reward = reward / 1_000_000
         candidates.append((reward, task))
 
     if not candidates:

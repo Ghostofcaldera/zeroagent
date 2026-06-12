@@ -619,7 +619,10 @@ def run(dry_run: bool = False) -> dict:
                 timeout=15,
             )
             commented = r.status_code == 201
-        except Exception:
+            if not commented:
+                logger.warning(f"Intent comment failed: {r.status_code} {r.text[:200]}")
+        except Exception as e:
+            logger.warning(f"Intent comment exception: {e}")
             commented = False
     else:
         commented = post_intent_comment(issue_num, best_repo, approach)
