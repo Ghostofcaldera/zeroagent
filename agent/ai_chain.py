@@ -93,11 +93,12 @@ def call_openrouter(prompt: str, system: str = "", max_tokens: int = 1500) -> Op
         return None
 
 
-def call_nvidia(prompt: str, system: str = "", model: str = "qwen2.5-coder-32b-instruct", max_tokens: int = 2000) -> Optional[str]:
+def call_nvidia(prompt: str, system: str = "", model: str = "deepseek-ai/deepseek-v4-flash", max_tokens: int = 2000) -> Optional[str]:
     """
     NVIDIA NIM — free code generation models, 40 RPM, 1K inference credits.
     OpenAI-compatible endpoint at https://integrate.api.nvidia.com/v1
-    Top code models: qwen2.5-coder-32b-instruct (70.6% SWE-bench), dracarys-llama-3.1-70b-instruct
+    Best code: deepseek-ai/deepseek-v4-flash (284B MoE, 1M ctx), qwen/qwen3.5-122b-a10b
+    Best reasoning: nvidia/nemotron-3-super-120b-a12b, mistralai/mistral-small-4-119b-2603
     """
     api_key = os.environ.get("NVIDIA_API_KEY")
     if not api_key:
@@ -160,28 +161,45 @@ def ai(
         chain = [
             lambda: call_groq(prompt, system, "llama-3.1-8b-instant", max_tokens),
             lambda: call_gemini(prompt, system, max_tokens),
-            lambda: call_nvidia(prompt, system, "dracarys-llama-3.1-70b-instruct", max_tokens),
+            lambda: call_nvidia(prompt, system, "mistralai/mistral-nemotron", max_tokens),
             lambda: call_openrouter(prompt, system, max_tokens),
             lambda: call_ollama(prompt, system),
         ]
 
     elif task == "code":
-        chain = [
-            lambda: call_nvidia(prompt, system, "qwen2.5-coder-32b-instruct", max_tokens),
-            lambda: call_groq(prompt, system, "llama-3.3-70b-versatile", max_tokens),
-            lambda: call_gemini(prompt, system, max_tokens),
-            lambda: call_openrouter(prompt, system, max_tokens),
-            lambda: call_ollama(prompt, system, "codellama:13b"),
-        ]
+        if has_nvidia:
+            chain = [
+                lambda: call_nvidia(prompt, system, "qwen/qwen3.5-122b-a10b", max_tokens),
+                lambda: call_nvidia(prompt, system, "mistralai/mistral-nemotron", max_tokens),
+                lambda: call_groq(prompt, system, "llama-3.3-70b-versatile", max_tokens),
+                lambda: call_gemini(prompt, system, max_tokens),
+                lambda: call_openrouter(prompt, system, max_tokens),
+                lambda: call_ollama(prompt, system, "codellama:13b"),
+            ]
+        else:
+            chain = [
+                lambda: call_groq(prompt, system, "llama-3.3-70b-versatile", max_tokens),
+                lambda: call_gemini(prompt, system, max_tokens),
+                lambda: call_openrouter(prompt, system, max_tokens),
+                lambda: call_ollama(prompt, system, "codellama:13b"),
+            ]
 
     else:  # reasoning
-        chain = [
-            lambda: call_nvidia(prompt, system, "nemotron-3-super-120b-a12b", max_tokens),
-            lambda: call_groq(prompt, system, "llama-3.3-70b-versatile", max_tokens),
-            lambda: call_gemini(prompt, system, max_tokens),
-            lambda: call_openrouter(prompt, system, max_tokens),
-            lambda: call_ollama(prompt, system, "codellama:13b"),
-        ]
+        if has_nvidia:
+            chain = [
+                lambda: call_nvidia(prompt, system, "nvidia/nemotron-3-super-120b-a12b", max_tokens),
+                lambda: call_groq(prompt, system, "llama-3.3-70b-versatile", max_tokens),
+                lambda: call_gemini(prompt, system, max_tokens),
+                lambda: call_openrouter(prompt, system, max_tokens),
+                lambda: call_ollama(prompt, system, "codellama:13b"),
+            ]
+        else:
+            chain = [
+                lambda: call_groq(prompt, system, "llama-3.3-70b-versatile", max_tokens),
+                lambda: call_gemini(prompt, system, max_tokens),
+                lambda: call_openrouter(prompt, system, max_tokens),
+                lambda: call_ollama(prompt, system, "codellama:13b"),
+            ]
 
     for fn in chain:
         result = fn()
