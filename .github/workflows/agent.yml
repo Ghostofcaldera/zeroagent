@@ -1,0 +1,71 @@
+name: ZeroAgent Autonomous Cycle
+
+on:
+  schedule:
+    # Every 30 minutes — NOT every 5 minutes like the original
+    # Why: each cycle can take 5-15 min; 5-min cron creates overlapping runs
+    # Public repo = unlimited free minutes (confirmed June 2026 GitHub docs)
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      vehicle:
+        description: 'Force a specific vehicle (content_affiliate, bounty_hunting)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry run (no publishing)'
+        type: boolean
+        default: false
+
+# CRITICAL: This permission is required for git push in the workflow
+permissions:
+  contents: write
+
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25  # Hard cap per cycle
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          # Use PAT so the agent can push back to the repo
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run agent cycle
+        env:
+          GEMINI_API_KEY:    ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY:      ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GITHUB_TOKEN:      ${{ secrets.GITHUB_TOKEN }}
+          DEVTO_API_KEY:     ${{ secrets.DEVTO_API_KEY }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.vehicle }}" != "" ]; then
+            ARGS="--vehicle ${{ inputs.vehicle }}"
+          fi
+          if [ "${{ inputs.dry_run }}" == "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python main.py $ARGS
+
+      - name: Commit memory and logs
+        if: ${{ inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "ZeroAgent"
+          git config user.email "agent@zero.local"
+          git add memory/ logs/ || true
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "Agent state $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push || echo "Push failed — likely no changes to push"

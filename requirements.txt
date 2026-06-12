@@ -1,0 +1,18 @@
+# AI providers
+google-generativeai>=0.8.0
+groq>=0.9.0
+openai>=1.30.0           # OpenRouter uses OpenAI-compatible API
+
+# Web & GitHub
+requests>=2.31.0
+PyGithub>=2.3.0
+
+# Local LLM (optional — used only if Ollama running locally)
+ollama>=0.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# NOTE: Do NOT include sqlite3, asyncio, json, os, subprocess, datetime, pathlib
+# These are all Python stdlib — adding them to requirements.txt causes pip errors
