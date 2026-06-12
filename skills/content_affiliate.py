@@ -37,7 +37,7 @@ AFFILIATE_LINKS = {
     "namecheap":    "https://www.namecheap.com/?aff=YOUR_AFF",              # 20-35% — update when Impact approves
     "digitalocean": "https://www.digitalocean.com/?refcode=YOUR_REF",       # $25/referral
     "groq":         "https://groq.com",
-    "railway":      "https://railway.app",
+    "railway":      "https://railway.com?referralCode=Q5-9pw",  # 15% for 12 months
 }
 
 DEVTO_API = "https://dev.to/api"
