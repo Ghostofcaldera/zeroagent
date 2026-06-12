@@ -667,28 +667,56 @@ def run(dry_run: bool = False) -> dict:
                     ["git", "commit", "-m", f"fix: {title[:72]}\n\n{fix_result.get('pr_description', '')[:200]}"],
                     cwd=clone_dir / repo_short, capture_output=True,
                 )
-                push = subprocess.run(
-                    ["git", "push", "origin", branch],
-                    cwd=clone_dir / repo_short, capture_output=True, timeout=60,
+                # Fork-based PR creation for external repos (GITHUB_TOKEN can't push to external)
+                fork_owner = "Ghostofcaldera"  # current user
+                fork_repo = f"{fork_owner}/{repo_short}"
+                
+                # Create fork
+                logger.info(f"Creating fork of {best_repo}...")
+                fork_r = requests.post(
+                    f"https://api.github.com/repos/{best_repo}/forks",
+                    headers=GH_HEADERS, timeout=30,
                 )
-
-                if push.returncode == 0:
-                    pr_body = fix_result.get("pr_description", "") or f"Fixes #{issue_num}\n\n{approach[:300]}"
-                    pr_body += f"\n\n---\n_Submitted by ZeroAgent — autonomous earning system_"
-                    pr_data = {
-                        "title": f"fix: {title[:72]}",
-                        "head": branch,
-                        "base": "main",
-                        "body": pr_body,
-                    }
-                    pr_r = requests.post(
-                        f"https://api.github.com/repos/{best_repo}/pulls",
-                        headers=GH_HEADERS, json=pr_data, timeout=15,
+                if fork_r.status_code not in (201, 202):
+                    logger.warning(f"Fork creation failed: {fork_r.status_code} {fork_r.text[:200]}")
+                else:
+                    # Wait for fork to be ready
+                    time.sleep(5)
+                    
+                    # Add fork as remote
+                    fork_clone_url = f"https://x-access-token:{GITHUB_TOKEN}@github.com/{fork_repo}.git"
+                    subprocess.run(
+                        ["git", "remote", "add", "fork", fork_clone_url],
+                        cwd=clone_dir / repo_short, capture_output=True,
                     )
-                    if pr_r.status_code == 201:
-                        pr_created = True
-                        pr_url = pr_r.json().get("html_url", "")
-                        logger.info(f"PR created: {pr_url}")
+                    
+                    # Push to fork
+                    push = subprocess.run(
+                        ["git", "push", "fork", branch],
+                        cwd=clone_dir / repo_short, capture_output=True, timeout=60,
+                    )
+                    
+                    if push.returncode == 0:
+                        pr_body = fix_result.get("pr_description", "") or f"Fixes #{issue_num}\n\n{approach[:300]}"
+                        pr_body += f"\n\n---\n_Submitted by ZeroAgent — autonomous earning system_"
+                        pr_data = {
+                            "title": f"fix: {title[:72]}",
+                            "head": f"{fork_owner}:{branch}",
+                            "base": "main",
+                            "body": pr_body,
+                        }
+                        pr_r = requests.post(
+                            f"https://api.github.com/repos/{best_repo}/pulls",
+                            headers=GH_HEADERS, json=pr_data, timeout=15,
+                        )
+                        if pr_r.status_code == 201:
+                            pr_created = True
+                            pr_url = pr_r.json().get("html_url", "")
+                            logger.info(f"PR created: {pr_url}")
+                        else:
+                            logger.warning(f"PR creation failed: {pr_r.status_code} {pr_r.text[:200]}")
+                    else:
+                        logger.warning(f"Push to fork failed: {push.stderr.decode()[:200]}")
 
             shutil.rmtree(str(clone_dir), ignore_errors=True)
 
