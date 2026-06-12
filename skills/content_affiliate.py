@@ -33,11 +33,11 @@ logger = logging.getLogger(__name__)
 # Affiliate links — replace with YOUR actual affiliate links after signup
 # ---------------------------------------------------------------------------
 AFFILIATE_LINKS = {
-    "digitalocean": "https://www.digitalocean.com/?refcode=YOUR_REF",  # $25/referral
-    "namecheap":    "https://www.namecheap.com/?aff=YOUR_AFF",         # 20-35%
-    "groq":         "https://groq.com",                                  # sign up for affiliate
-    "vercel":       "https://vercel.com",                                # check their program
-    "railway":      "https://railway.app",                               # check their program
+    "hostinger":    "https://www.hostinger.com?REFERRALCODE=EHKKARIUKAOL",  # 20% commission
+    "namecheap":    "https://www.namecheap.com/?aff=YOUR_AFF",              # 20-35% — update when Impact approves
+    "digitalocean": "https://www.digitalocean.com/?refcode=YOUR_REF",       # $25/referral
+    "groq":         "https://groq.com",
+    "railway":      "https://railway.app",
 }
 
 DEVTO_API = "https://dev.to/api"
