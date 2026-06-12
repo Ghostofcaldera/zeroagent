@@ -1,0 +1,66 @@
+2026-06-12 16:39:36,526 INFO ZeroAgent: === Cycle start 2026-06-12T16:39:36.526320+00:00 ===
+2026-06-12 16:39:36,528 INFO ZeroAgent: --- Running vehicle: content_affiliate ---
+2026-06-12 16:39:36,718 INFO skills.content_affiliate: Content affiliate cycle starting...
+2026-06-12 16:39:41,301 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:39:41,312 INFO skills.content_affiliate: Writing article: Developer take on: Slightly reducing the sloppiness of AI generated front end
+2026-06-12 16:39:43,812 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:39:44,434 INFO skills.content_affiliate: Published: https://dev.to/kelvin_kariuki_20f4bec616/developer-take-on-slightly-reducing-the-sloppiness-of-ai-generated-front-end-1gol
+2026-06-12 16:39:44,439 INFO ZeroAgent: content_affiliate result: {'success': True, 'title': 'Developer take on: Slightly reducing the sloppiness of AI generated front end', 'url': 'https://dev.to/kelvin_kariuki_20f4bec616/developer-take-on-slightly-reducing-the-sloppiness-of-ai-generated-front-end-1gol', 'tags': ['webdev', 'programming', 'productivity', 'tutorial']}
+2026-06-12 16:39:44,439 INFO ZeroAgent: --- Running vehicle: bounty_hunting ---
+2026-06-12 16:39:44,445 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-12 16:39:45,215 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (13 claimers)
+2026-06-12 16:39:45,447 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5150 stranded
+2026-06-12 16:39:45,449 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-12 16:39:46,164 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-12 16:39:46,166 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (22 claimers)
+2026-06-12 16:39:46,167 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (11 claimers)
+2026-06-12 16:39:46,370 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-12 16:39:46,576 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-12 16:39:46,784 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-12 16:39:46,999 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-12 16:39:47,202 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-12 16:39:47,406 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-12 16:39:47,619 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-12 16:39:47,725 WARNING skills.bounty_hunter: Opire: GitHub check 404 for aueangpanit/electron-template#1, trusting Opire
+2026-06-12 16:39:47,961 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-12 16:39:47,963 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (9 claimers)
+2026-06-12 16:39:48,185 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-12 16:39:48,811 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-12 16:39:49,008 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-12 16:39:49,010 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-12 16:39:49,261 INFO skills.bounty_hunter: Opire: formbricks/formbricks#3302 closed, $60 stranded
+2026-06-12 16:39:49,707 INFO skills.bounty_hunter: Opire: sebastianbergmann/phpunit#4440 closed, $50 stranded
+2026-06-12 16:39:49,944 INFO skills.bounty_hunter: Opire: ToolJet/ToolJet#6655 closed, $45 stranded
+2026-06-12 16:39:50,373 INFO skills.bounty_hunter: Opire: mmccl5/go-task-task#1 closed, $41 stranded
+2026-06-12 16:39:50,375 INFO skills.bounty_hunter: Opire: 7 open bounties from 30 total
+2026-06-12 16:39:50,377 INFO skills.bounty_hunter: Opire: found 7 open bounties
+2026-06-12 16:40:10,475 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:40:10,481 INFO skills.bounty_hunter: Skipping onlybugs05/angular#1: clarity=2, solvability=3, scope=2 - The issue description is vague and does not specify any particular bug or code c
+2026-06-12 16:40:48,097 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:40:48,100 INFO skills.bounty_hunter: Candidate: hexgrad/kokoro#290 $1640.0 | clarity=8 solvability=9 scope=9 | EV=$1421
+2026-06-12 16:40:53,583 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:40:53,586 ERROR ZeroAgent: Vehicle bounty_hunting crashed: 'number'
+Traceback (most recent call last):
+  File "/home/runner/work/zeroagent/zeroagent/main.py", line 60, in run_vehicle
+    return run(dry_run=dry_run)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/zeroagent/zeroagent/skills/bounty_hunter.py", line 580, in run
+    logger.info(f"Candidate: {repo}#{issue['number']} ${bounty_amount} | clarity={clarity} solvability={solvability} scope={scope} | EV=${expected_value:.0f}")
+                                     ~~~~~^^^^^^^^^^
+KeyError: 'number'
+2026-06-12 16:40:53,586 INFO ZeroAgent: bounty_hunting result: {'success': False, 'reason': "exception: 'number'"}
+2026-06-12 16:40:53,587 INFO ZeroAgent: --- Running vehicle: task_market ---
+2026-06-12 16:40:53,588 INFO skills.task_market: TaskMarket cycle starting...
+2026-06-12 16:40:53,589 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 16:40:53,589 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 16:40:54,228 INFO skills.task_market: TaskMarket: 1 open tasks
+2026-06-12 16:40:54,228 INFO skills.task_market: TaskMarket best: {"ok":true,"data":{"tasks":[{"id":"0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18","requester":"0x8B66628AB709Fb597bB6EA5Ea2D81C590e5aCB6e","requesterPubkey":"0x8B66628AB709Fb597bB6EA5Ea2D81C590e5aCB6e","description":"Test $0
+2026-06-12 16:40:54,228 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 16:40:54,820 WARNING skills.task_market: TaskMarket CLI error: {"ok":false,"error":"Task not found: {\"ok\":true,\"data\":{\"tasks\":[{\"id\":\"0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18\",\"requester\":\"0x8B66628AB709Fb597bB6EA5Ea2D81C59
+2026-06-12 16:40:54,820 INFO skills.task_market: TaskMarket: working on {"ok":true,"data":{"tasks":[{"id":"0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18","requester":"0x8B66628AB709Fb597bB6EA5Ea2D81C590e5aCB6e","requesterPubkey":"0x8B66628AB709Fb597bB6EA5Ea2D81C590e5aCB6e","description":"Test ($0)
+2026-06-12 16:41:34,057 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:42:00,391 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:42:00,394 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 16:42:01,152 WARNING skills.task_market: TaskMarket CLI error: {"ok":false,"error":"POST /api/tasks/{\"ok\":true,\"data\":{\"tasks\":[{\"id\":\"0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18\",\"requester\":\"0x8B66628AB709Fb597bB6EA5Ea2D81C59
+2026-06-12 16:42:01,154 INFO ZeroAgent: task_market result: {'success': False, 'task_id': '{"ok":true,"data":{"tasks":[{"id":"0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18","requester":"0x8B66628AB709Fb597bB6EA5Ea2D81C590e5aCB6e","requesterPubkey":"0x8B66628AB709Fb597bB6EA5Ea2D81C590e5aCB6e","description":"Test', 'reward': 0}
+2026-06-12 16:42:02,352 INFO ZeroAgent: === Cycle complete ===
