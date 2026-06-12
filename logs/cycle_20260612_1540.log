@@ -47,3 +47,4 @@
 2026-06-12 15:41:28,030 INFO skills.task_market: TaskMarket: no tasks >= $1
 2026-06-12 15:41:28,033 INFO ZeroAgent: task_market result: {'success': False, 'reason': 'below_minimum_reward'}
 2026-06-12 15:41:28,034 INFO ZeroAgent: Auto-pivoted away from: ['bounty_hunting']
+2026-06-12 15:41:28,899 INFO ZeroAgent: === Cycle complete ===
