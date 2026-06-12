@@ -1,0 +1,52 @@
+2026-06-12 15:09:21,374 INFO ZeroAgent: === Cycle start 2026-06-12T15:09:21.374805+00:00 ===
+2026-06-12 15:09:21,377 INFO ZeroAgent: --- Running vehicle: content_affiliate ---
+2026-06-12 15:09:21,570 INFO skills.content_affiliate: Content affiliate cycle starting...
+2026-06-12 15:09:28,482 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 15:09:28,490 WARNING agent.ai_chain: NVIDIA NIM (nvidia/nemotron-3-super-120b-a12b) failed: cannot import name 'log_api_usage' from 'agent.memory' (/home/runner/work/zeroagent/zeroagent/agent/memory.py)
+2026-06-12 15:09:29,400 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 15:09:29,412 INFO skills.content_affiliate: Writing article: How to use free-programming-books: :books: Freely available programming books
+2026-06-12 15:09:32,256 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 15:09:32,518 WARNING skills.content_affiliate: Dev.to publish failed: 422 {"error":"Tag \"free-resources\" contains non-alphanumeric or prohibited unicode characters","status":422}
+2026-06-12 15:09:32,518 INFO skills.content_affiliate: Draft saved: logs/draft_1781276972.md
+2026-06-12 15:09:32,524 INFO ZeroAgent: content_affiliate result: {'success': False, 'title': 'The Ultimate Resource for Developers: How to Use Free Programming Books', 'url': 'local_draft', 'tags': ['programming', 'books', 'development', 'free-resources']}
+2026-06-12 15:09:32,524 INFO ZeroAgent: --- Running vehicle: bounty_hunting ---
+2026-06-12 15:09:32,529 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-12 15:09:33,385 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (13 claimers)
+2026-06-12 15:09:33,596 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5150 stranded
+2026-06-12 15:09:33,597 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-12 15:09:34,461 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-12 15:09:34,462 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (22 claimers)
+2026-06-12 15:09:34,462 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (11 claimers)
+2026-06-12 15:09:34,747 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-12 15:09:35,021 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-12 15:09:35,282 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-12 15:09:35,545 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-12 15:09:35,810 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-12 15:09:36,045 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-12 15:09:36,327 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-12 15:09:36,486 WARNING skills.bounty_hunter: Opire: GitHub check 404 for aueangpanit/electron-template#1, trusting Opire
+2026-06-12 15:09:36,761 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-12 15:09:36,763 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (9 claimers)
+2026-06-12 15:09:37,040 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-12 15:09:37,806 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-12 15:09:38,076 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-12 15:09:38,077 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-12 15:09:38,365 INFO skills.bounty_hunter: Opire: formbricks/formbricks#3302 closed, $60 stranded
+2026-06-12 15:09:38,875 INFO skills.bounty_hunter: Opire: sebastianbergmann/phpunit#4440 closed, $50 stranded
+2026-06-12 15:09:39,159 INFO skills.bounty_hunter: Opire: ToolJet/ToolJet#6655 closed, $45 stranded
+2026-06-12 15:09:39,665 INFO skills.bounty_hunter: Opire: mmccl5/go-task-task#1 closed, $41 stranded
+2026-06-12 15:09:39,673 INFO skills.bounty_hunter: Opire: 7 open bounties from 30 total
+2026-06-12 15:09:39,674 INFO skills.bounty_hunter: Opire: found 7 open bounties
+2026-06-12 15:09:48,279 INFO skills.bounty_hunter: Best candidate: onlybugs05/angular#1 from Opire $1686.0
+2026-06-12 15:09:53,053 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 15:09:53,054 WARNING agent.ai_chain: NVIDIA NIM (nvidia/nemotron-3-super-120b-a12b) failed: cannot import name 'log_api_usage' from 'agent.memory' (/home/runner/work/zeroagent/zeroagent/agent/memory.py)
+2026-06-12 15:09:54,253 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 15:09:54,254 INFO skills.bounty_hunter: Best issue not feasible: The issue lacks specific details about the bugs to be found or the areas of the code to focus on, making it unclear what needs to be done. While code analysis can be automated, the scope of the task is too broad, as it involves reviewing the entire Angular codebase. An AI agent may be able to assist in identifying potential bugs, but human review and judgment are necessary to determine the validity and severity of the issues found.
+2026-06-12 15:09:54,257 INFO ZeroAgent: bounty_hunting result: {'success': False, 'reason': 'The issue lacks specific details about the bugs to be found or the areas of the code to focus on, making it unclear what needs to be done. While code analysis can be automated, the scope of the task is too broad, as it involves reviewing the entire Angular codebase. An AI agent may be able to assist in identifying potential bugs, but human review and judgment are necessary to determine the validity and severity of the issues found.'}
+2026-06-12 15:09:54,257 INFO ZeroAgent: --- Running vehicle: task_market ---
+2026-06-12 15:09:54,259 INFO skills.task_market: TaskMarket cycle starting...
+2026-06-12 15:09:54,259 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 15:09:54,260 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 15:09:54,260 WARNING skills.task_market: TaskMarket CLI not found. Install: npm install -g @daydreams/taskmarket
+2026-06-12 15:09:54,260 INFO skills.task_market: TaskMarket: 0 open tasks
+2026-06-12 15:09:54,261 INFO ZeroAgent: task_market result: {'success': False, 'reason': 'no_tasks'}
