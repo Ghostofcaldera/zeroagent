@@ -49,3 +49,4 @@
 2026-06-12 14:38:56,539 WARNING skills.task_market: TaskMarket CLI not found. Install: npm install -g @daydreams/taskmarket
 2026-06-12 14:38:56,539 INFO skills.task_market: TaskMarket: 0 open tasks
 2026-06-12 14:38:56,540 INFO ZeroAgent: task_market result: {'success': False, 'reason': 'no_tasks'}
+2026-06-12 14:38:57,727 INFO ZeroAgent: === Cycle complete ===
