@@ -48,30 +48,40 @@ LINKSTERR_API_URL = os.environ.get("LINKSTERR_API_URL", "https://linksterr.com/a
 
 def shorten_url(url: str) -> str:
     """
-    Wrap a URL through Link$terr/lnk.ink to earn $10.50/1K clicks on top of
-    affiliate commissions. Falls back to original URL if not configured.
-    Uses lnk.ink free API (no auth needed for basic shortening).
+    Wrap a URL through Link$terr/lnk.ink to earn $10.50/1K clicks.
+    Falls back to tinyurl.com, then original URL if all shorteners fail.
     Sign up: https://linksterr.com → set LINKSTERR_API_KEY + LINKSTERR_API_URL
     """
+    ua = "ZeroAgent/1.0 (+https://github.com/Ghostofcaldera/zeroagent)"
+
+    # Try configured shortener (lnk.ink / Link$terr)
+    if LINKSTERR_API_URL:
+        try:
+            params = {"url": url}
+            if LINKSTERR_API_KEY:
+                params["api_key"] = LINKSTERR_API_KEY
+            r = requests.get(LINKSTERR_API_URL, params=params, timeout=10, headers={"User-Agent": ua})
+            if r.ok:
+                data = r.json()
+                short_url = (
+                    data.get("shortUrl")
+                    or data.get("short_url")
+                    or data.get("data", {}).get("short_url", "")
+                )
+                if short_url:
+                    return short_url
+        except Exception as e:
+            logger.warning(f"primary shortener failed: {e}")
+
+    # Fallback: tinyurl.com (reliable, known since 2002)
     try:
-        api_url = LINKSTERR_API_URL or "https://lnk.ink/api/links/create"
-        params = {"url": url}
-        if LINKSTERR_API_KEY:
-            params["api_key"] = LINKSTERR_API_KEY
-        r = requests.get(api_url, params=params, timeout=10)
-        if r.ok:
-            data = r.json()
-            short_url = (
-                data.get("shortUrl")
-                or data.get("short_url")
-                or (data.get("data") or {}).get("short_url", "")
-            )
-            if short_url:
-                return short_url
-        logger.warning(f"shortener: {r.status_code} for {url[:60]}")
+        r = requests.get("https://tinyurl.com/api-create.php", params={"url": url}, timeout=10, headers={"User-Agent": ua})
+        if r.ok and r.text.startswith("https://tinyurl.com/"):
+            return r.text.strip()
     except Exception as e:
-        logger.warning(f"shortener failed (non-fatal): {e}")
-    return url  # fallback to original URL
+        logger.warning(f"tinyurl fallback failed: {e}")
+
+    return url  # final fallback to original URL
 
 
 def get_monetized_links() -> dict:
