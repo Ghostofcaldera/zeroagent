@@ -181,6 +181,9 @@ def add_to_blacklist(repo: str, reason: str):
     db.close()
 
 
+def log_api_usage(provider: str):
+    return track_api_call(provider)
+
 def track_api_call(provider: str):
     """Track daily API usage to avoid exceeding free tier limits."""
     db = get_db()

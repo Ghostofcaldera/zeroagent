@@ -47,6 +47,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-agent-state-
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install TaskMarket CLI
+        run: npm install -g @lucid-agents/taskmarket@0.6.4
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
