@@ -5,11 +5,13 @@ on:
     inputs:
       vehicle:
         description: 'Force a specific vehicle (content_affiliate, bounty_hunting)'
+        type: string
         required: false
         default: ''
       dry_run:
         description: 'Dry run (no publishing)'
         type: boolean
+        required: false
         default: false
 
 # Required permissions for git push + self-trigger (dispatch next cycle)
@@ -57,6 +59,7 @@ jobs:
           DEVTO_API_KEY:      ${{ secrets.DEVTO_API_KEY }}
           LINKSTERR_API_KEY:  ${{ secrets.LINKSTERR_API_KEY }}
           NVIDIA_API_KEY:     ${{ secrets.NVIDIA_API_KEY }}
+          TASKMARKET_KEYSTORE: ${{ secrets.TASKMARKET_KEYSTORE }}
         run: |
           ARGS=""
           if [ "${{ inputs.vehicle }}" != "" ]; then
