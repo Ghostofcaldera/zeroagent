@@ -1,0 +1,49 @@
+2026-06-12 15:40:22,968 INFO ZeroAgent: === Cycle start 2026-06-12T15:40:22.968092+00:00 ===
+2026-06-12 15:40:22,970 INFO ZeroAgent: --- Running vehicle: content_affiliate ---
+2026-06-12 15:40:23,159 INFO skills.content_affiliate: Content affiliate cycle starting...
+2026-06-12 15:40:52,647 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 15:40:52,663 INFO skills.content_affiliate: Writing article: How to use free-programming-books: :books: Freely available programming books
+2026-06-12 15:40:55,964 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 15:40:56,283 WARNING skills.content_affiliate: Dev.to publish failed: 422 {"error":"Tag \"programming-books\" contains non-alphanumeric or prohibited unicode characters, Tag \"free-resources\" contains non-alphanumeric or prohibited unicode characters, Tag \"web-development\" contains non-alphanumeric or prohibited unicode characters, and Tag \"coding-books\" contains non-alphanumeric or prohibited unicode characters","status":422}
+2026-06-12 15:40:56,283 INFO skills.content_affiliate: Draft saved: logs/draft_1781278856.md
+2026-06-12 15:40:56,287 INFO ZeroAgent: content_affiliate result: {'success': False, 'title': 'Accessing the World of Free Programming Books: Boost Your Knowledge with Free-programming-books', 'url': 'local_draft', 'tags': ['programming-books', 'free-resources', 'web-development', 'coding-books']}
+2026-06-12 15:40:56,287 INFO ZeroAgent: --- Running vehicle: bounty_hunting ---
+2026-06-12 15:40:56,293 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-12 15:41:00,140 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (13 claimers)
+2026-06-12 15:41:00,332 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5150 stranded
+2026-06-12 15:41:00,334 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-12 15:41:00,973 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-12 15:41:00,974 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (22 claimers)
+2026-06-12 15:41:00,974 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (11 claimers)
+2026-06-12 15:41:01,213 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-12 15:41:01,444 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-12 15:41:01,677 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-12 15:41:01,877 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-12 15:41:02,101 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-12 15:41:02,310 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-12 15:41:02,556 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-12 15:41:02,660 WARNING skills.bounty_hunter: Opire: GitHub check 404 for aueangpanit/electron-template#1, trusting Opire
+2026-06-12 15:41:02,849 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-12 15:41:02,850 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (9 claimers)
+2026-06-12 15:41:03,198 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-12 15:41:03,831 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-12 15:41:03,998 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-12 15:41:03,999 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-12 15:41:04,207 INFO skills.bounty_hunter: Opire: formbricks/formbricks#3302 closed, $60 stranded
+2026-06-12 15:41:04,628 INFO skills.bounty_hunter: Opire: sebastianbergmann/phpunit#4440 closed, $50 stranded
+2026-06-12 15:41:04,867 INFO skills.bounty_hunter: Opire: ToolJet/ToolJet#6655 closed, $45 stranded
+2026-06-12 15:41:05,249 INFO skills.bounty_hunter: Opire: mmccl5/go-task-task#1 closed, $41 stranded
+2026-06-12 15:41:05,250 INFO skills.bounty_hunter: Opire: 7 open bounties from 30 total
+2026-06-12 15:41:05,252 INFO skills.bounty_hunter: Opire: found 7 open bounties
+2026-06-12 15:41:12,476 INFO skills.bounty_hunter: Best candidate: onlybugs05/angular#1 from Opire $1686.0
+2026-06-12 15:41:27,388 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 15:41:27,391 INFO skills.bounty_hunter: Best issue not feasible: The issue is a vague bounty request with no specific bug or fix described; it requires exploratory security analysis rather than a deterministic code change, making it unclear, not solvable by code alone, and too large for a <2‑hour task.
+2026-06-12 15:41:27,392 INFO ZeroAgent: bounty_hunting result: {'success': False, 'reason': 'The issue is a vague bounty request with no specific bug or fix described; it requires exploratory security analysis rather than a deterministic code change, making it unclear, not solvable by code alone, and too large for a <2‑hour task.'}
+2026-06-12 15:41:27,393 INFO ZeroAgent: --- Running vehicle: task_market ---
+2026-06-12 15:41:27,394 INFO skills.task_market: TaskMarket cycle starting...
+2026-06-12 15:41:27,395 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 15:41:27,395 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-12 15:41:28,030 INFO skills.task_market: TaskMarket: 1 open tasks
+2026-06-12 15:41:28,030 INFO skills.task_market: TaskMarket: no tasks >= $1
+2026-06-12 15:41:28,033 INFO ZeroAgent: task_market result: {'success': False, 'reason': 'below_minimum_reward'}
+2026-06-12 15:41:28,034 INFO ZeroAgent: Auto-pivoted away from: ['bounty_hunting']
