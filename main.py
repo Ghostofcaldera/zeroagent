@@ -164,7 +164,10 @@ def check_rate_limits() -> dict:
 def run_cycle(dry_run: bool = False):
     """
     One complete agent cycle. Called by GitHub Actions every N minutes.
-    Designed to be idempotent — safe to run multiple times.
+    Runs ALL primary vehicles in sequence each cycle for maximum earnings:
+      1. content_affiliate → publish article with affiliate links
+      2. bounty_hunting   → scan Opire + GitHub for dollar bounties
+    All results are logged and committed back to the repo.
     """
     logger.info(f"=== Cycle start {datetime.now(timezone.utc).isoformat()} ===")
 
@@ -178,51 +181,48 @@ def run_cycle(dry_run: bool = False):
         logger.error("Set at least one of: GEMINI_API_KEY, GROQ_API_KEY, GROQ_API_KEY")
         return
 
-    # 3. Get enabled vehicles
-    vehicles = get_vehicles()
-    if not vehicles:
-        logger.error("No vehicles enabled. Check database.")
-        return
+    results = {}
 
-    # 4. Select vehicle
-    vehicle_name = select_vehicle(vehicles)
-    logger.info(f"Selected vehicle: {vehicle_name}")
-    set_state("last_vehicle", vehicle_name)
+    # 3. Run primary vehicles in sequence
+    primary_vehicles = ["content_affiliate", "bounty_hunting"]
+    for vehicle_name in primary_vehicles:
+        logger.info(f"--- Running vehicle: {vehicle_name} ---")
+        try:
+            result = run_vehicle(vehicle_name, dry_run=dry_run)
+            logger.info(f"{vehicle_name} result: {result}")
+            results[vehicle_name] = result
 
-    # 5. Run vehicle
-    result = run_vehicle(vehicle_name, dry_run=dry_run)
-    logger.info(f"Result: {result}")
+            success = result.get("success", False)
+            if "error" in result and not success:
+                log_cycle(
+                    vehicle=vehicle_name,
+                    action="orchestrator_run",
+                    success=False,
+                    detail=json.dumps(result),
+                )
+        except Exception as e:
+            logger.error(f"Vehicle {vehicle_name} crashed: {e}", exc_info=True)
+            results[vehicle_name] = {"success": False, "reason": f"exception: {str(e)}"}
 
-    # 6. Log result (run_vehicle already calls log_cycle internally,
-    #    but log here too for orchestrator-level tracking)
-    success = result.get("success", False)
-    if "error" in result and not success:
-        log_cycle(
-            vehicle=vehicle_name,
-            action="orchestrator_run",
-            success=False,
-            detail=json.dumps(result),
-        )
-
-    # 7. Auto-pivot check (only if not dry run)
+    # 4. Auto-pivot check (only if not dry run)
     if not dry_run:
         disabled = autopivot()
         if disabled:
             logger.info(f"Auto-pivoted away from: {disabled}")
 
-    # 8. Log rate limits for monitoring
+    # 5. Log rate limits for monitoring
     limits = check_rate_limits()
     for provider, data in limits.items():
         pct = data["used"] / data["limit"] * 100 if data["limit"] else 0
         if pct > 80:
             logger.warning(f"{provider} rate limit at {pct:.0f}%: {data['used']}/{data['limit']}")
 
-    # 9. Commit memory to Git (persists across GitHub Actions runs)
+    # 6. Commit memory to Git (persists across GitHub Actions runs)
     if not dry_run:
         git_commit_memory()
 
     logger.info(f"=== Cycle complete ===")
-    return result
+    return results
 
 
 # ---------------------------------------------------------------------------
