@@ -635,7 +635,11 @@ def run(dry_run: bool = False) -> dict:
     pr_created = False
     pr_url = ""
 
-    if commented and bounty_amount >= 10:
+    # For high-value bounties, attempt PR even if intent comment failed (external repo access limits)
+    attempt_pr = bounty_amount >= 10
+    if not commented and attempt_pr:
+        logger.info(f"Proceeding to PR without intent comment (external repo, bounty=${bounty_amount})")
+    if attempt_pr:
         logger.info(f"MASAI: attempting fix for ${bounty_amount} bounty at {best_repo}#{issue_num}")
         try:
             clone_dir = Path(tempfile.mkdtemp())
