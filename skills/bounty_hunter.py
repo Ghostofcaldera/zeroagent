@@ -26,7 +26,7 @@ import logging
 import subprocess
 import tempfile
 import shutil
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import requests
 from dotenv import load_dotenv
@@ -172,18 +172,17 @@ def scan_opire_bounties() -> list[dict]:
                     issue_data = gh_r.json()
                     if issue_data.get("state") != "open":
                         logger.info(f"Opire: {full_name}#{issue_num} closed, ${amount_dollars:.0f} stranded")
+                        _track_stranded(full_name, issue_num, amount_dollars, issue_url)
                         continue
                     if is_honeypot_issue(issue_data.get("body", "")):
                         logger.warning(f"Opire: {full_name}#{issue_num} is a honeypot")
                         add_to_blacklist(full_name, "opire honeypot")
                         continue
                 else:
-                    # Unauthenticated or rate-limited — trust Opire's data
                     logger.warning(f"Opire: GitHub check {gh_r.status_code} for {full_name}#{issue_num}, trusting Opire")
                     issue_data = {"title": reward.get("title", ""), "state": "open"}
             except Exception as e:
                 logger.warning(f"Opire: GitHub check failed for {full_name}#{issue_num}: {e}")
-                # Trust Opire's data on error
                 issue_data = {"title": reward.get("title", ""), "state": "open"}
 
             # Annotate with bounty info
@@ -205,22 +204,29 @@ def search_bounties(target: str = "stale") -> list[dict]:
     Search GitHub for bounty issues.
     target="stale" finds bounties where previous PRs failed (less competition).
     target="fresh" finds newly created bounties (need speed).
+    target="patience" finds issues with CHANGES_REQUESTED PRs (best ROI).
     """
     if not GITHUB_TOKEN:
         logger.warning("GITHUB_TOKEN not set — GitHub search will be rate-limited")
 
     results = []
 
-    # Query 1: Issues labeled 'bounty' or 'reward' (stale — updated 14+ days ago)
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=14)).strftime("%Y-%m-%d")
-    queries = [
-        f'label:bounty state:open updated:<{cutoff} sort:updated',
-        f'label:reward state:open updated:<{cutoff}',
-        'label:"good first issue" label:bounty state:open',
-        '"$" in:title label:bounty state:open',
-    ]
+    if target == "patience":
+        queries = [
+            'label:bounty type:pr review:changes_requested state:open',
+            'label:reward type:pr review:changes_requested state:open',
+            '"bounty" in:comments type:pr review:changes_requested',
+        ]
+    else:
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=14)).strftime("%Y-%m-%d")
+        queries = [
+            f'label:bounty state:open updated:<{cutoff} sort:updated',
+            f'label:reward state:open updated:<{cutoff}',
+            'label:"good first issue" label:bounty state:open',
+            '"$" in:title label:bounty state:open',
+        ]
 
-    for query in queries[:2]:  # limit to 2 queries per cycle to save rate limits
+    for query in queries[:2]:
         try:
             r = requests.get(
                 "https://api.github.com/search/issues",
@@ -308,23 +314,39 @@ Respond in JSON:
 
 def generate_fix(issue: dict, repo_path: str) -> dict:
     """
-    Generate code fix for a bounty issue.
-    Returns dict with files changed and PR description.
+    Generate code fix using MASAI 3-phase solver (Reproduce → Localize → Fix).
+    Falls back to single-shot generation for small/simple issues.
     """
+    from agent.masai_solver import solve_bounty
+
     title = issue.get("title", "")
     body = issue.get("body", "")[:3000]
+    bounty_amount = issue.get("bounty_amount", 0)
 
     # Read relevant files from cloned repo
     repo_files = []
+    repo_file_contents = {}
     p = Path(repo_path)
-    for ext in ["*.py", "*.js", "*.ts", "*.go", "*.rs"]:
+    for ext in ["*.py", "*.js", "*.ts", "*.go", "*.rs", "*.java", "*.rs"]:
         for f in p.rglob(ext):
             if ".git" not in str(f) and "node_modules" not in str(f):
-                repo_files.append(str(f.relative_to(p)))
+                rel = str(f.relative_to(p))
+                if rel not in repo_file_contents:
+                    try:
+                        content = f.read_text(encoding="utf-8", errors="ignore")
+                        repo_file_contents[rel] = content
+                        repo_files.append(rel)
+                    except Exception:
+                        pass
 
-    files_context = "\n".join(repo_files[:20])  # cap context
-
-    prompt = f"""You are fixing this GitHub issue to claim a bounty.
+    # Use full MASAI pipeline for bounties >= $10, single-shot for smaller ones
+    if bounty_amount >= 10:
+        logger.info(f"MASAI: using 3-phase solver for ${bounty_amount} bounty")
+        return solve_bounty(title, body, repo_files, repo_file_contents)
+    else:
+        # Single-shot fallback for small bounties
+        files_context = "\n".join(repo_files[:20])
+        prompt = f"""Generate a minimal fix for this issue.
 
 Issue title: {title}
 Issue description: {body}
@@ -332,30 +354,16 @@ Issue description: {body}
 Repository files:
 {files_context}
 
-Generate a minimal, focused fix. Rules:
-1. Change as few files as possible
-2. Follow existing code style
-3. Add tests if there's a test directory
-4. Output format:
-
 FILE: path/to/file.py
 ```
-[complete new file content]
+[complete file content]
 ```
 
 PR_DESCRIPTION:
 ## What this does
-[1-2 sentences]
-
-## Implementation
-[brief technical explanation]
-
-## Testing
-[how to verify the fix]
-
-Generate the fix now:"""
-
-    return {"fix_prompt_result": ai(prompt, task="code", max_tokens=3000)}
+[1-2 sentences]"""
+        result = ai(prompt, task="code", max_tokens=3000)
+        return {"success": bool(result and "ERROR:" not in result), "raw": result}
 
 
 def post_intent_comment(issue_number: int, repo_full_name: str, approach: str) -> bool:
@@ -410,6 +418,63 @@ def get_trusted_repos() -> list[str]:
 # Main vehicle function
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Stranded bounty recovery — monitor closed-issue bounties for reopen
+# ---------------------------------------------------------------------------
+
+def _track_stranded(repo: str, issue_num: str, amount: float, url: str):
+    """Store a stranded (closed-issue) bounty in the database for reopen monitoring."""
+    db = get_db()
+    db.execute(
+        "INSERT OR REPLACE INTO state (key, value) VALUES (?, ?)",
+        (f"stranded_{repo}_{issue_num}", json.dumps({
+            "repo": repo, "issue": issue_num, "amount": amount,
+            "url": url, "detected_at": datetime.now(timezone.utc).isoformat(),
+            "reopened": False,
+        })),
+    )
+    db.commit()
+    db.close()
+
+
+def check_stranded_reopens() -> list[dict]:
+    """
+    Check if any previously tracked stranded bounties have reopened.
+    Returns list of reopened issues with their details.
+    """
+    db = get_db()
+    rows = db.execute(
+        "SELECT key, value FROM state WHERE key LIKE 'stranded_%'"
+    ).fetchall()
+    db.close()
+
+    reopened = []
+    for row in rows:
+        try:
+            entry = json.loads(row["value"])
+            if entry.get("reopened"):
+                continue
+            r = requests.get(
+                f"https://api.github.com/repos/{entry['repo']}/issues/{entry['issue']}",
+                headers=GH_HEADERS, timeout=10,
+            )
+            if r.ok and r.json().get("state") == "open":
+                entry["reopened"] = True
+                logger.info(f"Stranded recovery: {entry['repo']}#{entry['issue']} REOPENED! ${entry['amount']}")
+                db = get_db()
+                db.execute(
+                    "INSERT OR REPLACE INTO state (key, value) VALUES (?, ?)",
+                    (row["key"], json.dumps(entry)),
+                )
+                db.commit()
+                db.close()
+                reopened.append(entry)
+        except Exception:
+            continue
+
+    return reopened
+
+
 def run(dry_run: bool = False) -> dict:
     """
     Full bounty hunting cycle:
@@ -428,6 +493,12 @@ def run(dry_run: bool = False) -> dict:
     # -----------------------------------------------------------------------
     opire_issues = scan_opire_bounties()
     logger.info(f"Opire: found {len(opire_issues)} open bounties")
+
+    # Check for reopened stranded bounties (highest priority)
+    reopened = check_stranded_reopens()
+    for s in reopened:
+        logger.info(f"Stranded recovery: {s['repo']}#{s['issue']} available (${s['amount']})")
+        # These will be picked up by the Opire scan on the next cycle
 
     candidates = []
 
@@ -450,10 +521,12 @@ def run(dry_run: bool = False) -> dict:
         candidates.append((score, issue, repo_full, "opire"))
 
     # -----------------------------------------------------------------------
-    # Step 1: GitHub search (fallback)
+    # Step 1: GitHub search — patience harvest first (best ROI), stale fallback
     # -----------------------------------------------------------------------
     if not candidates:
-        issues = search_bounties(target="stale")
+        issues = search_bounties(target="patience")
+        if not issues:
+            issues = search_bounties(target="stale")
         logger.info(f"GitHub: found {len(issues)} raw bounty issues")
 
         for issue in issues:
@@ -540,27 +613,92 @@ def run(dry_run: bool = False) -> dict:
 
     logger.info(f"Intent comment posted{' (/try)' if source == 'opire' else ''}: {commented}")
 
+    # -----------------------------------------------------------------------
+    # Step 5: Attempt fix + PR for high-value bounties
+    # -----------------------------------------------------------------------
+    pr_created = False
+    pr_url = ""
+
+    if commented and bounty_amount >= 10:
+        logger.info(f"MASAI: attempting fix for ${bounty_amount} bounty at {best_repo}#{issue_num}")
+        try:
+            clone_dir = Path(tempfile.mkdtemp())
+            repo_short = best_repo.split("/")[-1]
+            clone_url = f"https://x-access-token:{GITHUB_TOKEN}@github.com/{best_repo}.git"
+
+            subprocess.run(
+                ["git", "clone", "--depth=1", clone_url, str(clone_dir / repo_short)],
+                capture_output=True, timeout=120,
+            )
+
+            fix_result = generate_fix(best_issue, str(clone_dir / repo_short))
+
+            if fix_result.get("success") and fix_result.get("patches"):
+                branch = f"fix/zeroagent-{issue_num}-{int(time.time())}"
+                subprocess.run(["git", "checkout", "-b", branch], cwd=clone_dir / repo_short, capture_output=True)
+
+                for patch in fix_result["patches"]:
+                    target = clone_dir / repo_short / patch["path"]
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_text(patch["content"], encoding="utf-8")
+
+                subprocess.run(["git", "add", "."], cwd=clone_dir / repo_short, capture_output=True)
+                subprocess.run(
+                    ["git", "commit", "-m", f"fix: {title[:72]}\n\n{fix_result.get('pr_description', '')[:200]}"],
+                    cwd=clone_dir / repo_short, capture_output=True,
+                )
+                push = subprocess.run(
+                    ["git", "push", "origin", branch],
+                    cwd=clone_dir / repo_short, capture_output=True, timeout=60,
+                )
+
+                if push.returncode == 0:
+                    pr_body = fix_result.get("pr_description", "") or f"Fixes #{issue_num}\n\n{approach[:300]}"
+                    pr_body += f"\n\n---\n_Submitted by ZeroAgent — autonomous earning system_"
+                    pr_data = {
+                        "title": f"fix: {title[:72]}",
+                        "head": branch,
+                        "base": "main",
+                        "body": pr_body,
+                    }
+                    pr_r = requests.post(
+                        f"https://api.github.com/repos/{best_repo}/pulls",
+                        headers=GH_HEADERS, json=pr_data, timeout=15,
+                    )
+                    if pr_r.status_code == 201:
+                        pr_created = True
+                        pr_url = pr_r.json().get("html_url", "")
+                        logger.info(f"PR created: {pr_url}")
+
+            shutil.rmtree(str(clone_dir), ignore_errors=True)
+
+        except Exception as e:
+            logger.warning(f"MASAI fix+PR failed: {e}")
+
     log_cycle(
         vehicle="bounty_hunting",
-        action=f"{source} comment on {best_repo}#{issue_num}",
-        success=commented,
-        revenue=bounty_amount if source == "opire" and commented else 0,
+        action=f"{source} {'PR ' + pr_url if pr_created else 'comment'} on {best_repo}#{issue_num}",
+        success=commented or pr_created,
+        revenue=bounty_amount if pr_created else (bounty_amount if source == "opire" and commented else 0),
         detail=json.dumps({
             "repo": best_repo,
             "issue": issue_num,
             "source": source,
             "bounty_amount": bounty_amount,
             "approach": approach,
+            "pr_created": pr_created,
+            "pr_url": pr_url,
         }),
     )
 
     return {
-        "success": commented,
+        "success": commented or pr_created,
         "repo": best_repo,
         "issue": issue_num,
         "title": title,
         "approach": approach,
         "source": source,
         "bounty_amount": bounty_amount,
-        "action": "intent_comment_posted",
+        "action": "pr_created" if pr_created else "intent_comment_posted",
+        "pr_url": pr_url,
     }

@@ -59,8 +59,15 @@ def run_vehicle(name: str, dry_run: bool = False) -> dict:
             from skills.bounty_hunter import run
             return run(dry_run=dry_run)
 
+        elif name == "task_market":
+            from skills.task_market import run
+            return run(dry_run=dry_run)
+
+        elif name == "review_tracker":
+            from skills.review_tracker import run
+            return run(dry_run=dry_run)
+
         elif name == "micro_saas":
-            # Not yet implemented — return structured placeholder
             return {
                 "success": False,
                 "reason": "not_implemented",
@@ -96,7 +103,8 @@ def select_vehicle(vehicles: list[dict]) -> str:
     weights = {
         "content_affiliate": 5,   # highest — fully implemented, easiest income
         "bounty_hunting":    4,
-        "micro_saas":        2,    # low until implemented
+        "task_market":       3,   # USDC bounties on Base
+        "micro_saas":        2,   # low until implemented
         "github_sponsors":   1,
     }
 
@@ -131,6 +139,7 @@ def health_check() -> tuple[bool, str]:
         os.environ.get("GEMINI_API_KEY"),
         os.environ.get("GROQ_API_KEY"),
         os.environ.get("OPENROUTER_API_KEY"),
+        os.environ.get("NVIDIA_API_KEY"),
     ])
     if not has_key:
         # Check if Ollama is running locally
@@ -154,6 +163,7 @@ def check_rate_limits() -> dict:
         "groq_8b":     {"used": get_api_usage("groq_8b"),     "limit": 14400},
         "groq_70b":    {"used": get_api_usage("groq_70b"),    "limit": 1000},
         "openrouter":  {"used": get_api_usage("openrouter"),  "limit": 100},
+        "nvidia_nim":  {"used": get_api_usage("nvidia_nim"),  "limit": 1000},
     }
 
 
@@ -184,7 +194,18 @@ def run_cycle(dry_run: bool = False):
     results = {}
 
     # 3. Run primary vehicles in sequence
-    primary_vehicles = ["content_affiliate", "bounty_hunting"]
+    primary_vehicles = ["content_affiliate", "bounty_hunting", "task_market"]
+
+    # Review Tracker runs every 12th cycle (~6h at 30-min intervals)
+    cycle_count = get_state("cycle_count", "0")
+    try:
+        cycle_num = int(cycle_count)
+    except ValueError:
+        cycle_num = 0
+    set_state("cycle_count", str(cycle_num + 1))
+    if cycle_num % 12 == 0:
+        primary_vehicles.append("review_tracker")
+
     for vehicle_name in primary_vehicles:
         logger.info(f"--- Running vehicle: {vehicle_name} ---")
         try:

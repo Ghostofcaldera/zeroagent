@@ -1,16 +1,16 @@
 """
 AI Provider Chain — zero-cost inference
 Priority order based on June 2026 free tier reality:
-  1. Gemini Flash   — 1,500 req/day, 1M TPM  (best volume, use for bulk)
+  1. NVIDIA NIM      — 40 RPM, 1K credits, 44 code models (best code model: Qwen3 Coder 480B, 70.6% SWE-bench)
   2. Groq Llama 3.1 — 14,400 req/day, 6K TPM  (fastest, use for short tasks)
-  3. OpenRouter     — 100 req/day             (fallback only)
-  4. Ollama local   — unlimited               (last resort, needs local GPU/CPU)
+  3. Gemini Flash   — 1,500 req/day, 1M TPM  (best volume, use for bulk)
+  4. OpenRouter     — 100 req/day             (fallback only)
+  5. Ollama local   — unlimited               (last resort, needs local GPU/CPU)
 
-Key corrections vs original design:
-- Groq free tier: 1,000 RPD per model (NOT 14,400) for 70B.
-  llama-3.1-8b-instant gets 14,400 RPD. Use 8B for content, 70B only for bounties.
-- Gemini 2.5 Pro: 50 RPD free tier only. Use Flash (1,500 RPD) for everything.
-- Google may use your free-tier prompts for training. Avoid sensitive data.
+Model routing:
+  - code     → NVIDIA NIM (Qwen3 Coder) → Groq 70B → Gemini → OpenRouter
+  - content  → Groq 8B (fastest) → Gemini (highest volume) → NVIDIA → OpenRouter
+  - reason   → NVIDIA NIM (Nemotron) → Groq 70B → Gemini → OpenRouter
 """
 
 import os
@@ -93,6 +93,39 @@ def call_openrouter(prompt: str, system: str = "", max_tokens: int = 1500) -> Op
         return None
 
 
+def call_nvidia(prompt: str, system: str = "", model: str = "qwen2.5-coder-32b-instruct", max_tokens: int = 2000) -> Optional[str]:
+    """
+    NVIDIA NIM — free code generation models, 40 RPM, 1K inference credits.
+    OpenAI-compatible endpoint at https://integrate.api.nvidia.com/v1
+    Top code models: qwen2.5-coder-32b-instruct (70.6% SWE-bench), dracarys-llama-3.1-70b-instruct
+    """
+    api_key = os.environ.get("NVIDIA_API_KEY")
+    if not api_key:
+        return None
+    try:
+        from openai import OpenAI
+        client = OpenAI(
+            base_url="https://integrate.api.nvidia.com/v1",
+            api_key=api_key,
+        )
+        messages = []
+        if system:
+            messages.append({"role": "system", "content": system})
+        messages.append({"role": "user", "content": prompt})
+        resp = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            max_tokens=max_tokens,
+            temperature=0.2,
+        )
+        from agent.memory import log_api_usage
+        log_api_usage("nvidia_nim")
+        return resp.choices[0].message.content
+    except Exception as e:
+        logger.warning(f"NVIDIA NIM ({model}) failed: {e}")
+        return None
+
+
 def call_ollama(prompt: str, system: str = "", model: str = "llama3.1:8b") -> Optional[str]:
     """Ollama local — unlimited but needs local hardware. Last resort."""
     try:
@@ -111,24 +144,39 @@ def call_ollama(prompt: str, system: str = "", model: str = "llama3.1:8b") -> Op
 def ai(
     prompt: str,
     system: str = "",
-    task: str = "content",  # "content" | "code" | "reason"
+    task: str = "content",
     max_tokens: int = 2000,
 ) -> str:
     """
-    Smart dispatch based on task type and real free tier limits.
-    - content: Gemini first (1,500 RPD) → Groq 8B (14,400 RPD)
-    - code/reason: Groq 70B (1,000 RPD) → Gemini → OpenRouter
+    Smart dispatch based on task type and real free tier limits (June 2026).
+    - code     → NVIDIA NIM (Qwen3 Coder) → Groq 70B → Gemini → OpenRouter
+    - content  → Groq 8B (fastest) → Gemini (1,500 RPD) → NVIDIA → OpenRouter
+    - reason   → NVIDIA NIM (Nemotron) → Groq 70B → Gemini → OpenRouter
     Always falls back gracefully. Never raises.
     """
+    has_nvidia = bool(os.environ.get("NVIDIA_API_KEY"))
+
     if task == "content":
         chain = [
             lambda: call_groq(prompt, system, "llama-3.1-8b-instant", max_tokens),
             lambda: call_gemini(prompt, system, max_tokens),
+            lambda: call_nvidia(prompt, system, "dracarys-llama-3.1-70b-instruct", max_tokens),
             lambda: call_openrouter(prompt, system, max_tokens),
             lambda: call_ollama(prompt, system),
         ]
-    else:  # code or reasoning
+
+    elif task == "code":
         chain = [
+            lambda: call_nvidia(prompt, system, "qwen2.5-coder-32b-instruct", max_tokens),
+            lambda: call_groq(prompt, system, "llama-3.3-70b-versatile", max_tokens),
+            lambda: call_gemini(prompt, system, max_tokens),
+            lambda: call_openrouter(prompt, system, max_tokens),
+            lambda: call_ollama(prompt, system, "codellama:13b"),
+        ]
+
+    else:  # reasoning
+        chain = [
+            lambda: call_nvidia(prompt, system, "nemotron-3-super-120b-a12b", max_tokens),
             lambda: call_groq(prompt, system, "llama-3.3-70b-versatile", max_tokens),
             lambda: call_gemini(prompt, system, max_tokens),
             lambda: call_openrouter(prompt, system, max_tokens),

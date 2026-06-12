@@ -35,6 +35,16 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
+      - name: Cache memory and logs
+        uses: actions/cache@v6
+        with:
+          path: |
+            memory/
+            logs/
+          key: ${{ runner.os }}-agent-state-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-agent-state-
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
@@ -46,6 +56,7 @@ jobs:
           GITHUB_TOKEN:       ${{ secrets.GITHUB_TOKEN }}
           DEVTO_API_KEY:      ${{ secrets.DEVTO_API_KEY }}
           LINKSTERR_API_KEY:  ${{ secrets.LINKSTERR_API_KEY }}
+          NVIDIA_API_KEY:     ${{ secrets.NVIDIA_API_KEY }}
         run: |
           ARGS=""
           if [ "${{ inputs.vehicle }}" != "" ]; then

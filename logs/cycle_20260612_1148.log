@@ -1,0 +1,33 @@
+2026-06-12 14:48:25,862 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-12 14:48:34,954 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (13 claimers)
+2026-06-12 14:48:36,553 WARNING skills.bounty_hunter: Opire: GitHub check 401 for rodrigompy/bugb#1, trusting Opire
+2026-06-12 14:48:36,553 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-12 14:48:37,994 WARNING skills.bounty_hunter: Opire: GitHub check 401 for onlybugs05/angular#1, trusting Opire
+2026-06-12 14:48:39,601 WARNING skills.bounty_hunter: Opire: GitHub check 401 for hexgrad/kokoro#290, trusting Opire
+2026-06-12 14:48:41,069 WARNING skills.bounty_hunter: Opire: GitHub check 401 for uswriting/zeroperl#7, trusting Opire
+2026-06-12 14:48:41,070 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (22 claimers)
+2026-06-12 14:48:41,071 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (11 claimers)
+2026-06-12 14:48:42,895 WARNING skills.bounty_hunter: Opire: GitHub check 401 for zed-industries/zed#4642, trusting Opire
+2026-06-12 14:48:44,372 WARNING skills.bounty_hunter: Opire: GitHub check 401 for secondlife/viewer#4445, trusting Opire
+2026-06-12 14:48:45,872 WARNING skills.bounty_hunter: Opire: GitHub check 401 for keycloak/keycloak#14644, trusting Opire
+2026-06-12 14:48:47,297 WARNING skills.bounty_hunter: Opire: GitHub check 401 for Leantime/leantime#1099, trusting Opire
+2026-06-12 14:48:48,745 WARNING skills.bounty_hunter: Opire: GitHub check 401 for esp-rs/esp-hal#4163, trusting Opire
+2026-06-12 14:48:50,181 WARNING skills.bounty_hunter: Opire: GitHub check 401 for qtop/qtop#337, trusting Opire
+2026-06-12 14:48:51,750 WARNING skills.bounty_hunter: Opire: GitHub check 401 for storybookjs/storybook#12641, trusting Opire
+2026-06-12 14:48:53,215 WARNING skills.bounty_hunter: Opire: GitHub check 401 for aueangpanit/electron-template#1, trusting Opire
+2026-06-12 14:48:54,828 WARNING skills.bounty_hunter: Opire: GitHub check 401 for FalkorDB/FalkorDB#622, trusting Opire
+2026-06-12 14:48:54,828 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (9 claimers)
+2026-06-12 14:48:57,213 WARNING skills.bounty_hunter: Opire: GitHub check 401 for go-gitea/gitea#24635, trusting Opire
+2026-06-12 14:48:58,586 WARNING skills.bounty_hunter: Opire: GitHub check 401 for denoland/deno#18147, trusting Opire
+2026-06-12 14:49:00,550 WARNING skills.bounty_hunter: Opire: GitHub check 401 for XAMPPRocky/octocrab#224, trusting Opire
+2026-06-12 14:49:02,119 WARNING skills.bounty_hunter: Opire: GitHub check 401 for electron/electron#48191, trusting Opire
+2026-06-12 14:49:03,743 WARNING skills.bounty_hunter: Opire: GitHub check 401 for bogeeee/restfuncs#6, trusting Opire
+2026-06-12 14:49:03,743 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-12 14:49:05,031 WARNING skills.bounty_hunter: Opire: GitHub check 401 for formbricks/formbricks#3302, trusting Opire
+2026-06-12 14:49:06,357 WARNING skills.bounty_hunter: Opire: GitHub check 401 for microg/GmsCore#2843, trusting Opire
+2026-06-12 14:49:07,792 WARNING skills.bounty_hunter: Opire: GitHub check 401 for sebastianbergmann/phpunit#4440, trusting Opire
+2026-06-12 14:49:09,273 WARNING skills.bounty_hunter: Opire: GitHub check 401 for ToolJet/ToolJet#6655, trusting Opire
+2026-06-12 14:49:10,564 WARNING skills.bounty_hunter: Opire: GitHub check 401 for radumarias/rencfs#3, trusting Opire
+2026-06-12 14:49:11,895 WARNING skills.bounty_hunter: Opire: GitHub check 401 for mmccl5/go-task-task#1, trusting Opire
+2026-06-12 14:49:11,895 INFO skills.bounty_hunter: Opire: 24 open bounties from 30 total
+2026-06-12 14:49:11,909 INFO skills.bounty_hunter: Opire: found 24 open bounties
