@@ -164,13 +164,12 @@ def run(dry_run: bool = False) -> dict:
             reward = float(reward_str)
         except ValueError:
             reward = 0
-        if reward >= 1.0:
-            candidates.append((reward, task))
+        candidates.append((reward, task))
 
     if not candidates:
-        logger.info("TaskMarket: no tasks >= $1")
-        log_cycle("task_market", "scan", False, detail="No tasks >= $1")
-        return {"success": False, "reason": "below_minimum_reward"}
+        logger.info("TaskMarket: no open tasks")
+        log_cycle("task_market", "scan", False, detail="No open tasks found")
+        return {"success": False, "reason": "no_tasks"}
 
     candidates.sort(key=lambda x: x[0], reverse=True)
     best_reward, best_task = candidates[0]

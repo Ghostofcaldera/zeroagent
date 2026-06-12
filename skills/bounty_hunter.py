@@ -557,26 +557,39 @@ def run(dry_run: bool = False) -> dict:
         return {"success": False, "reason": "no_issues_found"}
 
     # -----------------------------------------------------------------------
-    # Step 2: Pick best candidate
+    # Step 2: Assess ALL candidates with AI, pick highest expected value
     # -----------------------------------------------------------------------
-    candidates.sort(key=lambda x: x[0], reverse=True)
-    _, best_issue, best_repo, source = candidates[0]
+    assessed = []
+    for score, issue, repo, source in candidates:
+        assessment = analyze_issue(issue)
+        clarity = assessment.get("clarity", 0)
+        solvability = assessment.get("solvability", 0)
+        scope = assessment.get("scope", 0)
+        feasible = assessment.get("feasible", False)
+
+        if not feasible or clarity < 5 or solvability < 5:
+            logger.info(f"Skipping {repo}#{issue['number']}: clarity={clarity}, solvability={solvability}, scope={scope} - {assessment.get('reason', '')[:80]}")
+            continue
+
+        bounty_amount = issue.get("bounty_amount", 0)
+        prob_success = (clarity + solvability + scope) / 30.0  # 0-1
+        expected_value = bounty_amount * prob_success
+        combined_score = expected_value * 10 + score  # reward-weighted with repo trust bonus
+
+        assessed.append((combined_score, expected_value, assessment, issue, repo, source))
+        logger.info(f"Candidate: {repo}#{issue['number']} ${bounty_amount} | clarity={clarity} solvability={solvability} scope={scope} | EV=${expected_value:.0f}")
+
+    if not assessed:
+        log_cycle("bounty_hunting", "assess", False, detail="All candidates filtered out by AI assessment")
+        return {"success": False, "reason": "no_feasible_candidates"}
+
+    # Pick highest expected value
+    assessed.sort(key=lambda x: x[1], reverse=True)
+    _, expected_value, assessment, best_issue, best_repo, source = assessed[0]
     bounty_amount = best_issue.get("bounty_amount", 0)
     source_label = f"Opire ${bounty_amount}" if source == "opire" else "GitHub"
 
-    logger.info(f"Best candidate: {best_repo}#{best_issue['number']} from {source_label}")
-
-    # -----------------------------------------------------------------------
-    # Step 3: Assess feasibility with AI
-    # -----------------------------------------------------------------------
-    assessment = analyze_issue(best_issue)
-    feasible = assessment.get("feasible", False)
-
-    if not feasible:
-        reason = assessment.get("reason", "AI assessment: not feasible")
-        logger.info(f"Best issue not feasible: {reason}")
-        log_cycle("bounty_hunting", "assess", False, detail=json.dumps(assessment))
-        return {"success": False, "reason": reason}
+    logger.info(f"Best candidate: {best_repo}#{best_issue['number']} from {source_label} (EV=${expected_value:.0f})")
 
     issue_num = best_issue.get("number")
     title = best_issue.get("title", "")
