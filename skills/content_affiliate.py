@@ -1,14 +1,16 @@
 """
 Content Affiliate Vehicle — FULLY IMPLEMENTED
++ Link$terr URL monetization (Nov 2025+)
 
 Strategy based on real data:
 - Dev.to has free publishing API and high SEO traffic
 - Write technical articles → include affiliate links → passive income
+- Link$terr wraps each affiliate link → earn $10.50/1K clicks on top of commissions
 - Best affiliate programs for developers (no approval needed):
-  * DigitalOcean: $25 per referral (instant approval)
-  * Namecheap: 20-35% commission (instant)
+  * Hostinger: 20% commission (free signup, PayPal payout)
+  * Railway: 15% for 12 months
+  * Namecheap: 20-35% commission (pending Impact approval)
   * Groq / AI tool affiliates: recurring commissions
-  * Gumroad: sell your own digital products (free, 10% fee)
 
 The agent: picks trending topics → writes article → posts to Dev.to → logs it.
 Human task: check which articles get traction → focus on those niches.
@@ -34,11 +36,47 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 AFFILIATE_LINKS = {
     "hostinger":    "https://www.hostinger.com?REFERRALCODE=EHKKARIUKAOL",  # 20% commission
-    "namecheap":    "https://www.namecheap.com/?aff=YOUR_AFF",              # 20-35% — update when Impact approves
+    "namecheap":    "https://www.namecheap.com/?aff=PENDING_IMPACT_VERIFY", # 20-35% — Impact approval pending
     "digitalocean": "https://www.digitalocean.com/?refcode=YOUR_REF",       # $25/referral
     "groq":         "https://groq.com",
     "railway":      "https://railway.com?referralCode=Q5-9pw",  # 15% for 12 months
 }
+
+LINKSTERR_API_KEY = os.environ.get("LINKSTERR_API_KEY", "")
+LINKSTERR_API_URL = os.environ.get("LINKSTERR_API_URL", "https://linksterr.com/api/shorten")
+
+
+def shorten_url(url: str) -> str:
+    """
+    Wrap a URL through Link$terr/lnk.ink to earn $10.50/1K clicks on top of
+    affiliate commissions. Falls back to original URL if not configured.
+    Uses lnk.ink free API (no auth needed for basic shortening).
+    Sign up: https://linksterr.com → set LINKSTERR_API_KEY + LINKSTERR_API_URL
+    """
+    try:
+        api_url = LINKSTERR_API_URL or "https://lnk.ink/api/links/create"
+        params = {"url": url}
+        if LINKSTERR_API_KEY:
+            params["api_key"] = LINKSTERR_API_KEY
+        r = requests.get(api_url, params=params, timeout=10)
+        if r.ok:
+            data = r.json()
+            short_url = (
+                data.get("shortUrl")
+                or data.get("short_url")
+                or (data.get("data") or {}).get("short_url", "")
+            )
+            if short_url:
+                return short_url
+        logger.warning(f"shortener: {r.status_code} for {url[:60]}")
+    except Exception as e:
+        logger.warning(f"shortener failed (non-fatal): {e}")
+    return url  # fallback to original URL
+
+
+def get_monetized_links() -> dict:
+    """Return affiliate links wrapped through Link$terr for passive CPM revenue."""
+    return {name: shorten_url(url) for name, url in AFFILIATE_LINKS.items()}
 
 DEVTO_API = "https://dev.to/api"
 
@@ -120,10 +158,12 @@ Reply with ONLY the exact topic string, nothing else."""
 def write_article(topic: str) -> dict:
     """
     Generate a complete Dev.to article with affiliate links woven in naturally.
+    Links are wrapped through Link$terr for passive CPM revenue.
     Returns dict with title, content, tags.
     """
+    monetized = get_monetized_links()
     aff_context = "\n".join([
-        f"- {name}: {url}" for name, url in AFFILIATE_LINKS.items()
+        f"- {name}: {url}" for name, url in monetized.items()
     ])
 
     prompt = f"""Write a complete, high-quality technical article for Dev.to about:

@@ -109,6 +109,97 @@ def is_honeypot_issue(issue_body: str) -> bool:
 # GitHub search for bounty issues
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Opire bounty scanning (no auth needed, real dollar amounts)
+# ---------------------------------------------------------------------------
+
+def scan_opire_bounties() -> list[dict]:
+    """
+    Fetch all active bounties from Opire's public API (no auth needed).
+    Response format (confirmed June 2026):
+      - url: GitHub issue URL
+      - pendingPrice: { value: int, unit: "USD_CENT" }
+      - claimerUsers: users who already claimed (skip if too many)
+      - project: { url, name, isBotInstalled }
+    Cross-references GitHub to confirm issues are still open.
+    Returns list of issue dicts compatible with the existing pipeline.
+    """
+    try:
+        r = requests.get("https://api.opire.dev/rewards", timeout=15)
+        if not r.ok:
+            logger.warning(f"Opire API returned {r.status_code}")
+            return []
+        rewards = r.json()
+        if not isinstance(rewards, list):
+            return []
+
+        valid = []
+        for reward in rewards:
+            issue_url = reward.get("url", "")
+            price = reward.get("pendingPrice") or {}
+            amount_cents = price.get("value", 0)
+            if not issue_url or not amount_cents:
+                continue
+
+            amount_dollars = amount_cents / 100
+            claimer_count = len(reward.get("claimerUsers", []))
+            trying_count = len(reward.get("tryingUsers", []))
+
+            # Skip if already claimed by many people (high competition)
+            if claimer_count > 5:
+                logger.info(f"Opire: {reward.get('title','')[:50]}... skipped ({claimer_count} claimers)")
+                continue
+
+            match = re.search(r"github\.com/([^/]+)/([^/]+)/issues/(\d+)", issue_url)
+            if not match:
+                continue
+
+            full_name = f"{match.group(1)}/{match.group(2)}"
+            issue_num = match.group(3)
+
+            # Skip blacklisted repos
+            if is_blacklisted(full_name):
+                continue
+
+            # Verify issue is still open on GitHub (skip check if unauthenticated)
+            try:
+                gh_r = requests.get(
+                    f"https://api.github.com/repos/{full_name}/issues/{issue_num}",
+                    headers=GH_HEADERS,
+                    timeout=10,
+                )
+                if gh_r.ok:
+                    issue_data = gh_r.json()
+                    if issue_data.get("state") != "open":
+                        logger.info(f"Opire: {full_name}#{issue_num} closed, ${amount_dollars:.0f} stranded")
+                        continue
+                    if is_honeypot_issue(issue_data.get("body", "")):
+                        logger.warning(f"Opire: {full_name}#{issue_num} is a honeypot")
+                        add_to_blacklist(full_name, "opire honeypot")
+                        continue
+                else:
+                    # Unauthenticated or rate-limited — trust Opire's data
+                    logger.warning(f"Opire: GitHub check {gh_r.status_code} for {full_name}#{issue_num}, trusting Opire")
+                    issue_data = {"title": reward.get("title", ""), "state": "open"}
+            except Exception as e:
+                logger.warning(f"Opire: GitHub check failed for {full_name}#{issue_num}: {e}")
+                # Trust Opire's data on error
+                issue_data = {"title": reward.get("title", ""), "state": "open"}
+
+            # Annotate with bounty info
+            issue_data["bounty_amount"] = amount_dollars
+            issue_data["bounty_currency"] = "USD"
+            issue_data["bounty_source"] = "opire"
+            issue_data["repository_url"] = f"https://github.com/repos/{full_name}"
+            valid.append(issue_data)
+
+        logger.info(f"Opire: {len(valid)} open bounties from {len(rewards)} total")
+        return valid
+    except Exception as e:
+        logger.warning(f"Opire API error: {e}")
+        return []
+
+
 def search_bounties(target: str = "stale") -> list[dict]:
     """
     Search GitHub for bounty issues.
@@ -322,61 +413,89 @@ def get_trusted_repos() -> list[str]:
 def run(dry_run: bool = False) -> dict:
     """
     Full bounty hunting cycle:
-    1. Search for stale bounty issues (less competition)
+    0. Scan Opire public API for dollar-value bounties (highest ROI)
+    1. Search GitHub for stale bounty issues (fallback)
     2. Filter scams and honeypots
     3. Assess feasibility with AI
-    4. Post intent comment on best candidate
+    4. Post intent comment on best candidate (with /try for Opire)
     5. (If sufficient score) attempt fix and open PR
     """
     logger.info("Bounty hunting cycle starting...")
-
-    issues = search_bounties(target="stale")
-    logger.info(f"Found {len(issues)} raw bounty issues")
-
-    if not issues:
-        log_cycle("bounty_hunting", "search", False, detail="No issues found")
-        return {"success": False, "reason": "no_issues_found"}
-
     trusted_repos = get_trusted_repos()
+
+    # -----------------------------------------------------------------------
+    # Step 0: Scan Opire bounties (real money, no auth needed)
+    # -----------------------------------------------------------------------
+    opire_issues = scan_opire_bounties()
+    logger.info(f"Opire: found {len(opire_issues)} open bounties")
+
     candidates = []
 
-    for issue in issues:
+    for issue in opire_issues:
         repo_full = issue.get("repository_url", "").split("/repos/")[-1]
+        bounty_amount = issue.get("bounty_amount", 0)
 
-        # Skip blacklisted repos immediately
         if is_blacklisted(repo_full):
             continue
 
-        # Check honeypot in issue body
-        if is_honeypot_issue(issue.get("body", "")):
-            logger.warning(f"Honeypot detected: {repo_full}#{issue['number']}")
-            add_to_blacklist(repo_full, "honeypot issue detected")
-            continue
-
-        # Get repo stats for scam scoring
         stats = get_repo_stats(repo_full)
         is_legit, reason = score_repo(stats)
         if not is_legit:
-            logger.info(f"Skipping {repo_full}: {reason}")
-            # Add to blacklist if clearly bad
-            if "honeypot" in reason or "no merged PRs" in reason:
-                add_to_blacklist(repo_full, reason)
+            logger.info(f"Opire: skipping {repo_full}: {reason}")
             continue
 
-        # Boost trusted repos
-        score = 10 if repo_full in trusted_repos else 0
-        score += stats.get("stargazers_count", 0) // 100  # stars signal legitimacy
-        candidates.append((score, issue, repo_full))
+        score = bounty_amount * 2  # Opire bounties get double weight by dollar value
+        if repo_full in trusted_repos:
+            score += 20
+        candidates.append((score, issue, repo_full, "opire"))
+
+    # -----------------------------------------------------------------------
+    # Step 1: GitHub search (fallback)
+    # -----------------------------------------------------------------------
+    if not candidates:
+        issues = search_bounties(target="stale")
+        logger.info(f"GitHub: found {len(issues)} raw bounty issues")
+
+        for issue in issues:
+            repo_full = issue.get("repository_url", "").split("/repos/")[-1]
+
+            if is_blacklisted(repo_full):
+                continue
+
+            if is_honeypot_issue(issue.get("body", "")):
+                logger.warning(f"Honeypot detected: {repo_full}#{issue['number']}")
+                add_to_blacklist(repo_full, "honeypot issue detected")
+                continue
+
+            stats = get_repo_stats(repo_full)
+            is_legit, reason = score_repo(stats)
+            if not is_legit:
+                logger.info(f"Skipping {repo_full}: {reason}")
+                if "honeypot" in reason or "no merged PRs" in reason:
+                    add_to_blacklist(repo_full, reason)
+                continue
+
+            score = 10 if repo_full in trusted_repos else 0
+            score += stats.get("stargazers_count", 0) // 100
+            candidates.append((score, issue, repo_full, "github"))
 
     if not candidates:
-        log_cycle("bounty_hunting", "filter", False, detail="All issues filtered as scams")
-        return {"success": False, "reason": "all_filtered"}
+        log_cycle("bounty_hunting", "search", False, detail="No issues found from any source")
+        return {"success": False, "reason": "no_issues_found"}
 
-    # Sort by score — trusted repos and high-star repos first
+    # -----------------------------------------------------------------------
+    # Step 2: Pick best candidate
+    # -----------------------------------------------------------------------
     candidates.sort(key=lambda x: x[0], reverse=True)
-    _, best_issue, best_repo = candidates[0]
+    _, best_issue, best_repo, source = candidates[0]
+    bounty_amount = best_issue.get("bounty_amount", 0)
+    source_label = f"Opire ${bounty_amount}" if source == "opire" else "GitHub"
 
-    # Assess feasibility
+    logger.info(f"Best candidate: {best_repo}#{best_issue['number']} from {source_label}")
+
+    # -----------------------------------------------------------------------
+    # Step 3: Assess feasibility with AI
+    # -----------------------------------------------------------------------
     assessment = analyze_issue(best_issue)
     feasible = assessment.get("feasible", False)
 
@@ -390,24 +509,49 @@ def run(dry_run: bool = False) -> dict:
     title = best_issue.get("title", "")
     approach = assessment.get("approach", "Fix the reported issue")
 
-    logger.info(f"Target: {best_repo}#{issue_num}: {title}")
+    logger.info(f"Target: {best_repo}#{issue_num}: {title} ({source_label})")
 
     if dry_run:
         print(f"\n--- DRY RUN: Would pursue ---")
+        print(f"Source: {source_label}")
         print(f"Repo: {best_repo}")
         print(f"Issue: #{issue_num}: {title}")
         print(f"Approach: {approach}")
-        return {"success": True, "dry_run": True, "repo": best_repo, "issue": issue_num}
+        return {"success": True, "dry_run": True, "repo": best_repo, "issue": issue_num, "source": source}
 
-    # Post intent comment — this is the highest-ROI action
-    commented = post_intent_comment(issue_num, best_repo, approach)
-    logger.info(f"Intent comment posted: {commented}")
+    # -----------------------------------------------------------------------
+    # Step 4: Post intent comment
+    # -----------------------------------------------------------------------
+    # For Opire bounties, use /try command; for GitHub, use natural language
+    if source == "opire":
+        intent_body = f"/try\n\n{approach[:200]}"
+        try:
+            r = requests.post(
+                f"https://api.github.com/repos/{best_repo}/issues/{issue_num}/comments",
+                headers=GH_HEADERS,
+                json={"body": intent_body},
+                timeout=15,
+            )
+            commented = r.status_code == 201
+        except Exception:
+            commented = False
+    else:
+        commented = post_intent_comment(issue_num, best_repo, approach)
+
+    logger.info(f"Intent comment posted{' (/try)' if source == 'opire' else ''}: {commented}")
 
     log_cycle(
         vehicle="bounty_hunting",
-        action=f"comment on {best_repo}#{issue_num}",
+        action=f"{source} comment on {best_repo}#{issue_num}",
         success=commented,
-        detail=json.dumps({"repo": best_repo, "issue": issue_num, "approach": approach}),
+        revenue=bounty_amount if source == "opire" and commented else 0,
+        detail=json.dumps({
+            "repo": best_repo,
+            "issue": issue_num,
+            "source": source,
+            "bounty_amount": bounty_amount,
+            "approach": approach,
+        }),
     )
 
     return {
@@ -416,5 +560,7 @@ def run(dry_run: bool = False) -> dict:
         "issue": issue_num,
         "title": title,
         "approach": approach,
+        "source": source,
+        "bounty_amount": bounty_amount,
         "action": "intent_comment_posted",
     }

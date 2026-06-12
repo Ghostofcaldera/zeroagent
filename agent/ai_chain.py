@@ -83,7 +83,7 @@ def call_openrouter(prompt: str, system: str = "", max_tokens: int = 1500) -> Op
         r = requests.post(
             "https://openrouter.ai/api/v1/chat/completions",
             headers=headers,
-            json={"model": "mistralai/mistral-7b-instruct:free", "messages": messages, "max_tokens": max_tokens},
+            json={"model": "openrouter/free", "messages": messages, "max_tokens": max_tokens},
             timeout=30,
         )
         r.raise_for_status()
