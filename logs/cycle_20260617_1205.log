@@ -69,3 +69,20 @@
 2026-06-17 15:28:52,865 INFO openai._base_client: Retrying request to /chat/completions in 0.798251 seconds
 2026-06-17 15:33:55,953 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 504 Gateway Timeout"
 2026-06-17 15:33:55,956 WARNING agent.ai_chain: NVIDIA NIM (qwen/qwen3.5-122b-a10b) failed: Error code: 504
+2026-06-17 15:38:49,070 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-06-17 15:38:49,073 INFO openai._base_client: Retrying request to /chat/completions in 0.461794 seconds
+2026-06-17 15:43:46,487 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-06-17 15:43:46,490 INFO openai._base_client: Retrying request to /chat/completions in 0.750776 seconds
+2026-06-17 15:43:47,681 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-06-17 15:43:47,683 WARNING agent.ai_chain: NVIDIA NIM (mistralai/mistral-nemotron) failed: Error code: 500 - {'type': 'urn:inference-connection:problem-details:internal-server-error', 'title': 'Internal Server Error', 'status': 500, 'detail': 'Inference connection error while making inference request'}
+2026-06-17 15:43:48,187 WARNING agent.ai_chain: Groq (llama-3.3-70b-versatile) failed: 'GROQ_API_KEY'
+2026-06-17 15:44:08,514 INFO agent.masai_solver: MASAI phase 3 (fix): 0 patches
+2026-06-17 15:44:08,550 INFO ZeroAgent: bounty_hunting result: {'success': False, 'repo': 'aueangpanit/electron-template', 'issue': 1, 'title': 'Tray icon should have an orange dot indicator', 'approach': 'Locate where the tray icon is created (likely in main process), generate a base icon image, then overlay a small orange circle (e.g., using nativeImage.createFromBuffer or canvas) and set the resulting image as the tray icon via tray.setImage().', 'source': 'opire', 'bounty_amount': 100.0, 'action': 'intent_comment_posted', 'pr_url': ''}
+2026-06-17 15:44:08,554 INFO ZeroAgent: --- Running vehicle: task_market ---
+2026-06-17 15:44:08,563 INFO skills.task_market: TaskMarket cycle starting...
+2026-06-17 15:44:08,565 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-17 15:44:08,570 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-17 15:44:08,589 WARNING skills.task_market: TaskMarket CLI not found. Install: npm install -g @daydreams/taskmarket
+2026-06-17 15:44:08,593 INFO skills.task_market: TaskMarket: 0 open tasks
+2026-06-17 15:44:08,606 INFO ZeroAgent: task_market result: {'success': False, 'reason': 'no_tasks'}
+2026-06-17 15:44:09,288 INFO ZeroAgent: === Cycle complete ===
