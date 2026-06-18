@@ -62,3 +62,8 @@
 2026-06-18 17:47:42,947 INFO skills.task_market: TaskMarket: keystore restored from env var
 2026-06-18 17:47:48,346 INFO skills.task_market: TaskMarket: working on 0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18 ($1.0)
 2026-06-18 17:48:25,769 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 17:48:41,332 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 17:48:41,360 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-18 17:48:43,675 WARNING skills.task_market: TaskMarket CLI error: {"ok":false,"error":"Unexpected token '#', \"# Existing\"... is not valid JSON"}
+2026-06-18 17:48:43,690 INFO ZeroAgent: task_market result: {'success': False, 'task_id': '0x59e43b84346d98b51375abd0d7287050b625204f72c59bc64fb58589c602fc18', 'reward': 1.0}
+2026-06-18 17:49:11,271 INFO ZeroAgent: === Cycle complete ===
