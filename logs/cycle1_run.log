@@ -1,0 +1,837 @@
+2026-06-17 17:36:33,246 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-17 17:36:38,272 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5472 stranded
+2026-06-17 17:36:38,284 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-17 17:36:38,285 INFO skills.bounty_hunter: Opire: Donation/funding for german language... skipped (6 claimers)
+2026-06-17 17:36:40,629 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-17 17:36:40,646 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (14 claimers)
+2026-06-17 17:36:40,646 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (23 claimers)
+2026-06-17 17:36:40,648 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (12 claimers)
+2026-06-17 17:36:49,612 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-17 17:36:54,477 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-17 17:36:59,839 INFO skills.bounty_hunter: Opire: qtop/qtop#433 closed, $220 stranded
+2026-06-17 17:37:02,933 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-17 17:37:05,370 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-17 17:37:06,845 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-17 17:37:08,406 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-17 17:37:09,835 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-17 17:37:11,259 INFO skills.bounty_hunter: Opire: alisteuber4ee1/API-Integration-Pagination#1 closed, $100 stranded
+2026-06-17 17:37:12,657 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-17 17:37:14,129 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-17 17:37:14,135 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (11 claimers)
+2026-06-17 17:37:14,135 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-17 17:37:15,705 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-17 17:37:18,484 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-17 17:37:20,037 INFO skills.bounty_hunter: Opire: formbricks/formbricks#3302 closed, $60 stranded
+2026-06-17 17:37:22,782 INFO skills.bounty_hunter: Opire: sebastianbergmann/phpunit#4440 closed, $50 stranded
+2026-06-17 17:37:24,172 INFO skills.bounty_hunter: Opire: ToolJet/ToolJet#6655 closed, $45 stranded
+2026-06-17 17:37:25,525 INFO skills.bounty_hunter: Opire: 3 open bounties from 30 total
+2026-06-17 17:37:25,539 INFO skills.bounty_hunter: Opire: found 3 open bounties
+2026-06-17 17:37:34,185 INFO skills.bounty_hunter: BountyHub: electron/electron#48191 closed, $400 stranded
+2026-06-17 17:37:36,819 INFO skills.bounty_hunter: BountyHub: emersion/hydroxide#207 closed, $250 stranded
+2026-06-17 17:37:39,678 INFO skills.bounty_hunter: BountyHub: go-gitea/gitea#24635 closed, $200 stranded
+2026-06-17 17:37:43,732 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#76 closed, $150 stranded
+2026-06-17 17:37:50,433 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#16954 closed, $100 stranded
+2026-06-17 17:37:51,910 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#115 closed, $75 stranded
+2026-06-17 17:37:54,685 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20250 closed, $50 stranded
+2026-06-17 17:37:56,066 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20741 closed, $50 stranded
+2026-06-17 17:37:57,440 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#11462 closed, $50 stranded
+2026-06-17 17:38:02,927 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#21317 closed, $10 stranded
+2026-06-17 17:38:04,302 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#13842 closed, $10 stranded
+2026-06-17 17:38:04,309 INFO skills.bounty_hunter: BountyHub: 12 open bounties from 23 total
+2026-06-17 17:38:04,316 INFO skills.bounty_hunter: BountyHub: found 12 open bounties
+2026-06-17 17:38:16,711 INFO skills.bounty_hunter: Boss.dev: sveltejs/svelte#1639 closed, $125 stranded
+2026-06-17 17:38:20,642 INFO skills.bounty_hunter: Boss.dev: allure-framework/allure2#1108 closed, $100 stranded
+2026-06-17 17:38:21,957 INFO skills.bounty_hunter: Boss.dev: 9 open bounties from 12 total
+2026-06-17 17:38:21,961 INFO skills.bounty_hunter: Boss.dev: found 9 open bounties
+2026-06-17 17:41:29,294 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:41:29,333 INFO skills.bounty_hunter: Skipping denoland/deno#18147: clarity=9, solvability=6, scope=3 - While the request is clear, implementing inline test coverage via the Deno LSP w
+2026-06-17 17:41:38,872 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:41:38,885 INFO skills.bounty_hunter: Skipping microg/GmsCore#2843: clarity=5, solvability=3, scope=2 - The request is high‑level and lacks specific API or protocol details, requiring 
+2026-06-17 17:41:59,840 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:42:03,725 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:42:03,735 INFO skills.bounty_hunter: Skipping radumarias/rencfs#3: clarity=9, solvability=6, scope=3 - While the issue is very clearly documented with specific technical details, it i
+2026-06-17 17:42:22,540 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:42:22,552 INFO skills.bounty_hunter: Skipping microg/GmsCore#2994: clarity=6, solvability=4, scope=2 - The issue lacks specific technical details about what microG is missing for RCS 
+2026-06-17 17:43:01,439 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:43:01,447 INFO skills.bounty_hunter: Skipping microg/GmsCore#2843: clarity=4, solvability=3, scope=2 - The request lacks specific technical details about which WearOS APIs or services
+2026-06-17 17:43:11,230 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:43:11,252 INFO skills.bounty_hunter: Skipping microg/GmsCore#580: clarity=3, solvability=2, scope=1 - The issue is merely asking for an update on the status of Google Cast implementa
+2026-06-17 17:43:57,653 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:43:57,663 INFO skills.bounty_hunter: Skipping azerothcore/azerothcore-wotlk#22571: clarity=8, solvability=3, scope=2 - The request is clear about the desired feature, but implementing map partitionin
+2026-06-17 17:44:11,585 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:44:11,593 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#31: clarity=3, solvability=3, scope=2 - The issue lacks specific details about which Chomp/Vorestation features are desi
+2026-06-17 17:44:28,896 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:44:28,918 INFO skills.bounty_hunter: Skipping microg/GmsCore#580: clarity=3, solvability=1, scope=1 - The issue is merely asking for an update on the status of Google Cast implementa
+2026-06-17 17:44:34,548 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:44:34,560 INFO skills.bounty_hunter: Skipping moorcheh-ai/memanto#639: clarity=3, solvability=2, scope=4 - The issue is a high‑level bounty description for a benchmarking challenge withou
+2026-06-17 17:44:58,306 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:44:58,313 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#109: clarity=7, solvability=1, scope=2 - The task involves creating new pixel art sprites for various genital styles, siz
+2026-06-17 17:45:09,102 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:45:09,164 INFO skills.bounty_hunter: Skipping freelensapp/freelens#1280: clarity=6, solvability=7, scope=4 - The request lacks specific details about UI, storage, and integration points, ma
+2026-06-17 17:45:50,124 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:45:50,151 INFO skills.bounty_hunter: Skipping microg/GmsCore#2851: clarity=7, solvability=3, scope=2 - The issue requires implementing multi‑step remote DroidGuard support, creating a
+2026-06-17 17:46:12,062 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:46:12,070 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#30: clarity=3, solvability=2, scope=2 - The issue lacks specific details about mob behavior, assets, and integration poi
+2026-06-17 17:46:27,427 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:46:27,435 INFO skills.bounty_hunter: Skipping inventree/InvenTree#12064: clarity=3, solvability=2, scope=2 - The issue lacks concrete specifications (models, UI, API details), requiring sig
+2026-06-17 17:46:42,195 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:46:42,203 INFO skills.bounty_hunter: Skipping kistek/boss-demo#3: clarity=1, solvability=1, scope=1 - The issue body contains nonsensical text with no clear requirement, making it im
+2026-06-17 17:46:49,176 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:46:49,183 INFO skills.bounty_hunter: Skipping jbilcke-hf/clapper#5: clarity=6, solvability=5, scope=3 - The issue outlines a high‑level vision but lacks concrete API endpoints, UI layo
+2026-06-17 17:46:56,540 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:46:56,908 INFO skills.bounty_hunter: Skipping spaceandtimefdn/sxt-proof-of-sql#229: clarity=7, solvability=6, scope=5 - While the requirement is understandable, it leaves open design choices for Colum
+2026-06-17 17:47:54,449 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:47:54,470 INFO skills.bounty_hunter: Skipping jbilcke-hf/clapper#10: clarity=8, solvability=8, scope=4 - While the requirements are clear and implementable with code changes, creating t
+2026-06-17 17:48:17,214 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:48:17,222 INFO skills.bounty_hunter: Skipping Qortal/qortal#122: clarity=2, solvability=3, scope=2 - The issue is a high‑level call for scalability and performance improvements with
+2026-06-17 17:48:24,155 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:48:27,426 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:48:27,433 INFO skills.bounty_hunter: Skipping jaseg/python-mpv#61: clarity=8, solvability=6, scope=5 - The issue is clear in describing the symptom (stuck on threading primitives on m
+2026-06-17 17:48:48,842 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:48:48,850 INFO skills.bounty_hunter: Skipping jlord/sheetsee-tables#24: clarity=6, solvability=8, scope=8 - The request is vague about what specific manual or documentation should be added
+2026-06-17 17:49:05,481 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:49:05,490 INFO skills.bounty_hunter: Skipping OpenSword/OpenIsopix#1: clarity=3, solvability=2, scope=2 - The requirement to implement the entire README list is ambiguous, involves non‑c
+2026-06-17 17:49:20,496 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:49:20,503 INFO skills.bounty_hunter: Candidate: Alexays/Waybar#3693 $50.0 | clarity=8 solvability=9 scope=8 | EV=$42
+2026-06-17 17:49:20,503 INFO skills.bounty_hunter: Best candidate: Alexays/Waybar#3693 from Boss.dev $50.0 (EV=$42)
+2026-06-17 17:49:20,503 INFO skills.bounty_hunter: Target: Alexays/Waybar#3693: (hyprland/language) [Feature request] Tooltip on the module (Boss.dev $50.0)
+2026-06-17 17:49:22,394 INFO skills.bounty_hunter: Intent comment posted: True
+2026-06-17 17:49:22,394 INFO skills.bounty_hunter: MASAI: attempting fix for $50.0 bounty at Alexays/Waybar#3693
+2026-06-17 17:49:25,348 INFO skills.bounty_hunter: MASAI: using 3-phase solver for $50.0 bounty
+2026-06-17 17:49:25,349 INFO agent.masai_solver: MASAI: solving '(hyprland/language) [Feature request] Tooltip on the module...'
+2026-06-17 17:49:34,384 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:49:34,401 INFO agent.masai_solver: MASAI phase 1 (reproduce): OK
+2026-06-17 17:49:35,950 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-17 17:49:35,953 WARNING agent.ai_chain: NVIDIA NIM (deepseek-ai/deepseek-v4-flash) failed: Error code: 429 - {'status': 429, 'title': 'Too Many Requests'}
+2026-06-17 17:50:38,374 WARNING agent.ai_chain: NVIDIA NIM (qwen/qwen3.5-122b-a10b) failed: Request timed out.
+2026-06-17 17:50:39,019 WARNING agent.ai_chain: Groq (llama-3.3-70b-versatile) failed: 'GROQ_API_KEY'
+2026-06-17 17:50:43,002 WARNING agent.ai_chain: Gemini failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 8.041384039s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2026-06-17 17:50:50,401 INFO agent.masai_solver: MASAI phase 2 (localize): 1 files
+2026-06-17 17:50:52,128 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-17 17:50:52,129 WARNING agent.ai_chain: NVIDIA NIM (deepseek-ai/deepseek-v4-flash) failed: Error code: 429 - {'status': 429, 'title': 'Too Many Requests'}
+2026-06-17 17:51:53,686 WARNING agent.ai_chain: NVIDIA NIM (qwen/qwen3.5-122b-a10b) failed: Request timed out.
+2026-06-17 17:51:54,187 WARNING agent.ai_chain: Groq (llama-3.3-70b-versatile) failed: 'GROQ_API_KEY'
+2026-06-17 17:52:12,073 INFO agent.masai_solver: MASAI phase 3 (fix): 0 patches
+2026-06-17 18:47:16,519 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-17 18:47:16,533 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.opire.dev:443
+2026-06-17 18:47:18,568 DEBUG urllib3.connectionpool: https://api.opire.dev:443 "GET /rewards HTTP/1.1" 200 None
+2026-06-17 18:47:18,685 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:19,837 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/rodrigompy/bugb/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:47:19,838 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5522 stranded
+2026-06-17 18:47:19,845 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-17 18:47:19,846 INFO skills.bounty_hunter: Opire: Donation/funding for german language... skipped (6 claimers)
+2026-06-17 18:47:19,850 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:20,994 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/uswriting/zeroperl/issues/7 HTTP/1.1" 301 207
+2026-06-17 18:47:21,485 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repositories/910868459/issues/7 HTTP/1.1" 200 None
+2026-06-17 18:47:21,489 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-17 18:47:21,494 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (14 claimers)
+2026-06-17 18:47:21,494 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (23 claimers)
+2026-06-17 18:47:21,495 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (12 claimers)
+2026-06-17 18:47:21,500 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:26,327 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/zed-industries/zed/issues/4642 HTTP/1.1" 200 None
+2026-06-17 18:47:26,330 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-17 18:47:26,344 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:27,986 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/secondlife/viewer/issues/4445 HTTP/1.1" 200 None
+2026-06-17 18:47:28,003 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-17 18:47:28,015 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:29,334 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/433 HTTP/1.1" 200 None
+2026-06-17 18:47:29,341 INFO skills.bounty_hunter: Opire: qtop/qtop#433 closed, $220 stranded
+2026-06-17 18:47:29,355 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:30,869 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Leantime/leantime/issues/1099 HTTP/1.1" 200 None
+2026-06-17 18:47:30,873 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-17 18:47:30,883 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:32,207 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/keycloak/keycloak/issues/14644 HTTP/1.1" 200 None
+2026-06-17 18:47:32,210 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-17 18:47:32,220 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:33,613 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/esp-rs/esp-hal/issues/4163 HTTP/1.1" 200 None
+2026-06-17 18:47:33,617 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-17 18:47:33,630 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:34,948 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/337 HTTP/1.1" 200 None
+2026-06-17 18:47:34,961 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-17 18:47:34,983 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:36,283 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/storybookjs/storybook/issues/12641 HTTP/1.1" 200 None
+2026-06-17 18:47:36,289 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-17 18:47:36,299 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:37,533 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/alisteuber4ee1/API-Integration-Pagination/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:47:37,540 INFO skills.bounty_hunter: Opire: alisteuber4ee1/API-Integration-Pagination#1 closed, $100 stranded
+2026-06-17 18:47:37,552 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:38,856 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/FalkorDB/FalkorDB/issues/622 HTTP/1.1" 200 None
+2026-06-17 18:47:38,863 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-17 18:47:38,877 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:40,215 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/go-gitea/gitea/issues/24635 HTTP/1.1" 200 None
+2026-06-17 18:47:40,222 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-17 18:47:40,230 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (11 claimers)
+2026-06-17 18:47:40,230 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-17 18:47:40,238 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:41,481 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/denoland/deno/issues/18147 HTTP/1.1" 200 None
+2026-06-17 18:47:41,487 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:42,828 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/electron/electron/issues/48191 HTTP/1.1" 200 None
+2026-06-17 18:47:42,830 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-17 18:47:42,840 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:44,131 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/bogeeee/restfuncs/issues/6 HTTP/1.1" 200 None
+2026-06-17 18:47:44,142 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-17 18:47:44,158 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:45,457 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/formbricks/formbricks/issues/3302 HTTP/1.1" 200 None
+2026-06-17 18:47:45,460 INFO skills.bounty_hunter: Opire: formbricks/formbricks#3302 closed, $60 stranded
+2026-06-17 18:47:45,471 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:46,770 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2843 HTTP/1.1" 200 None
+2026-06-17 18:47:46,777 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:48,028 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sebastianbergmann/phpunit/issues/4440 HTTP/1.1" 200 None
+2026-06-17 18:47:48,030 INFO skills.bounty_hunter: Opire: sebastianbergmann/phpunit#4440 closed, $50 stranded
+2026-06-17 18:47:48,041 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:49,368 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/ToolJet/ToolJet/issues/6655 HTTP/1.1" 200 None
+2026-06-17 18:47:49,371 INFO skills.bounty_hunter: Opire: ToolJet/ToolJet#6655 closed, $45 stranded
+2026-06-17 18:47:49,380 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:50,593 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/radumarias/rencfs/issues/3 HTTP/1.1" 200 None
+2026-06-17 18:47:50,597 INFO skills.bounty_hunter: Opire: 3 open bounties from 30 total
+2026-06-17 18:47:50,606 INFO skills.bounty_hunter: Opire: found 3 open bounties
+2026-06-17 18:47:50,608 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.bountyhub.dev:443
+2026-06-17 18:47:52,366 DEBUG urllib3.connectionpool: https://api.bountyhub.dev:443 "GET /api/bounties?page=1&limit=100&filters=%7B%22language%22%3A+%22%22%2C+%22repositoryFullName%22%3A+%22%22%2C+%22solved%22%3A+false%7D&sort=%5B%7B%22orderBy%22%3A+%22totalAmount%22%2C+%22order%22%3A+%22desc%22%7D%5D HTTP/1.1" 200 None
+2026-06-17 18:47:53,129 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:54,367 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2994 HTTP/1.1" 200 None
+2026-06-17 18:47:54,370 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:55,640 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2843 HTTP/1.1" 200 None
+2026-06-17 18:47:55,659 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:56,988 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/electron/electron/issues/48191 HTTP/1.1" 200 None
+2026-06-17 18:47:56,991 INFO skills.bounty_hunter: BountyHub: electron/electron#48191 closed, $400 stranded
+2026-06-17 18:47:57,002 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:58,246 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/580 HTTP/1.1" 200 None
+2026-06-17 18:47:58,266 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:47:59,561 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/emersion/hydroxide/issues/207 HTTP/1.1" 200 None
+2026-06-17 18:47:59,570 INFO skills.bounty_hunter: BountyHub: emersion/hydroxide#207 closed, $250 stranded
+2026-06-17 18:47:59,586 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:00,959 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/go-gitea/gitea/issues/24635 HTTP/1.1" 200 None
+2026-06-17 18:48:00,969 INFO skills.bounty_hunter: BountyHub: go-gitea/gitea#24635 closed, $200 stranded
+2026-06-17 18:48:00,984 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:02,243 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/22571 HTTP/1.1" 200 None
+2026-06-17 18:48:02,258 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:03,459 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/31 HTTP/1.1" 200 None
+2026-06-17 18:48:03,466 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:04,757 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/76 HTTP/1.1" 200 None
+2026-06-17 18:48:04,765 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#76 closed, $150 stranded
+2026-06-17 18:48:04,784 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:06,044 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/580 HTTP/1.1" 200 None
+2026-06-17 18:48:06,052 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:07,360 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/moorcheh-ai/memanto/issues/639 HTTP/1.1" 200 None
+2026-06-17 18:48:07,372 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:08,589 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/109 HTTP/1.1" 200 None
+2026-06-17 18:48:08,593 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:09,855 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/16954 HTTP/1.1" 200 None
+2026-06-17 18:48:09,858 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#16954 closed, $100 stranded
+2026-06-17 18:48:09,868 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:11,539 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/115 HTTP/1.1" 200 None
+2026-06-17 18:48:11,541 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#115 closed, $75 stranded
+2026-06-17 18:48:11,552 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:12,788 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/freelensapp/freelens/issues/1280 HTTP/1.1" 200 None
+2026-06-17 18:48:12,792 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:14,040 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/20250 HTTP/1.1" 200 None
+2026-06-17 18:48:14,043 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20250 closed, $50 stranded
+2026-06-17 18:48:14,055 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:15,569 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/20741 HTTP/1.1" 200 None
+2026-06-17 18:48:15,572 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20741 closed, $50 stranded
+2026-06-17 18:48:15,582 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:17,099 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/11462 HTTP/1.1" 200 None
+2026-06-17 18:48:17,102 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#11462 closed, $50 stranded
+2026-06-17 18:48:17,111 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:18,670 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2851 HTTP/1.1" 200 None
+2026-06-17 18:48:18,675 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:20,208 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/30 HTTP/1.1" 200 None
+2026-06-17 18:48:20,215 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:21,540 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/inventree/InvenTree/issues/12064 HTTP/1.1" 200 None
+2026-06-17 18:48:21,551 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:22,852 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/21317 HTTP/1.1" 200 None
+2026-06-17 18:48:22,857 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#21317 closed, $10 stranded
+2026-06-17 18:48:22,871 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:24,168 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/13842 HTTP/1.1" 200 None
+2026-06-17 18:48:24,175 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#13842 closed, $10 stranded
+2026-06-17 18:48:24,189 INFO skills.bounty_hunter: BountyHub: 12 open bounties from 23 total
+2026-06-17 18:48:24,200 INFO skills.bounty_hunter: BountyHub: found 12 open bounties
+2026-06-17 18:48:24,203 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.boss.dev:443
+2026-06-17 18:48:26,006 DEBUG urllib3.connectionpool: https://api.boss.dev:443 "GET /rpc/issues/gh/unsolved HTTP/1.1" 200 None
+2026-06-17 18:48:26,025 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:27,296 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/kistek/boss-demo/issues/3 HTTP/1.1" 200 None
+2026-06-17 18:48:27,303 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:28,612 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper/issues/5 HTTP/1.1" 200 None
+2026-06-17 18:48:28,618 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:29,980 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/spaceandtimefdn/sxt-proof-of-sql/issues/229 HTTP/1.1" 200 None
+2026-06-17 18:48:29,997 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:31,308 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper/issues/10 HTTP/1.1" 200 None
+2026-06-17 18:48:31,316 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:32,639 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Qortal/qortal/issues/122 HTTP/1.1" 200 None
+2026-06-17 18:48:32,649 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:33,881 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jaseg/python-mpv/issues/61 HTTP/1.1" 200 None
+2026-06-17 18:48:33,888 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:35,220 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sveltejs/svelte/issues/1639 HTTP/1.1" 200 None
+2026-06-17 18:48:35,225 INFO skills.bounty_hunter: Boss.dev: sveltejs/svelte#1639 closed, $125 stranded
+2026-06-17 18:48:35,240 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:36,631 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jlord/sheetsee-tables/issues/24 HTTP/1.1" 200 None
+2026-06-17 18:48:36,636 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:38,411 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/OpenSword/OpenIsopix/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:48:38,418 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:39,731 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/allure-framework/allure2/issues/1108 HTTP/1.1" 200 None
+2026-06-17 18:48:39,733 INFO skills.bounty_hunter: Boss.dev: allure-framework/allure2#1108 closed, $100 stranded
+2026-06-17 18:48:39,758 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:47,532 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Alexays/Waybar/issues/3693 HTTP/1.1" 200 None
+2026-06-17 18:48:47,535 INFO skills.bounty_hunter: Boss.dev: 9 open bounties from 12 total
+2026-06-17 18:48:47,539 INFO skills.bounty_hunter: Boss.dev: found 9 open bounties
+2026-06-17 18:48:47,544 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:48,838 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/mmccl5/go-task-task/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:48:48,843 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:50,096 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/rodrigompy/bugb/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:48:50,113 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:51,352 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/uswriting/zeroperl/issues/7 HTTP/1.1" 301 207
+2026-06-17 18:48:51,854 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repositories/910868459/issues/7 HTTP/1.1" 200 None
+2026-06-17 18:48:51,865 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:53,173 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/zed-industries/zed/issues/4642 HTTP/1.1" 200 None
+2026-06-17 18:48:53,182 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:54,487 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/secondlife/viewer/issues/4445 HTTP/1.1" 200 None
+2026-06-17 18:48:54,493 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:55,748 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/433 HTTP/1.1" 200 None
+2026-06-17 18:48:55,751 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:57,109 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Leantime/leantime/issues/1099 HTTP/1.1" 200 None
+2026-06-17 18:48:57,113 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:48:58,471 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/keycloak/keycloak/issues/14644 HTTP/1.1" 200 None
+2026-06-17 18:48:59,604 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:00,893 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/esp-rs/esp-hal/issues/4163 HTTP/1.1" 200 None
+2026-06-17 18:49:00,897 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:02,145 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/337 HTTP/1.1" 200 None
+2026-06-17 18:49:02,148 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:03,393 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/storybookjs/storybook/issues/12641 HTTP/1.1" 200 None
+2026-06-17 18:49:03,400 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:04,646 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/alisteuber4ee1/API-Integration-Pagination/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:49:04,662 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:05,927 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/FalkorDB/FalkorDB/issues/622 HTTP/1.1" 200 None
+2026-06-17 18:49:05,946 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:07,196 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/bogeeee/restfuncs/issues/6 HTTP/1.1" 200 None
+2026-06-17 18:49:07,200 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:08,478 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/formbricks/formbricks/issues/3302 HTTP/1.1" 200 None
+2026-06-17 18:49:08,490 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:09,776 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sebastianbergmann/phpunit/issues/4440 HTTP/1.1" 200 None
+2026-06-17 18:49:09,783 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:11,141 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/ToolJet/ToolJet/issues/6655 HTTP/1.1" 200 None
+2026-06-17 18:49:11,151 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:12,557 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/electron/electron/issues/48191 HTTP/1.1" 200 None
+2026-06-17 18:49:12,560 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:13,833 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/emersion/hydroxide/issues/207 HTTP/1.1" 200 None
+2026-06-17 18:49:13,847 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:15,276 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/go-gitea/gitea/issues/24635 HTTP/1.1" 200 None
+2026-06-17 18:49:15,283 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:22,176 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-17 18:49:22,182 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.opire.dev:443
+2026-06-17 18:49:23,280 DEBUG urllib3.connectionpool: https://api.opire.dev:443 "GET /rewards HTTP/1.1" 200 None
+2026-06-17 18:49:23,928 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:25,226 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/rodrigompy/bugb/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:49:25,229 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5522 stranded
+2026-06-17 18:49:25,238 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-17 18:49:25,238 INFO skills.bounty_hunter: Opire: Donation/funding for german language... skipped (6 claimers)
+2026-06-17 18:49:25,245 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:26,483 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/uswriting/zeroperl/issues/7 HTTP/1.1" 301 207
+2026-06-17 18:49:26,963 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repositories/910868459/issues/7 HTTP/1.1" 200 None
+2026-06-17 18:49:26,976 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-17 18:49:26,984 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (14 claimers)
+2026-06-17 18:49:26,985 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (23 claimers)
+2026-06-17 18:49:26,985 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (12 claimers)
+2026-06-17 18:49:26,994 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:28,274 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/zed-industries/zed/issues/4642 HTTP/1.1" 200 None
+2026-06-17 18:49:28,278 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-17 18:49:28,291 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:29,692 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/secondlife/viewer/issues/4445 HTTP/1.1" 200 None
+2026-06-17 18:49:29,694 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-17 18:49:29,705 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:31,074 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/433 HTTP/1.1" 200 None
+2026-06-17 18:49:31,077 INFO skills.bounty_hunter: Opire: qtop/qtop#433 closed, $220 stranded
+2026-06-17 18:49:31,087 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:32,428 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Leantime/leantime/issues/1099 HTTP/1.1" 200 None
+2026-06-17 18:49:32,432 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-17 18:49:32,443 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:37,658 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/keycloak/keycloak/issues/14644 HTTP/1.1" 200 None
+2026-06-17 18:49:37,661 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-17 18:49:37,672 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:39,035 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/esp-rs/esp-hal/issues/4163 HTTP/1.1" 200 None
+2026-06-17 18:49:39,039 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-17 18:49:39,050 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:40,441 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/337 HTTP/1.1" 200 None
+2026-06-17 18:49:40,450 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-17 18:49:40,465 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:42,045 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/storybookjs/storybook/issues/12641 HTTP/1.1" 200 None
+2026-06-17 18:49:42,054 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-17 18:49:42,071 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:43,689 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/alisteuber4ee1/API-Integration-Pagination/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:49:43,697 INFO skills.bounty_hunter: Opire: alisteuber4ee1/API-Integration-Pagination#1 closed, $100 stranded
+2026-06-17 18:49:43,711 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:45,230 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/FalkorDB/FalkorDB/issues/622 HTTP/1.1" 200 None
+2026-06-17 18:49:45,242 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-17 18:49:45,258 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:46,558 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/go-gitea/gitea/issues/24635 HTTP/1.1" 200 None
+2026-06-17 18:49:46,562 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-17 18:49:46,569 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (11 claimers)
+2026-06-17 18:49:46,569 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-17 18:49:46,574 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:47,864 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/denoland/deno/issues/18147 HTTP/1.1" 200 None
+2026-06-17 18:49:47,872 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:50,574 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/electron/electron/issues/48191 HTTP/1.1" 200 None
+2026-06-17 18:49:50,580 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-17 18:49:50,594 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:51,976 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/bogeeee/restfuncs/issues/6 HTTP/1.1" 200 None
+2026-06-17 18:49:51,980 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-17 18:49:51,992 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:53,324 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/formbricks/formbricks/issues/3302 HTTP/1.1" 200 None
+2026-06-17 18:49:53,327 INFO skills.bounty_hunter: Opire: formbricks/formbricks#3302 closed, $60 stranded
+2026-06-17 18:49:53,340 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:54,592 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2843 HTTP/1.1" 200 None
+2026-06-17 18:49:54,607 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:56,020 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sebastianbergmann/phpunit/issues/4440 HTTP/1.1" 200 None
+2026-06-17 18:49:56,023 INFO skills.bounty_hunter: Opire: sebastianbergmann/phpunit#4440 closed, $50 stranded
+2026-06-17 18:49:56,031 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:57,359 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/ToolJet/ToolJet/issues/6655 HTTP/1.1" 200 None
+2026-06-17 18:49:57,368 INFO skills.bounty_hunter: Opire: ToolJet/ToolJet#6655 closed, $45 stranded
+2026-06-17 18:49:57,390 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:49:58,697 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/radumarias/rencfs/issues/3 HTTP/1.1" 200 None
+2026-06-17 18:49:58,709 INFO skills.bounty_hunter: Opire: 3 open bounties from 30 total
+2026-06-17 18:49:58,725 INFO skills.bounty_hunter: Opire: found 3 open bounties
+2026-06-17 18:49:58,729 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.bountyhub.dev:443
+2026-06-17 18:50:00,240 DEBUG urllib3.connectionpool: https://api.bountyhub.dev:443 "GET /api/bounties?page=1&limit=100&filters=%7B%22language%22%3A+%22%22%2C+%22repositoryFullName%22%3A+%22%22%2C+%22solved%22%3A+false%7D&sort=%5B%7B%22orderBy%22%3A+%22totalAmount%22%2C+%22order%22%3A+%22desc%22%7D%5D HTTP/1.1" 200 None
+2026-06-17 18:50:01,097 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:02,394 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2994 HTTP/1.1" 200 None
+2026-06-17 18:50:02,409 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:03,658 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2843 HTTP/1.1" 200 None
+2026-06-17 18:50:03,662 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:04,997 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/electron/electron/issues/48191 HTTP/1.1" 200 None
+2026-06-17 18:50:05,007 INFO skills.bounty_hunter: BountyHub: electron/electron#48191 closed, $400 stranded
+2026-06-17 18:50:05,016 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:06,243 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/580 HTTP/1.1" 200 None
+2026-06-17 18:50:06,249 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:07,544 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/emersion/hydroxide/issues/207 HTTP/1.1" 200 None
+2026-06-17 18:50:07,546 INFO skills.bounty_hunter: BountyHub: emersion/hydroxide#207 closed, $250 stranded
+2026-06-17 18:50:07,556 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:08,883 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/go-gitea/gitea/issues/24635 HTTP/1.1" 200 None
+2026-06-17 18:50:08,886 INFO skills.bounty_hunter: BountyHub: go-gitea/gitea#24635 closed, $200 stranded
+2026-06-17 18:50:08,895 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:10,145 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/22571 HTTP/1.1" 200 None
+2026-06-17 18:50:10,152 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:11,431 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/31 HTTP/1.1" 200 None
+2026-06-17 18:50:11,438 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:12,736 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/76 HTTP/1.1" 200 None
+2026-06-17 18:50:12,744 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#76 closed, $150 stranded
+2026-06-17 18:50:12,759 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:14,067 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/580 HTTP/1.1" 200 None
+2026-06-17 18:50:14,075 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:15,374 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/moorcheh-ai/memanto/issues/639 HTTP/1.1" 200 None
+2026-06-17 18:50:15,388 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:16,969 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/109 HTTP/1.1" 200 None
+2026-06-17 18:50:16,985 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:18,345 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/16954 HTTP/1.1" 200 None
+2026-06-17 18:50:18,358 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#16954 closed, $100 stranded
+2026-06-17 18:50:18,379 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:19,754 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/115 HTTP/1.1" 200 None
+2026-06-17 18:50:19,757 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#115 closed, $75 stranded
+2026-06-17 18:50:19,767 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:21,127 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/freelensapp/freelens/issues/1280 HTTP/1.1" 200 None
+2026-06-17 18:50:21,139 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:22,584 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/20250 HTTP/1.1" 200 None
+2026-06-17 18:50:22,587 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20250 closed, $50 stranded
+2026-06-17 18:50:22,596 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:23,896 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/20741 HTTP/1.1" 200 None
+2026-06-17 18:50:23,902 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20741 closed, $50 stranded
+2026-06-17 18:50:23,913 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:25,210 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/11462 HTTP/1.1" 200 None
+2026-06-17 18:50:25,218 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#11462 closed, $50 stranded
+2026-06-17 18:50:25,230 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:30,477 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2851 HTTP/1.1" 200 None
+2026-06-17 18:50:30,496 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:31,766 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/30 HTTP/1.1" 200 None
+2026-06-17 18:50:31,771 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:33,109 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/inventree/InvenTree/issues/12064 HTTP/1.1" 200 None
+2026-06-17 18:50:33,117 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:34,408 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/21317 HTTP/1.1" 200 None
+2026-06-17 18:50:34,414 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#21317 closed, $10 stranded
+2026-06-17 18:50:34,423 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:35,688 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/13842 HTTP/1.1" 200 None
+2026-06-17 18:50:35,691 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#13842 closed, $10 stranded
+2026-06-17 18:50:35,700 INFO skills.bounty_hunter: BountyHub: 12 open bounties from 23 total
+2026-06-17 18:50:35,705 INFO skills.bounty_hunter: BountyHub: found 12 open bounties
+2026-06-17 18:50:35,706 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.boss.dev:443
+2026-06-17 18:50:37,196 DEBUG urllib3.connectionpool: https://api.boss.dev:443 "GET /rpc/issues/gh/unsolved HTTP/1.1" 200 None
+2026-06-17 18:50:37,208 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:38,466 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/kistek/boss-demo/issues/3 HTTP/1.1" 200 None
+2026-06-17 18:50:38,481 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:39,798 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper/issues/5 HTTP/1.1" 200 None
+2026-06-17 18:50:39,808 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:41,615 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/spaceandtimefdn/sxt-proof-of-sql/issues/229 HTTP/1.1" 200 None
+2026-06-17 18:50:41,635 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:42,924 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper/issues/10 HTTP/1.1" 200 None
+2026-06-17 18:50:42,937 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:44,216 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Qortal/qortal/issues/122 HTTP/1.1" 200 None
+2026-06-17 18:50:44,227 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:45,504 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jaseg/python-mpv/issues/61 HTTP/1.1" 200 None
+2026-06-17 18:50:45,510 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:46,792 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sveltejs/svelte/issues/1639 HTTP/1.1" 200 None
+2026-06-17 18:50:46,798 INFO skills.bounty_hunter: Boss.dev: sveltejs/svelte#1639 closed, $125 stranded
+2026-06-17 18:50:46,813 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:48,078 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jlord/sheetsee-tables/issues/24 HTTP/1.1" 200 None
+2026-06-17 18:50:48,085 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:49,470 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/OpenSword/OpenIsopix/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:50:49,474 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:50,973 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/allure-framework/allure2/issues/1108 HTTP/1.1" 200 None
+2026-06-17 18:50:50,977 INFO skills.bounty_hunter: Boss.dev: allure-framework/allure2#1108 closed, $100 stranded
+2026-06-17 18:50:50,986 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:52,341 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Alexays/Waybar/issues/3693 HTTP/1.1" 200 None
+2026-06-17 18:50:52,354 INFO skills.bounty_hunter: Boss.dev: 9 open bounties from 12 total
+2026-06-17 18:50:52,366 INFO skills.bounty_hunter: Boss.dev: found 9 open bounties
+2026-06-17 18:50:52,369 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:53,744 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/mmccl5/go-task-task/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:50:53,747 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:55,057 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/rodrigompy/bugb/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:50:55,064 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:56,281 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/uswriting/zeroperl/issues/7 HTTP/1.1" 301 207
+2026-06-17 18:50:56,849 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repositories/910868459/issues/7 HTTP/1.1" 200 None
+2026-06-17 18:50:56,863 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:58,216 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/zed-industries/zed/issues/4642 HTTP/1.1" 200 None
+2026-06-17 18:50:58,221 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:50:59,485 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/secondlife/viewer/issues/4445 HTTP/1.1" 200 None
+2026-06-17 18:50:59,492 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:00,799 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/433 HTTP/1.1" 200 None
+2026-06-17 18:51:00,807 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:02,067 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Leantime/leantime/issues/1099 HTTP/1.1" 200 None
+2026-06-17 18:51:02,081 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:03,423 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/keycloak/keycloak/issues/14644 HTTP/1.1" 200 None
+2026-06-17 18:51:03,432 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:04,734 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/esp-rs/esp-hal/issues/4163 HTTP/1.1" 200 None
+2026-06-17 18:51:04,749 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:06,100 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/337 HTTP/1.1" 200 None
+2026-06-17 18:51:06,108 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:07,465 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/storybookjs/storybook/issues/12641 HTTP/1.1" 200 None
+2026-06-17 18:51:07,483 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:12,594 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/alisteuber4ee1/API-Integration-Pagination/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:51:12,600 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:13,952 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/FalkorDB/FalkorDB/issues/622 HTTP/1.1" 200 None
+2026-06-17 18:51:13,966 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:15,198 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/bogeeee/restfuncs/issues/6 HTTP/1.1" 200 None
+2026-06-17 18:51:15,202 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:16,544 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/formbricks/formbricks/issues/3302 HTTP/1.1" 200 None
+2026-06-17 18:51:16,548 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:17,769 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sebastianbergmann/phpunit/issues/4440 HTTP/1.1" 200 None
+2026-06-17 18:51:17,774 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:19,094 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/ToolJet/ToolJet/issues/6655 HTTP/1.1" 200 None
+2026-06-17 18:51:19,098 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:20,627 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/electron/electron/issues/48191 HTTP/1.1" 200 None
+2026-06-17 18:51:20,630 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:21,917 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/emersion/hydroxide/issues/207 HTTP/1.1" 200 None
+2026-06-17 18:51:21,928 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:23,260 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/go-gitea/gitea/issues/24635 HTTP/1.1" 200 None
+2026-06-17 18:51:24,435 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:25,756 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/76 HTTP/1.1" 200 None
+2026-06-17 18:51:25,762 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:27,092 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/16954 HTTP/1.1" 200 None
+2026-06-17 18:51:27,096 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:28,423 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/115 HTTP/1.1" 200 None
+2026-06-17 18:51:28,436 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:29,804 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/20250 HTTP/1.1" 200 None
+2026-06-17 18:51:29,815 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:31,159 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/20741 HTTP/1.1" 200 None
+2026-06-17 18:51:31,176 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:32,519 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/11462 HTTP/1.1" 200 None
+2026-06-17 18:51:32,538 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:33,845 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/21317 HTTP/1.1" 200 None
+2026-06-17 18:51:33,851 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:35,130 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/13842 HTTP/1.1" 200 None
+2026-06-17 18:51:35,133 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:36,423 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sveltejs/svelte/issues/1639 HTTP/1.1" 200 None
+2026-06-17 18:51:36,430 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:37,861 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/allure-framework/allure2/issues/1108 HTTP/1.1" 200 None
+2026-06-17 18:51:37,868 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:39,308 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/denoland/deno HTTP/1.1" 200 None
+2026-06-17 18:51:39,310 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:40,648 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/denoland/deno/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:51:40,676 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:42,063 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:51:42,064 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:43,460 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:51:43,474 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:44,854 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/radumarias/rencfs HTTP/1.1" 200 None
+2026-06-17 18:51:44,858 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:46,236 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/radumarias/rencfs/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:51:46,260 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:47,634 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:51:47,638 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:48,980 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:51:49,000 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:50,663 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:51:50,666 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:52,002 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:51:52,010 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:53,305 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:51:53,307 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:54,746 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:51:54,756 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:56,080 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk HTTP/1.1" 200 None
+2026-06-17 18:51:56,082 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:57,444 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:51:57,659 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:51:58,973 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg HTTP/1.1" 200 None
+2026-06-17 18:51:58,978 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:00,331 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:00,425 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:01,766 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:52:01,771 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:03,127 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:03,140 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:04,496 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/moorcheh-ai/memanto HTTP/1.1" 200 None
+2026-06-17 18:52:04,498 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:05,862 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/moorcheh-ai/memanto/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:05,885 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:07,249 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg HTTP/1.1" 200 None
+2026-06-17 18:52:07,260 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:08,604 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:08,683 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:10,026 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/freelensapp/freelens HTTP/1.1" 200 None
+2026-06-17 18:52:10,028 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:11,349 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/freelensapp/freelens/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:11,363 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:12,585 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:52:12,587 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:13,856 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:13,867 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:15,204 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg HTTP/1.1" 200 None
+2026-06-17 18:52:15,207 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:16,561 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:16,785 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:18,137 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/inventree/InvenTree HTTP/1.1" 200 None
+2026-06-17 18:52:18,142 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:19,509 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/inventree/InvenTree/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:19,525 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:20,822 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/kistek/boss-demo HTTP/1.1" 200 None
+2026-06-17 18:52:20,829 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:22,189 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/kistek/boss-demo/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:22,215 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:23,911 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper HTTP/1.1" 200 None
+2026-06-17 18:52:23,918 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:25,243 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:25,267 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:26,694 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/spaceandtimefdn/sxt-proof-of-sql HTTP/1.1" 200 None
+2026-06-17 18:52:26,696 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:28,520 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/spaceandtimefdn/sxt-proof-of-sql/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:28,743 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:29,998 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper HTTP/1.1" 200 None
+2026-06-17 18:52:30,002 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:31,333 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:31,357 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:32,753 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Qortal/qortal HTTP/1.1" 200 None
+2026-06-17 18:52:32,758 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:34,539 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Qortal/qortal/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:34,558 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:35,850 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jaseg/python-mpv HTTP/1.1" 200 None
+2026-06-17 18:52:35,854 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:37,144 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jaseg/python-mpv/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:37,163 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:38,488 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jlord/sheetsee-tables HTTP/1.1" 200 None
+2026-06-17 18:52:38,498 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:39,814 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jlord/sheetsee-tables/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:39,850 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:41,177 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/OpenSword/OpenIsopix HTTP/1.1" 200 None
+2026-06-17 18:52:41,187 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:42,554 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/OpenSword/OpenIsopix/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:42,575 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:43,878 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Alexays/Waybar HTTP/1.1" 200 None
+2026-06-17 18:52:43,888 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:52:45,237 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Alexays/Waybar/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:52:49,226 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-03613f86-f39c-45df-b6d9-af0a0051e98b', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: denoland/deno\nTitle: feat: view test coverage in editor\nLabels: [\'feat\', \'lsp\', \'testing\']\nBody: Deno\r\n- can run tests.\r\n- can generate test coverage reports.\r\n- has an an editor integration (LSP).\r\n\r\nIt would be amazing if VSCode would **display the test coverage right inside the editor**.\r\n\r\nThe line coverage results are very useful when writing tests because they let me easily see which case are covered by tests and which ones are not. However, every time I add a test to cover some more code, I need to run `deno test` and `deno coverage` and then reload my browser window.\r\n\r\nI am aware that there are third-party tools that should be able to consume the LCOV output and do this, but I would prefer if it would “just work” without any additional configuration.\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:52:49,432 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:52:49,433 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=30.0 socket_options=None
+2026-06-17 18:52:49,607 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002220FDFECF0>
+2026-06-17 18:52:49,608 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002220F230F50> server_hostname='integrate.api.nvidia.com' timeout=30.0
+2026-06-17 18:52:49,912 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002220FCABB10>
+2026-06-17 18:52:49,914 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:52:49,916 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:52:49,917 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:52:49,920 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:52:49,921 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:53:11,404 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:53:20 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'3817'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'6cf41ed1-ac39-4f43-ad6d-febc0946041f'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:53:11,408 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:53:11,409 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:53:11,411 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:53:11,412 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:53:11,413 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:53:11,414 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:53:20 GMT', 'content-type': 'application/json', 'content-length': '3817', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '6cf41ed1-ac39-4f43-ad6d-febc0946041f', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:53:11,415 DEBUG openai._base_client: request_id: None
+2026-06-17 18:53:11,456 INFO skills.bounty_hunter: Skipping denoland/deno#18147: clarity=9, solvability=7, scope=3 - Scope exceeds 2 hours; implementing coverage display requires LSP server changes
+2026-06-17 18:53:12,170 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-1bddeec5-db49-4427-804e-0cc396a27d2e', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: microg/GmsCore\nTitle: [BOUNTY] WearOS Support [$1340]\nLabels: [\'enhancement\', \'bounty\']\nBody: [**BOUNTY CURRENTLY AT $450**](https://www.bountyhub.dev/en/bounty/view/27a47575-ef9f-49d3-9685-c056d6825f9d) and already the biggest listing on BountyHub by far.\n\n**Is your feature request related to a problem? Please describe.**\n\nWearOS devices do not work with MicroG\n\n**Describe the solution you\'d like**\n\nMicroG framework needed to pair modern, current-gen WearOS devices and get basic functionality - echo phone notifications, provide media controls, run WearOS apps, etc.\n\n**Additional context**\n\nThere has been an issue open for over ten years regarding [MicroG support for WearOS](https://github.com/microg/GmsCore/issues/4#issuecomment-2581553597).  That issue and another [more recent post](https://github.com/microg/GmsCore/issues/2444#issuecomment-2691206945) have inspired some folks to post bounties for this feature, but it\'s buried so far down in the thread it\'s easy to miss.\n\nI personally am posting a $200 bounty for the MicroG framework needed to pair modern, current-gen WearOS devices and get basic functionality - echo phone notifications, provide media controls, run WearOS apps, etc.\n\nHere are the folks who\'ve posted bounties in those threads.  I\'ll invite them to post again here confirming that their offers still stand, but all told, this adds up to over $500 already.\n\n@HyperCriSiS ~~- $100~~\n@realPrix ~~- $100~~\n@NullCode1337 ~~- $50~~\n@TobiPeterG ~~- $100~~\n@doctorgaul ~~- $200~~\n\n*Edit - Amounts now being tracked on the [BountyHub page](https://www.bountyhub.dev/en/bounty/view/27a47575-ef9f-49d3-9685-c056d6825f9d).\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:53:12,171 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:53:12,172 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=30.0 socket_options=None
+2026-06-17 18:53:12,184 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000022210101BD0>
+2026-06-17 18:53:12,184 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002220FE334D0> server_hostname='integrate.api.nvidia.com' timeout=30.0
+2026-06-17 18:53:12,479 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002220FE01CD0>
+2026-06-17 18:53:12,479 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:53:12,480 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:53:12,480 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:53:12,481 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:53:12,481 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:53:24,748 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:53:33 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2895'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'9bfa647b-fae5-4e2f-8677-21f1a12a1a79'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:53:24,749 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:53:24,749 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:53:24,750 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:53:24,750 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:53:24,751 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:53:24,751 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:53:33 GMT', 'content-type': 'application/json', 'content-length': '2895', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '9bfa647b-fae5-4e2f-8677-21f1a12a1a79', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:53:24,751 DEBUG openai._base_client: request_id: None
+2026-06-17 18:53:24,762 INFO skills.bounty_hunter: Skipping microg/GmsCore#2843: clarity=5, solvability=3, scope=2 - The request is high‑level and lacks specific API or protocol details, making it 
+2026-06-17 18:53:25,414 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-1909964c-5528-4163-aa26-e2ead0d83cf2', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: radumarias/rencfs\nTitle: docs: add Windows support implementation research\nLabels: []\nBody: ## Description\n\nAdds a detailed Windows support research note for the native implementation path.\n\nThis is intentionally framed as research, not a claim that rencfs mounts on Windows today. It documents:\n\n- recommended WinFsp backend and alternatives considered;\n- WinFsp licensing/attribution checkpoint for an `MIT OR Apache-2.0` project;\n- Windows-only dependency and delay-load build shape;\n- proposed `src/mount/windows.rs` architecture around the existing `EncryptedFs` layer;\n- operation mapping from WinFsp callbacks to rencfs methods;\n- Windows metadata decisions and unsupported NTFS features for the first milestone;\n- build/CI plan and a manual smoke test for a Windows host with WinFsp installed;\n- acceptance criteria for a truthful first implementation PR.\n\nRelated to the Windows support bounty/research request (`research implementation for Windows`, Opire listing for #3).\n\n---\n\n## Type of change\n\n- [ ] Bug fix (non-breaking change which fixes an issue)\n- [ ] New feature (non-breaking change which adds functionality)\n- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)\n- [x] Documentation update\n\n---\n\n## Checklist:\n\n- [x] I have performed a self-review of my code\n- [ ] I have tested my code on different platforms (if applicable)\n- [x] I have commented my code, particularly in hard-to-understand areas\n- [x] I have added necessary documentation (if appropriate)\n- [x] My changes generate no new warnings\n- [ ] I have added tests that prove my fix is effective or that my feature works\n- [x] New and existing unit tests pass locally with my changes\n\n---\n\n## Verification\n\n- `cargo check` passes locally on macOS/aarch64.\n- I did not install Windows or claim Windows runtime validation. The PR adds a Windows smoke-test checklist for the next implementation step.\n\n---\n\n## AI disclosure\n\nAI-assisted contribution by QuarkAssistant using GPT/Codex tooling. Human-authored repository context and public documentation were reviewe\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:53:25,415 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:53:25,416 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=30.0 socket_options=None
+2026-06-17 18:53:25,435 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002220FE023F0>
+2026-06-17 18:53:25,435 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002220FE33A10> server_hostname='integrate.api.nvidia.com' timeout=30.0
+2026-06-17 18:53:25,726 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002220FE15A30>
+2026-06-17 18:53:25,726 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:53:25,728 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:53:25,728 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:53:25,729 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:53:25,729 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:53:55,408 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:54:04 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'4685'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'50d1e18a-2984-4876-b6ab-a2f5f2313568'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:53:55,409 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:53:55,409 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:53:55,410 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:53:55,410 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:53:55,410 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:53:55,410 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:54:04 GMT', 'content-type': 'application/json', 'content-length': '4685', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '50d1e18a-2984-4876-b6ab-a2f5f2313568', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:53:55,410 DEBUG openai._base_client: request_id: None
+2026-06-17 18:53:56,078 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-38b57d61-79e7-47df-b3b9-8e929f2d516c', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: radumarias/rencfs\nTitle: docs: add Windows support implementation research\nLabels: []\nBody: ## Description\n\nAdds a detailed Windows support research note for the native implementation path.\n\nThis is intentionally framed as research, not a claim that rencfs mounts on Windows today. It documents:\n\n- recommended WinFsp backend and alternatives considered;\n- WinFsp licensing/attribution checkpoint for an `MIT OR Apache-2.0` project;\n- Windows-only dependency and delay-load build shape;\n- proposed `src/mount/windows.rs` architecture around the existing `EncryptedFs` layer;\n- operation mapping from WinFsp callbacks to rencfs methods;\n- Windows metadata decisions and unsupported NTFS features for the first milestone;\n- build/CI plan and a manual smoke test for a Windows host with WinFsp installed;\n- acceptance criteria for a truthful first implementation PR.\n\nRelated to the Windows support bounty/research request (`research implementation for Windows`, Opire listing for #3).\n\n---\n\n## Type of change\n\n- [ ] Bug fix (non-breaking change which fixes an issue)\n- [ ] New feature (non-breaking change which adds functionality)\n- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)\n- [x] Documentation update\n\n---\n\n## Checklist:\n\n- [x] I have performed a self-review of my code\n- [ ] I have tested my code on different platforms (if applicable)\n- [x] I have commented my code, particularly in hard-to-understand areas\n- [x] I have added necessary documentation (if appropriate)\n- [x] My changes generate no new warnings\n- [ ] I have added tests that prove my fix is effective or that my feature works\n- [x] New and existing unit tests pass locally with my changes\n\n---\n\n## Verification\n\n- `cargo check` passes locally on macOS/aarch64.\n- I did not install Windows or claim Windows runtime validation. The PR adds a Windows smoke-test checklist for the next implementation step.\n\n---\n\n## AI disclosure\n\nAI-assisted contribution by QuarkAssistant using GPT/Codex tooling. Human-authored repository context and public documentation were reviewe\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'deepseek-ai/deepseek-v4-flash', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:53:56,078 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:53:56,079 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=30.0 socket_options=None
+2026-06-17 18:53:56,083 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222100C6690>
+2026-06-17 18:53:56,083 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002220FE33F50> server_hostname='integrate.api.nvidia.com' timeout=30.0
+2026-06-17 18:53:56,390 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222100C67A0>
+2026-06-17 18:53:56,391 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:53:56,392 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:53:56,393 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:53:56,394 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:53:56,394 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:53:56,583 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Wed, 17 Jun 2026 15:54:05 GMT'), (b'Content-Type', b'application/problem+json'), (b'Content-Length', b'42'), (b'Connection', b'keep-alive'), (b'Vary', b'Origin')])
+2026-06-17 18:53:56,583 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-17 18:53:56,584 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:53:56,584 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:53:56,585 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:53:56,586 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:53:56,586 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Wed, 17 Jun 2026 15:54:05 GMT', 'content-type': 'application/problem+json', 'content-length': '42', 'connection': 'keep-alive', 'vary': 'Origin'})
+2026-06-17 18:53:56,587 DEBUG openai._base_client: request_id: None
+2026-06-17 18:53:56,587 DEBUG openai._base_client: Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_base_client.py", line 1085, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://integrate.api.nvidia.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-06-17 18:53:56,592 DEBUG openai._base_client: Re-raising status error
+2026-06-17 18:53:56,592 WARNING agent.ai_chain: NVIDIA rate limited (attempt 1), retrying in 10s...
+2026-06-17 18:54:07,285 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-9a0b35bc-457b-4e3a-99b4-665b17224d31', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: radumarias/rencfs\nTitle: docs: add Windows support implementation research\nLabels: []\nBody: ## Description\n\nAdds a detailed Windows support research note for the native implementation path.\n\nThis is intentionally framed as research, not a claim that rencfs mounts on Windows today. It documents:\n\n- recommended WinFsp backend and alternatives considered;\n- WinFsp licensing/attribution checkpoint for an `MIT OR Apache-2.0` project;\n- Windows-only dependency and delay-load build shape;\n- proposed `src/mount/windows.rs` architecture around the existing `EncryptedFs` layer;\n- operation mapping from WinFsp callbacks to rencfs methods;\n- Windows metadata decisions and unsupported NTFS features for the first milestone;\n- build/CI plan and a manual smoke test for a Windows host with WinFsp installed;\n- acceptance criteria for a truthful first implementation PR.\n\nRelated to the Windows support bounty/research request (`research implementation for Windows`, Opire listing for #3).\n\n---\n\n## Type of change\n\n- [ ] Bug fix (non-breaking change which fixes an issue)\n- [ ] New feature (non-breaking change which adds functionality)\n- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)\n- [x] Documentation update\n\n---\n\n## Checklist:\n\n- [x] I have performed a self-review of my code\n- [ ] I have tested my code on different platforms (if applicable)\n- [x] I have commented my code, particularly in hard-to-understand areas\n- [x] I have added necessary documentation (if appropriate)\n- [x] My changes generate no new warnings\n- [ ] I have added tests that prove my fix is effective or that my feature works\n- [x] New and existing unit tests pass locally with my changes\n\n---\n\n## Verification\n\n- `cargo check` passes locally on macOS/aarch64.\n- I did not install Windows or claim Windows runtime validation. The PR adds a Windows smoke-test checklist for the next implementation step.\n\n---\n\n## AI disclosure\n\nAI-assisted contribution by QuarkAssistant using GPT/Codex tooling. Human-authored repository context and public documentation were reviewe\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'deepseek-ai/deepseek-v4-flash', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:54:07,287 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:54:07,287 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=30.0 socket_options=None
+2026-06-17 18:54:07,320 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000022210178050>
+2026-06-17 18:54:07,321 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000022210128350> server_hostname='integrate.api.nvidia.com' timeout=30.0
+2026-06-17 18:54:07,672 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000022210178150>
+2026-06-17 18:54:07,672 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:54:07,675 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:54:07,675 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:54:07,676 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:54:07,676 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:54:07,869 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Wed, 17 Jun 2026 15:54:16 GMT'), (b'Content-Type', b'application/problem+json'), (b'Content-Length', b'42'), (b'Connection', b'keep-alive'), (b'Vary', b'Origin')])
+2026-06-17 18:54:07,870 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-17 18:54:07,870 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:54:07,871 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:54:07,871 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:54:07,871 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:54:07,871 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Wed, 17 Jun 2026 15:54:16 GMT', 'content-type': 'application/problem+json', 'content-length': '42', 'connection': 'keep-alive', 'vary': 'Origin'})
+2026-06-17 18:54:07,871 DEBUG openai._base_client: request_id: None
+2026-06-17 18:54:07,872 DEBUG openai._base_client: Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_base_client.py", line 1085, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://integrate.api.nvidia.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-06-17 18:54:07,873 DEBUG openai._base_client: Re-raising status error
+2026-06-17 18:54:07,873 WARNING agent.ai_chain: NVIDIA rate limited (attempt 2), retrying in 20s...
+2026-06-17 18:55:13,810 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-17 18:55:13,829 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.opire.dev:443
+2026-06-17 18:55:16,055 DEBUG urllib3.connectionpool: https://api.opire.dev:443 "GET /rewards HTTP/1.1" 200 None
+2026-06-17 18:55:16,343 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:18,380 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/rodrigompy/bugb/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:55:18,383 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5522 stranded
+2026-06-17 18:55:18,394 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-17 18:55:18,395 INFO skills.bounty_hunter: Opire: Donation/funding for german language... skipped (6 claimers)
+2026-06-17 18:55:18,410 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:20,002 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/uswriting/zeroperl/issues/7 HTTP/1.1" 301 207
+2026-06-17 18:55:20,462 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repositories/910868459/issues/7 HTTP/1.1" 200 None
+2026-06-17 18:55:20,467 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-17 18:55:20,476 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (14 claimers)
+2026-06-17 18:55:20,476 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (23 claimers)
+2026-06-17 18:55:20,477 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (12 claimers)
+2026-06-17 18:55:20,497 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:21,988 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/zed-industries/zed/issues/4642 HTTP/1.1" 200 None
+2026-06-17 18:55:21,997 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-17 18:55:22,029 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:23,573 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/secondlife/viewer/issues/4445 HTTP/1.1" 200 None
+2026-06-17 18:55:23,581 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-17 18:55:23,604 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:25,157 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/433 HTTP/1.1" 200 None
+2026-06-17 18:55:25,165 INFO skills.bounty_hunter: Opire: qtop/qtop#433 closed, $220 stranded
+2026-06-17 18:55:25,193 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:26,727 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Leantime/leantime/issues/1099 HTTP/1.1" 200 None
+2026-06-17 18:55:26,733 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-17 18:55:26,748 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:28,234 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/keycloak/keycloak/issues/14644 HTTP/1.1" 200 None
+2026-06-17 18:55:28,242 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-17 18:55:28,266 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:30,129 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/esp-rs/esp-hal/issues/4163 HTTP/1.1" 200 None
+2026-06-17 18:55:30,138 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-17 18:55:30,164 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:31,911 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/337 HTTP/1.1" 200 None
+2026-06-17 18:55:31,917 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-17 18:55:31,944 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:33,406 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/storybookjs/storybook/issues/12641 HTTP/1.1" 200 None
+2026-06-17 18:55:33,415 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-17 18:55:33,438 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:35,698 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/alisteuber4ee1/API-Integration-Pagination/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:55:35,768 INFO skills.bounty_hunter: Opire: alisteuber4ee1/API-Integration-Pagination#1 closed, $100 stranded
+2026-06-17 18:55:35,792 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:39,488 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/FalkorDB/FalkorDB/issues/622 HTTP/1.1" 200 None
+2026-06-17 18:55:39,495 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-17 18:55:39,520 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:40,940 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/go-gitea/gitea/issues/24635 HTTP/1.1" 200 None
+2026-06-17 18:55:40,950 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-17 18:55:40,967 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (11 claimers)
+2026-06-17 18:55:40,968 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-17 18:55:40,982 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:42,629 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/denoland/deno/issues/18147 HTTP/1.1" 200 None
+2026-06-17 18:55:42,649 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:44,916 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/electron/electron/issues/48191 HTTP/1.1" 200 None
+2026-06-17 18:55:44,929 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-17 18:55:44,961 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:55:47,330 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/bogeeee/restfuncs/issues/6 HTTP/1.1" 200 None
+2026-06-17 18:55:47,339 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-17 18:55:47,365 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443

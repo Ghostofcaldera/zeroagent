@@ -1,0 +1,175 @@
+2026-06-17 17:00:15,046 INFO ZeroAgent: === Cycle start 2026-06-17T14:00:15.046220+00:00 ===
+2026-06-17 17:00:15,058 INFO ZeroAgent: --- Running vehicle: content_affiliate ---
+2026-06-17 17:00:15,666 INFO skills.content_affiliate: Content affiliate cycle starting...
+2026-06-17 17:00:52,546 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:00:52,637 INFO skills.content_affiliate: Writing article: Developer take on: Sixty percent of US consumers say 'AI' in brand messaging is a turnoff
+2026-06-17 17:01:06,927 WARNING agent.ai_chain: Groq (llama-3.1-8b-instant) failed: 'GROQ_API_KEY'
+2026-06-17 17:01:10,428 WARNING agent.ai_chain: Gemini failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 40.71049367s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2026-06-17 17:01:12,548 INFO httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-06-17 17:01:12,551 WARNING agent.ai_chain: OpenAI failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-TPqyL*******************************************************rWyn. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-06-17 17:02:02,718 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:02:05,963 INFO skills.content_affiliate: Published: https://dev.to/kelvin_kariuki_20f4bec616/developer-take-why-ai-in-brand-messaging-is-losing-consumers-and-what-we-can-do-about-it-52lk
+2026-06-17 17:02:06,000 INFO ZeroAgent: content_affiliate result: {'success': True, 'title': 'Developer Take: Why "AI" in Brand Messaging is Losing Consumers (And What We Can Do About It)', 'url': 'https://dev.to/kelvin_kariuki_20f4bec616/developer-take-why-ai-in-brand-messaging-is-losing-consumers-and-what-we-can-do-about-it-52lk', 'tags': ['webdev', 'programming', 'productivity', 'tutorial']}
+2026-06-17 17:02:06,001 INFO ZeroAgent: --- Running vehicle: bounty_hunting ---
+2026-06-17 17:02:06,019 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-17 17:02:10,609 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5472 stranded
+2026-06-17 17:02:10,620 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-17 17:02:10,620 INFO skills.bounty_hunter: Opire: Donation/funding for german language... skipped (6 claimers)
+2026-06-17 17:02:12,639 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-17 17:02:12,649 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (14 claimers)
+2026-06-17 17:02:12,650 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (23 claimers)
+2026-06-17 17:02:12,650 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (12 claimers)
+2026-06-17 17:02:14,902 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-17 17:02:17,907 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-17 17:02:19,646 INFO skills.bounty_hunter: Opire: qtop/qtop#433 closed, $220 stranded
+2026-06-17 17:02:21,047 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-17 17:02:22,588 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-17 17:02:24,170 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-17 17:02:25,735 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-17 17:02:27,400 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-17 17:02:28,939 INFO skills.bounty_hunter: Opire: alisteuber4ee1/API-Integration-Pagination#1 closed, $100 stranded
+2026-06-17 17:02:30,498 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-17 17:02:32,067 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-17 17:02:32,078 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (11 claimers)
+2026-06-17 17:02:32,078 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-17 17:02:33,693 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-17 17:02:37,127 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-17 17:02:38,865 INFO skills.bounty_hunter: Opire: formbricks/formbricks#3302 closed, $60 stranded
+2026-06-17 17:02:42,039 INFO skills.bounty_hunter: Opire: sebastianbergmann/phpunit#4440 closed, $50 stranded
+2026-06-17 17:02:43,639 INFO skills.bounty_hunter: Opire: ToolJet/ToolJet#6655 closed, $45 stranded
+2026-06-17 17:02:45,297 INFO skills.bounty_hunter: Opire: 3 open bounties from 30 total
+2026-06-17 17:02:45,305 INFO skills.bounty_hunter: Opire: found 3 open bounties
+2026-06-17 17:02:55,351 INFO skills.bounty_hunter: BountyHub: electron/electron#48191 closed, $400 stranded
+2026-06-17 17:02:58,934 INFO skills.bounty_hunter: BountyHub: emersion/hydroxide#207 closed, $250 stranded
+2026-06-17 17:03:00,891 INFO skills.bounty_hunter: BountyHub: go-gitea/gitea#24635 closed, $200 stranded
+2026-06-17 17:03:11,432 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#76 closed, $150 stranded
+2026-06-17 17:03:19,927 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#16954 closed, $100 stranded
+2026-06-17 17:03:30,064 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#115 closed, $75 stranded
+2026-06-17 17:03:38,865 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20250 closed, $50 stranded
+2026-06-17 17:03:40,706 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20741 closed, $50 stranded
+2026-06-17 17:03:42,678 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#11462 closed, $50 stranded
+2026-06-17 17:03:52,044 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#21317 closed, $10 stranded
+2026-06-17 17:03:53,606 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#13842 closed, $10 stranded
+2026-06-17 17:03:53,617 INFO skills.bounty_hunter: BountyHub: 12 open bounties from 23 total
+2026-06-17 17:03:53,630 INFO skills.bounty_hunter: BountyHub: found 12 open bounties
+2026-06-17 17:04:18,674 INFO skills.bounty_hunter: Boss.dev: sveltejs/svelte#1639 closed, $125 stranded
+2026-06-17 17:04:25,868 INFO skills.bounty_hunter: Boss.dev: allure-framework/allure2#1108 closed, $100 stranded
+2026-06-17 17:04:27,507 INFO skills.bounty_hunter: Boss.dev: 9 open bounties from 12 total
+2026-06-17 17:04:27,518 INFO skills.bounty_hunter: Boss.dev: found 9 open bounties
+2026-06-17 17:07:23,115 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:07:23,130 INFO skills.bounty_hunter: Skipping denoland/deno#18147: clarity=9, solvability=8, scope=4 - While the requirement is clear and the core mechanism (LSP decorations) is imple
+2026-06-17 17:07:36,906 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:07:36,930 INFO skills.bounty_hunter: Skipping microg/GmsCore#2843: clarity=6, solvability=2, scope=1 - The request is broad and lacks specific API details; adding WearOS support would
+2026-06-17 17:07:54,790 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:07:54,809 INFO skills.bounty_hunter: Skipping radumarias/rencfs#3: clarity=8, solvability=5, scope=4 - The task involves research and writing a comprehensive note, which requires desi
+2026-06-17 17:08:11,544 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:08:19,431 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:08:19,453 INFO skills.bounty_hunter: Skipping microg/GmsCore#2994: clarity=8, solvability=6, scope=3 - The requirement is fairly clear about the goal (enable RCS in Google Messages wi
+2026-06-17 17:08:42,919 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:08:42,939 INFO skills.bounty_hunter: Skipping microg/GmsCore#2843: clarity=5, solvability=3, scope=2 - The request is high‑level and lacks concrete technical specifications (e.g., whi
+2026-06-17 17:09:19,346 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:09:19,368 INFO skills.bounty_hunter: Skipping microg/GmsCore#580: clarity=2, solvability=1, scope=1 - The issue is a request for status information rather than a concrete bug or feat
+2026-06-17 17:09:44,686 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:09:44,705 INFO skills.bounty_hunter: Skipping azerothcore/azerothcore-wotlk#22571: clarity=7, solvability=2, scope=1 - The request lacks detailed design specifics and requires significant architectur
+2026-06-17 17:10:01,492 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:10:01,511 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#31: clarity=3, solvability=2, scope=4 - The issue lacks specific details about which Chomp/Vorestation features need to 
+2026-06-17 17:10:18,021 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:10:18,046 INFO skills.bounty_hunter: Skipping microg/GmsCore#580: clarity=2, solvability=1, scope=1 - The issue is merely asking for an update on the status of Google Cast implementa
+2026-06-17 17:10:38,237 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:10:38,257 INFO skills.bounty_hunter: Skipping moorcheh-ai/memanto#639: clarity=3, solvability=2, scope=2 - The issue description is garbled and unclear about what specific benchmarking or
+2026-06-17 17:10:53,646 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:10:53,940 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#109: clarity=6, solvability=2, scope=3 - The bounty requires creating or improving pixel art sprites for various genital 
+2026-06-17 17:11:16,719 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:11:16,740 INFO skills.bounty_hunter: Skipping freelensapp/freelens#1280: clarity=5, solvability=4, scope=3 - The request lacks specific details about where and how theme colors should be ed
+2026-06-17 17:11:29,214 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:11:29,235 INFO skills.bounty_hunter: Skipping microg/GmsCore#2851: clarity=6, solvability=4, scope=3 - The issue requires architectural decisions (server design, handling multi‑step a
+2026-06-17 17:11:52,483 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:11:52,505 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#30: clarity=3, solvability=4, scope=3 - The issue lacks specific details about the mobs' behavior, assets, and how they 
+2026-06-17 17:12:03,064 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:12:03,081 INFO skills.bounty_hunter: Skipping inventree/InvenTree#12064: clarity=6, solvability=4, scope=3 - The request lacks detailed specifications (e.g., statuses, workflows, permission
+2026-06-17 17:12:10,642 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:12:10,662 INFO skills.bounty_hunter: Skipping kistek/boss-demo#3: clarity=2, solvability=2, scope=3 - The issue description is nonsensical and lacks any concrete requirement or expec
+2026-06-17 17:12:25,705 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:12:25,727 INFO skills.bounty_hunter: Skipping jbilcke-hf/clapper#5: clarity=5, solvability=4, scope=2 - The issue lacks specific UI/UX details and requires design decisions beyond pure
+2026-06-17 17:13:00,252 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:13:00,271 INFO skills.bounty_hunter: Skipping spaceandtimefdn/sxt-proof-of-sql#229: clarity=8, solvability=6, scope=5 - The issue leaves open design choices for Column/OwnedColumn variants and involve
+2026-06-17 17:13:11,155 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:13:11,174 INFO skills.bounty_hunter: Skipping jbilcke-hf/clapper#10: clarity=8, solvability=7, scope=5 - While the requirements are clear and implementable with code, the feature involv
+2026-06-17 17:13:17,610 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:13:17,629 INFO skills.bounty_hunter: Skipping Qortal/qortal#122: clarity=2, solvability=3, scope=2 - The issue is a high‑level call for scalability and performance improvements with
+2026-06-17 17:13:40,611 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:13:44,968 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:13:44,990 INFO skills.bounty_hunter: Skipping jaseg/python-mpv#61: clarity=8, solvability=6, scope=5 - The issue is clear in describing the symptom (stuck on threading primitives on m
+2026-06-17 17:13:58,119 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:14:07,272 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:14:07,293 INFO skills.bounty_hunter: Skipping jlord/sheetsee-tables#24: clarity=3, solvability=2, scope=1 - The issue is vague: it reports that demo examples don't work but provides no spe
+2026-06-17 17:14:29,594 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:14:29,614 INFO skills.bounty_hunter: Skipping OpenSword/OpenIsopix#1: clarity=3, solvability=2, scope=2 - The issue lacks specificity about what the README's goal list entails, requires 
+2026-06-17 17:14:44,446 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:14:44,465 INFO skills.bounty_hunter: Candidate: Alexays/Waybar#3693 $50.0 | clarity=9 solvability=9 scope=8 | EV=$43
+2026-06-17 17:14:44,466 INFO skills.bounty_hunter: Best candidate: Alexays/Waybar#3693 from Boss.dev $50.0 (EV=$43)
+2026-06-17 17:14:44,466 INFO skills.bounty_hunter: Target: Alexays/Waybar#3693: (hyprland/language) [Feature request] Tooltip on the module (Boss.dev $50.0)
+2026-06-17 17:14:48,553 INFO skills.bounty_hunter: Intent comment posted: True
+2026-06-17 17:14:48,554 INFO skills.bounty_hunter: MASAI: attempting fix for $50.0 bounty at Alexays/Waybar#3693
+2026-06-17 17:14:53,524 INFO skills.bounty_hunter: MASAI: using 3-phase solver for $50.0 bounty
+2026-06-17 17:14:53,525 INFO agent.masai_solver: MASAI: solving '(hyprland/language) [Feature request] Tooltip on the module...'
+2026-06-17 17:15:14,925 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:15:14,945 WARNING agent.masai_solver: MASAI reproduce phase failed
+2026-06-17 17:15:14,946 INFO agent.masai_solver: MASAI phase 1 (reproduce): FAIL
+2026-06-17 17:15:14,947 WARNING agent.masai_solver: MASAI: reproduce phase failed, trying localize+fix without test
+2026-06-17 17:15:18,032 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:15:18,050 INFO agent.masai_solver: MASAI phase 2 (localize): 1 files
+2026-06-17 17:15:41,748 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 17:15:41,768 INFO agent.masai_solver: MASAI phase 3 (fix): 1 patches
+2026-06-17 17:15:42,044 INFO ZeroAgent: bounty_hunting result: {'success': True, 'repo': 'Alexays/Waybar', 'issue': 3693, 'title': '(hyprland/language) [Feature request] Tooltip on the module', 'approach': 'Add `tooltip` (bool) and `tooltip-format` (string) options to the hyprland/language module, reuse the existing format‑placeholder replacement logic to generate the tooltip text, and show/hide the tooltip via Waybar’s tooltip API on mouse enter/leave events.', 'source': 'bossdev', 'bounty_amount': 50.0, 'action': 'intent_comment_posted', 'pr_url': ''}
+2026-06-17 17:15:42,045 INFO ZeroAgent: --- Running vehicle: task_market ---
+2026-06-17 17:15:42,051 INFO skills.task_market: TaskMarket cycle starting...
+2026-06-17 17:15:42,053 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-17 17:15:42,054 INFO skills.task_market: TaskMarket: keystore restored from env var
+2026-06-17 17:15:42,068 WARNING skills.task_market: TaskMarket CLI not found. Install: npm install -g @daydreams/taskmarket
+2026-06-17 17:15:42,069 INFO skills.task_market: TaskMarket: 0 open tasks
+2026-06-17 17:15:42,076 INFO ZeroAgent: task_market result: {'success': False, 'reason': 'no_tasks'}
+2026-06-17 17:15:42,077 INFO ZeroAgent: --- Running vehicle: review_tracker ---
+2026-06-17 17:15:42,084 INFO skills.review_tracker: Review Tracker: checking PR reviews...
+2026-06-17 17:15:42,088 ERROR ZeroAgent: Vehicle review_tracker crashed: malformed JSON
+Traceback (most recent call last):
+  File "D:\money maker\main.py", line 68, in run_vehicle
+    return run(dry_run=dry_run)
+  File "D:\money maker\skills\review_tracker.py", line 253, in run
+    return check_prs()
+  File "D:\money maker\skills\review_tracker.py", line 207, in check_prs
+    our_prs = get_our_prs()
+  File "D:\money maker\skills\review_tracker.py", line 40, in get_our_prs
+    rows = db.execute(
+           ~~~~~~~~~~^
+        "SELECT detail FROM cycles WHERE vehicle='bounty_hunting' AND json_extract(detail, '$.pr_created') = 1 "
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "ORDER BY ts DESC LIMIT 20"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ).fetchall()
+    ^
+sqlite3.OperationalError: malformed JSON
+2026-06-17 17:15:42,093 INFO ZeroAgent: review_tracker result: {'success': False, 'reason': 'exception: malformed JSON'}
+2026-06-17 17:15:59,185 INFO ZeroAgent: === Cycle complete ===

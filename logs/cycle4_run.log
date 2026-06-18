@@ -1,0 +1,1014 @@
+2026-06-17 18:26:52,864 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-17 18:26:52,876 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.opire.dev:443
+2026-06-17 18:26:55,419 DEBUG urllib3.connectionpool: https://api.opire.dev:443 "GET /rewards HTTP/1.1" 200 None
+2026-06-17 18:26:56,126 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:26:57,974 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/rodrigompy/bugb/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:26:57,977 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5472 stranded
+2026-06-17 18:26:57,986 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-17 18:26:57,987 INFO skills.bounty_hunter: Opire: Donation/funding for german language... skipped (6 claimers)
+2026-06-17 18:26:57,998 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:26:59,900 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/uswriting/zeroperl/issues/7 HTTP/1.1" 301 207
+2026-06-17 18:27:00,410 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repositories/910868459/issues/7 HTTP/1.1" 200 None
+2026-06-17 18:27:00,417 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-17 18:27:00,423 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (14 claimers)
+2026-06-17 18:27:00,424 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (23 claimers)
+2026-06-17 18:27:00,424 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (12 claimers)
+2026-06-17 18:27:00,432 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:03,838 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/zed-industries/zed/issues/4642 HTTP/1.1" 200 None
+2026-06-17 18:27:03,851 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-17 18:27:03,872 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:07,707 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/secondlife/viewer/issues/4445 HTTP/1.1" 200 None
+2026-06-17 18:27:07,788 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-17 18:27:07,805 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:11,000 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/433 HTTP/1.1" 200 None
+2026-06-17 18:27:11,133 INFO skills.bounty_hunter: Opire: qtop/qtop#433 closed, $220 stranded
+2026-06-17 18:27:11,153 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:14,073 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Leantime/leantime/issues/1099 HTTP/1.1" 200 None
+2026-06-17 18:27:14,082 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-17 18:27:14,100 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:17,432 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/keycloak/keycloak/issues/14644 HTTP/1.1" 200 None
+2026-06-17 18:27:17,502 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-17 18:27:17,520 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:27,650 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/esp-rs/esp-hal/issues/4163 HTTP/1.1" 200 None
+2026-06-17 18:27:27,657 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-17 18:27:27,682 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:30,764 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/337 HTTP/1.1" 200 None
+2026-06-17 18:27:30,769 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-17 18:27:30,786 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:32,981 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/storybookjs/storybook/issues/12641 HTTP/1.1" 200 None
+2026-06-17 18:27:32,999 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-17 18:27:33,023 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:35,464 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/alisteuber4ee1/API-Integration-Pagination/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:27:35,472 INFO skills.bounty_hunter: Opire: alisteuber4ee1/API-Integration-Pagination#1 closed, $100 stranded
+2026-06-17 18:27:35,497 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:37,829 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/FalkorDB/FalkorDB/issues/622 HTTP/1.1" 200 None
+2026-06-17 18:27:37,835 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-17 18:27:37,855 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:42,166 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/go-gitea/gitea/issues/24635 HTTP/1.1" 200 None
+2026-06-17 18:27:42,173 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-17 18:27:42,185 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (11 claimers)
+2026-06-17 18:27:42,186 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-17 18:27:42,195 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:44,384 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/denoland/deno/issues/18147 HTTP/1.1" 200 None
+2026-06-17 18:27:44,397 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:46,460 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/electron/electron/issues/48191 HTTP/1.1" 200 None
+2026-06-17 18:27:46,464 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-17 18:27:46,480 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:48,326 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/bogeeee/restfuncs/issues/6 HTTP/1.1" 200 None
+2026-06-17 18:27:48,337 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-17 18:27:48,367 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:50,299 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/formbricks/formbricks/issues/3302 HTTP/1.1" 200 None
+2026-06-17 18:27:50,306 INFO skills.bounty_hunter: Opire: formbricks/formbricks#3302 closed, $60 stranded
+2026-06-17 18:27:50,321 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:52,235 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2843 HTTP/1.1" 200 None
+2026-06-17 18:27:52,244 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:54,600 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sebastianbergmann/phpunit/issues/4440 HTTP/1.1" 200 None
+2026-06-17 18:27:54,610 INFO skills.bounty_hunter: Opire: sebastianbergmann/phpunit#4440 closed, $50 stranded
+2026-06-17 18:27:54,634 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:57,019 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/ToolJet/ToolJet/issues/6655 HTTP/1.1" 200 None
+2026-06-17 18:27:57,035 INFO skills.bounty_hunter: Opire: ToolJet/ToolJet#6655 closed, $45 stranded
+2026-06-17 18:27:57,058 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:27:59,813 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/radumarias/rencfs/issues/3 HTTP/1.1" 200 None
+2026-06-17 18:27:59,817 INFO skills.bounty_hunter: Opire: 3 open bounties from 30 total
+2026-06-17 18:27:59,829 INFO skills.bounty_hunter: Opire: found 3 open bounties
+2026-06-17 18:27:59,833 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.bountyhub.dev:443
+2026-06-17 18:28:02,913 DEBUG urllib3.connectionpool: https://api.bountyhub.dev:443 "GET /api/bounties?page=1&limit=100&filters=%7B%22language%22%3A+%22%22%2C+%22repositoryFullName%22%3A+%22%22%2C+%22solved%22%3A+false%7D&sort=%5B%7B%22orderBy%22%3A+%22totalAmount%22%2C+%22order%22%3A+%22desc%22%7D%5D HTTP/1.1" 200 None
+2026-06-17 18:28:03,297 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:05,496 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2994 HTTP/1.1" 200 None
+2026-06-17 18:28:05,507 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:07,907 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2843 HTTP/1.1" 200 None
+2026-06-17 18:28:07,921 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:10,160 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/electron/electron/issues/48191 HTTP/1.1" 200 None
+2026-06-17 18:28:10,167 INFO skills.bounty_hunter: BountyHub: electron/electron#48191 closed, $400 stranded
+2026-06-17 18:28:10,186 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:12,537 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/580 HTTP/1.1" 200 None
+2026-06-17 18:28:12,549 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:14,869 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/emersion/hydroxide/issues/207 HTTP/1.1" 200 None
+2026-06-17 18:28:14,874 INFO skills.bounty_hunter: BountyHub: emersion/hydroxide#207 closed, $250 stranded
+2026-06-17 18:28:14,892 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:16,971 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/go-gitea/gitea/issues/24635 HTTP/1.1" 200 None
+2026-06-17 18:28:16,978 INFO skills.bounty_hunter: BountyHub: go-gitea/gitea#24635 closed, $200 stranded
+2026-06-17 18:28:16,998 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:19,285 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/22571 HTTP/1.1" 200 None
+2026-06-17 18:28:19,295 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:21,638 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/31 HTTP/1.1" 200 None
+2026-06-17 18:28:21,648 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:23,893 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/76 HTTP/1.1" 200 None
+2026-06-17 18:28:23,897 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#76 closed, $150 stranded
+2026-06-17 18:28:23,914 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:26,180 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/580 HTTP/1.1" 200 None
+2026-06-17 18:28:26,193 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:28,693 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/moorcheh-ai/memanto/issues/639 HTTP/1.1" 200 None
+2026-06-17 18:28:28,712 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:31,701 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/109 HTTP/1.1" 200 None
+2026-06-17 18:28:31,715 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:34,017 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/16954 HTTP/1.1" 200 None
+2026-06-17 18:28:34,024 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#16954 closed, $100 stranded
+2026-06-17 18:28:34,055 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:36,897 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/115 HTTP/1.1" 200 None
+2026-06-17 18:28:36,910 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#115 closed, $75 stranded
+2026-06-17 18:28:36,934 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:39,371 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/freelensapp/freelens/issues/1280 HTTP/1.1" 200 None
+2026-06-17 18:28:39,380 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:41,720 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/20250 HTTP/1.1" 200 None
+2026-06-17 18:28:41,723 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20250 closed, $50 stranded
+2026-06-17 18:28:41,738 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:43,534 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/20741 HTTP/1.1" 200 None
+2026-06-17 18:28:43,539 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20741 closed, $50 stranded
+2026-06-17 18:28:43,556 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:49,798 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/11462 HTTP/1.1" 200 None
+2026-06-17 18:28:49,803 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#11462 closed, $50 stranded
+2026-06-17 18:28:49,820 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:51,866 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/issues/2851 HTTP/1.1" 200 None
+2026-06-17 18:28:51,875 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:54,152 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/30 HTTP/1.1" 200 None
+2026-06-17 18:28:54,163 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:56,487 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/inventree/InvenTree/issues/12064 HTTP/1.1" 200 None
+2026-06-17 18:28:56,500 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:28:59,051 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/21317 HTTP/1.1" 200 None
+2026-06-17 18:28:59,057 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#21317 closed, $10 stranded
+2026-06-17 18:28:59,074 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:01,393 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/13842 HTTP/1.1" 200 None
+2026-06-17 18:29:01,400 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#13842 closed, $10 stranded
+2026-06-17 18:29:01,409 INFO skills.bounty_hunter: BountyHub: 12 open bounties from 23 total
+2026-06-17 18:29:01,419 INFO skills.bounty_hunter: BountyHub: found 12 open bounties
+2026-06-17 18:29:01,422 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.boss.dev:443
+2026-06-17 18:29:04,216 DEBUG urllib3.connectionpool: https://api.boss.dev:443 "GET /rpc/issues/gh/unsolved HTTP/1.1" 200 None
+2026-06-17 18:29:04,229 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:06,496 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/kistek/boss-demo/issues/3 HTTP/1.1" 200 None
+2026-06-17 18:29:06,506 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:08,681 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper/issues/5 HTTP/1.1" 200 None
+2026-06-17 18:29:08,692 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:11,198 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/spaceandtimefdn/sxt-proof-of-sql/issues/229 HTTP/1.1" 200 None
+2026-06-17 18:29:11,210 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:13,604 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper/issues/10 HTTP/1.1" 200 None
+2026-06-17 18:29:13,616 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:16,179 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Qortal/qortal/issues/122 HTTP/1.1" 200 None
+2026-06-17 18:29:16,191 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:18,600 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jaseg/python-mpv/issues/61 HTTP/1.1" 200 None
+2026-06-17 18:29:18,611 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:21,611 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sveltejs/svelte/issues/1639 HTTP/1.1" 200 None
+2026-06-17 18:29:21,616 INFO skills.bounty_hunter: Boss.dev: sveltejs/svelte#1639 closed, $125 stranded
+2026-06-17 18:29:21,633 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:24,168 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jlord/sheetsee-tables/issues/24 HTTP/1.1" 200 None
+2026-06-17 18:29:24,182 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:26,582 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/OpenSword/OpenIsopix/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:29:26,591 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:28,968 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/allure-framework/allure2/issues/1108 HTTP/1.1" 200 None
+2026-06-17 18:29:28,975 INFO skills.bounty_hunter: Boss.dev: allure-framework/allure2#1108 closed, $100 stranded
+2026-06-17 18:29:29,001 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:31,444 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Alexays/Waybar/issues/3693 HTTP/1.1" 200 None
+2026-06-17 18:29:31,451 INFO skills.bounty_hunter: Boss.dev: 9 open bounties from 12 total
+2026-06-17 18:29:31,461 INFO skills.bounty_hunter: Boss.dev: found 9 open bounties
+2026-06-17 18:29:31,470 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:34,396 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/mmccl5/go-task-task/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:29:34,403 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:36,708 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/rodrigompy/bugb/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:29:36,715 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:43,001 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/uswriting/zeroperl/issues/7 HTTP/1.1" 301 207
+2026-06-17 18:29:43,483 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repositories/910868459/issues/7 HTTP/1.1" 200 None
+2026-06-17 18:29:43,506 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:45,577 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/zed-industries/zed/issues/4642 HTTP/1.1" 200 None
+2026-06-17 18:29:45,585 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:48,191 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/secondlife/viewer/issues/4445 HTTP/1.1" 200 None
+2026-06-17 18:29:48,205 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:55,506 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/433 HTTP/1.1" 200 None
+2026-06-17 18:29:55,511 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:57,134 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Leantime/leantime/issues/1099 HTTP/1.1" 200 None
+2026-06-17 18:29:57,143 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:29:59,433 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/keycloak/keycloak/issues/14644 HTTP/1.1" 200 None
+2026-06-17 18:29:59,442 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:01,524 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/esp-rs/esp-hal/issues/4163 HTTP/1.1" 200 None
+2026-06-17 18:30:01,531 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:03,669 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/qtop/qtop/issues/337 HTTP/1.1" 200 None
+2026-06-17 18:30:03,678 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:05,714 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/storybookjs/storybook/issues/12641 HTTP/1.1" 200 None
+2026-06-17 18:30:05,720 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:06,878 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/alisteuber4ee1/API-Integration-Pagination/issues/1 HTTP/1.1" 200 None
+2026-06-17 18:30:06,881 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:08,089 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/FalkorDB/FalkorDB/issues/622 HTTP/1.1" 200 None
+2026-06-17 18:30:08,093 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:09,243 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/bogeeee/restfuncs/issues/6 HTTP/1.1" 200 None
+2026-06-17 18:30:09,259 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:10,487 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/formbricks/formbricks/issues/3302 HTTP/1.1" 200 None
+2026-06-17 18:30:10,496 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:11,819 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sebastianbergmann/phpunit/issues/4440 HTTP/1.1" 200 None
+2026-06-17 18:30:11,829 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:13,103 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/ToolJet/ToolJet/issues/6655 HTTP/1.1" 200 None
+2026-06-17 18:30:13,114 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:15,778 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/electron/electron/issues/48191 HTTP/1.1" 200 None
+2026-06-17 18:30:15,849 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:16,989 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/emersion/hydroxide/issues/207 HTTP/1.1" 200 None
+2026-06-17 18:30:16,999 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:18,226 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/go-gitea/gitea/issues/24635 HTTP/1.1" 200 None
+2026-06-17 18:30:18,232 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:19,439 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/76 HTTP/1.1" 200 None
+2026-06-17 18:30:19,446 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:20,623 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/16954 HTTP/1.1" 200 None
+2026-06-17 18:30:20,626 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:21,884 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/issues/115 HTTP/1.1" 200 None
+2026-06-17 18:30:21,888 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:23,037 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/20250 HTTP/1.1" 200 None
+2026-06-17 18:30:23,042 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:24,269 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/20741 HTTP/1.1" 200 None
+2026-06-17 18:30:24,274 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:29,975 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/11462 HTTP/1.1" 200 None
+2026-06-17 18:30:30,045 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:31,201 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/21317 HTTP/1.1" 200 None
+2026-06-17 18:30:31,206 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:32,459 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/issues/13842 HTTP/1.1" 200 None
+2026-06-17 18:30:32,463 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:33,634 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/sveltejs/svelte/issues/1639 HTTP/1.1" 200 None
+2026-06-17 18:30:33,639 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:35,247 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/allure-framework/allure2/issues/1108 HTTP/1.1" 200 None
+2026-06-17 18:30:35,254 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:42,419 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/denoland/deno HTTP/1.1" 200 None
+2026-06-17 18:30:42,424 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:43,652 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/denoland/deno/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:30:43,665 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:45,875 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:30:45,879 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:47,977 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:30:47,990 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:50,306 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/radumarias/rencfs HTTP/1.1" 200 None
+2026-06-17 18:30:50,310 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:58,048 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/radumarias/rencfs/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:30:58,119 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:30:59,283 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:30:59,286 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:00,539 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:00,558 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:01,770 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:31:01,774 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:05,872 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:05,883 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:07,083 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:31:07,086 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:11,257 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:11,325 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:12,560 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk HTTP/1.1" 200 None
+2026-06-17 18:31:12,565 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:13,804 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/azerothcore/azerothcore-wotlk/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:13,874 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:15,113 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg HTTP/1.1" 200 None
+2026-06-17 18:31:15,117 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:16,335 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:16,405 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:19,051 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:31:19,057 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:20,300 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:20,311 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:24,820 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/moorcheh-ai/memanto HTTP/1.1" 200 None
+2026-06-17 18:31:24,824 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:27,990 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/moorcheh-ai/memanto/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:28,000 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:29,484 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg HTTP/1.1" 200 None
+2026-06-17 18:31:29,485 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:30,724 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:31,051 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:32,233 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/freelensapp/freelens HTTP/1.1" 200 None
+2026-06-17 18:31:32,236 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:36,150 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/freelensapp/freelens/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:36,221 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:37,391 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore HTTP/1.1" 200 None
+2026-06-17 18:31:37,394 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:38,586 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/microg/GmsCore/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:38,595 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:40,397 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg HTTP/1.1" 200 None
+2026-06-17 18:31:40,403 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:46,174 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/SPLURT-Station/S.P.L.U.R.T-tg/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:46,395 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:47,621 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/inventree/InvenTree HTTP/1.1" 200 None
+2026-06-17 18:31:47,624 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:50,109 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/inventree/InvenTree/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:50,119 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:51,996 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/kistek/boss-demo HTTP/1.1" 200 None
+2026-06-17 18:31:51,998 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:53,179 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/kistek/boss-demo/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:53,187 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:54,363 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper HTTP/1.1" 200 None
+2026-06-17 18:31:54,366 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:31:59,984 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:31:59,991 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:01,241 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/spaceandtimefdn/sxt-proof-of-sql HTTP/1.1" 200 None
+2026-06-17 18:32:01,244 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:03,950 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/spaceandtimefdn/sxt-proof-of-sql/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:32:05,916 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:07,134 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper HTTP/1.1" 200 None
+2026-06-17 18:32:07,138 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:08,305 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jbilcke-hf/clapper/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:32:08,313 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:09,547 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Qortal/qortal HTTP/1.1" 200 None
+2026-06-17 18:32:09,549 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:14,807 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Qortal/qortal/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:32:14,818 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:15,949 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jaseg/python-mpv HTTP/1.1" 200 None
+2026-06-17 18:32:15,953 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:17,094 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jaseg/python-mpv/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:32:17,103 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:18,217 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jlord/sheetsee-tables HTTP/1.1" 200 None
+2026-06-17 18:32:18,219 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:19,424 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/jlord/sheetsee-tables/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:32:19,433 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:23,557 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/OpenSword/OpenIsopix HTTP/1.1" 200 None
+2026-06-17 18:32:23,559 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:27,818 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/OpenSword/OpenIsopix/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:32:27,823 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:28,932 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Alexays/Waybar HTTP/1.1" 200 None
+2026-06-17 18:32:28,934 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.github.com:443
+2026-06-17 18:32:30,268 DEBUG urllib3.connectionpool: https://api.github.com:443 "GET /repos/Alexays/Waybar/pulls?state=closed&per_page=5 HTTP/1.1" 200 None
+2026-06-17 18:32:33,652 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-6fd4eb22-e8a1-433b-a5d3-b6f03af93f03', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: denoland/deno\nTitle: feat: view test coverage in editor\nLabels: [\'feat\', \'lsp\', \'testing\']\nBody: Deno\r\n- can run tests.\r\n- can generate test coverage reports.\r\n- has an an editor integration (LSP).\r\n\r\nIt would be amazing if VSCode would **display the test coverage right inside the editor**.\r\n\r\nThe line coverage results are very useful when writing tests because they let me easily see which case are covered by tests and which ones are not. However, every time I add a test to cover some more code, I need to run `deno test` and `deno coverage` and then reload my browser window.\r\n\r\nI am aware that there are third-party tools that should be able to consume the LCOV output and do this, but I would prefer if it would “just work” without any additional configuration.\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:32:33,828 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:32:33,828 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:32:38,064 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016F6EECF0>
+2026-06-17 18:32:38,065 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002016EB25010> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:32:38,362 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016F59FB10>
+2026-06-17 18:32:38,363 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:32:38,364 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:32:38,364 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:32:38,365 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:32:38,365 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:32:43,602 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:32:52 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2905'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'2429ee69-bc1c-4b55-8f38-b6de71d6cfe3'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:32:43,605 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:32:43,606 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:32:43,607 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:32:43,608 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:32:43,609 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:32:43,609 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:32:52 GMT', 'content-type': 'application/json', 'content-length': '2905', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '2429ee69-bc1c-4b55-8f38-b6de71d6cfe3', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:32:43,610 DEBUG openai._base_client: request_id: None
+2026-06-17 18:32:43,643 INFO skills.bounty_hunter: Skipping denoland/deno#18147: clarity=8, solvability=6, scope=5 - While the requirement is clear, implementing live coverage display requires desi
+2026-06-17 18:32:44,170 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-73fbb4d5-91d8-4dde-bb0f-eebd2757c7bb', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: microg/GmsCore\nTitle: [BOUNTY] WearOS Support [$1340]\nLabels: [\'enhancement\', \'bounty\']\nBody: [**BOUNTY CURRENTLY AT $450**](https://www.bountyhub.dev/en/bounty/view/27a47575-ef9f-49d3-9685-c056d6825f9d) and already the biggest listing on BountyHub by far.\n\n**Is your feature request related to a problem? Please describe.**\n\nWearOS devices do not work with MicroG\n\n**Describe the solution you\'d like**\n\nMicroG framework needed to pair modern, current-gen WearOS devices and get basic functionality - echo phone notifications, provide media controls, run WearOS apps, etc.\n\n**Additional context**\n\nThere has been an issue open for over ten years regarding [MicroG support for WearOS](https://github.com/microg/GmsCore/issues/4#issuecomment-2581553597).  That issue and another [more recent post](https://github.com/microg/GmsCore/issues/2444#issuecomment-2691206945) have inspired some folks to post bounties for this feature, but it\'s buried so far down in the thread it\'s easy to miss.\n\nI personally am posting a $200 bounty for the MicroG framework needed to pair modern, current-gen WearOS devices and get basic functionality - echo phone notifications, provide media controls, run WearOS apps, etc.\n\nHere are the folks who\'ve posted bounties in those threads.  I\'ll invite them to post again here confirming that their offers still stand, but all told, this adds up to over $500 already.\n\n@HyperCriSiS ~~- $100~~\n@realPrix ~~- $100~~\n@NullCode1337 ~~- $50~~\n@TobiPeterG ~~- $100~~\n@doctorgaul ~~- $200~~\n\n*Edit - Amounts now being tracked on the [BountyHub page](https://www.bountyhub.dev/en/bounty/view/27a47575-ef9f-49d3-9685-c056d6825f9d).\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:32:44,171 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:32:44,172 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:32:44,187 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016F9F1BD0>
+2026-06-17 18:32:44,188 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002016F723590> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:32:44,479 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016F6F1CD0>
+2026-06-17 18:32:44,479 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:32:44,480 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:32:44,480 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:32:44,481 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:32:44,481 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:32:57,301 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:33:06 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2989'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'fc731f74-661a-46b7-a5ca-24d13e55634b'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:32:57,301 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:32:57,302 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:32:57,302 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:32:57,303 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:32:57,303 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:32:57,303 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:33:06 GMT', 'content-type': 'application/json', 'content-length': '2989', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': 'fc731f74-661a-46b7-a5ca-24d13e55634b', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:32:57,303 DEBUG openai._base_client: request_id: None
+2026-06-17 18:32:57,310 INFO skills.bounty_hunter: Skipping microg/GmsCore#2843: clarity=5, solvability=2, scope=1 - The request lacks specific technical details about which WearOS APIs/services ne
+2026-06-17 18:32:57,848 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-b280ff24-b28c-417b-9058-ee9260e9e31b', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: radumarias/rencfs\nTitle: docs: add Windows support implementation research\nLabels: []\nBody: ## Description\n\nAdds a detailed Windows support research note for the native implementation path.\n\nThis is intentionally framed as research, not a claim that rencfs mounts on Windows today. It documents:\n\n- recommended WinFsp backend and alternatives considered;\n- WinFsp licensing/attribution checkpoint for an `MIT OR Apache-2.0` project;\n- Windows-only dependency and delay-load build shape;\n- proposed `src/mount/windows.rs` architecture around the existing `EncryptedFs` layer;\n- operation mapping from WinFsp callbacks to rencfs methods;\n- Windows metadata decisions and unsupported NTFS features for the first milestone;\n- build/CI plan and a manual smoke test for a Windows host with WinFsp installed;\n- acceptance criteria for a truthful first implementation PR.\n\nRelated to the Windows support bounty/research request (`research implementation for Windows`, Opire listing for #3).\n\n---\n\n## Type of change\n\n- [ ] Bug fix (non-breaking change which fixes an issue)\n- [ ] New feature (non-breaking change which adds functionality)\n- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)\n- [x] Documentation update\n\n---\n\n## Checklist:\n\n- [x] I have performed a self-review of my code\n- [ ] I have tested my code on different platforms (if applicable)\n- [x] I have commented my code, particularly in hard-to-understand areas\n- [x] I have added necessary documentation (if appropriate)\n- [x] My changes generate no new warnings\n- [ ] I have added tests that prove my fix is effective or that my feature works\n- [x] New and existing unit tests pass locally with my changes\n\n---\n\n## Verification\n\n- `cargo check` passes locally on macOS/aarch64.\n- I did not install Windows or claim Windows runtime validation. The PR adds a Windows smoke-test checklist for the next implementation step.\n\n---\n\n## AI disclosure\n\nAI-assisted contribution by QuarkAssistant using GPT/Codex tooling. Human-authored repository context and public documentation were reviewe\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:32:57,849 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:32:57,849 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:32:57,854 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016F6F23F0>
+2026-06-17 18:32:57,854 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002016F723AD0> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:32:58,160 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016F709B50>
+2026-06-17 18:32:58,160 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:32:58,162 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:32:58,162 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:32:58,163 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:32:58,164 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:33:35,743 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:33:44 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'4699'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'fc0c030f-d74f-4be8-9964-81e25dfdb2de'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:33:35,744 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:33:35,744 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:33:35,745 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:33:35,745 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:33:35,745 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:33:35,745 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:33:44 GMT', 'content-type': 'application/json', 'content-length': '4699', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': 'fc0c030f-d74f-4be8-9964-81e25dfdb2de', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:33:35,745 DEBUG openai._base_client: request_id: None
+2026-06-17 18:33:36,292 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-f3ee2558-a4ee-4de8-85e8-68da02d03eb2', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: radumarias/rencfs\nTitle: docs: add Windows support implementation research\nLabels: []\nBody: ## Description\n\nAdds a detailed Windows support research note for the native implementation path.\n\nThis is intentionally framed as research, not a claim that rencfs mounts on Windows today. It documents:\n\n- recommended WinFsp backend and alternatives considered;\n- WinFsp licensing/attribution checkpoint for an `MIT OR Apache-2.0` project;\n- Windows-only dependency and delay-load build shape;\n- proposed `src/mount/windows.rs` architecture around the existing `EncryptedFs` layer;\n- operation mapping from WinFsp callbacks to rencfs methods;\n- Windows metadata decisions and unsupported NTFS features for the first milestone;\n- build/CI plan and a manual smoke test for a Windows host with WinFsp installed;\n- acceptance criteria for a truthful first implementation PR.\n\nRelated to the Windows support bounty/research request (`research implementation for Windows`, Opire listing for #3).\n\n---\n\n## Type of change\n\n- [ ] Bug fix (non-breaking change which fixes an issue)\n- [ ] New feature (non-breaking change which adds functionality)\n- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)\n- [x] Documentation update\n\n---\n\n## Checklist:\n\n- [x] I have performed a self-review of my code\n- [ ] I have tested my code on different platforms (if applicable)\n- [x] I have commented my code, particularly in hard-to-understand areas\n- [x] I have added necessary documentation (if appropriate)\n- [x] My changes generate no new warnings\n- [ ] I have added tests that prove my fix is effective or that my feature works\n- [x] New and existing unit tests pass locally with my changes\n\n---\n\n## Verification\n\n- `cargo check` passes locally on macOS/aarch64.\n- I did not install Windows or claim Windows runtime validation. The PR adds a Windows smoke-test checklist for the next implementation step.\n\n---\n\n## AI disclosure\n\nAI-assisted contribution by QuarkAssistant using GPT/Codex tooling. Human-authored repository context and public documentation were reviewe\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'deepseek-ai/deepseek-v4-flash', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:33:36,293 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:33:36,293 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:33:36,303 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016F9B67A0>
+2026-06-17 18:33:36,304 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002016FA14050> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:33:36,597 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016F9B68B0>
+2026-06-17 18:33:36,597 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:33:36,597 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:33:36,597 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:33:36,598 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:33:36,598 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:33:36,787 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Wed, 17 Jun 2026 15:33:45 GMT'), (b'Content-Type', b'application/problem+json'), (b'Content-Length', b'42'), (b'Connection', b'keep-alive'), (b'Vary', b'Origin')])
+2026-06-17 18:33:36,787 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-17 18:33:36,788 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:33:36,788 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:33:36,788 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:33:36,788 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:33:36,788 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Wed, 17 Jun 2026 15:33:45 GMT', 'content-type': 'application/problem+json', 'content-length': '42', 'connection': 'keep-alive', 'vary': 'Origin'})
+2026-06-17 18:33:36,789 DEBUG openai._base_client: request_id: None
+2026-06-17 18:33:36,789 DEBUG openai._base_client: Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_base_client.py", line 1085, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://integrate.api.nvidia.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-06-17 18:33:36,840 DEBUG openai._base_client: Re-raising status error
+2026-06-17 18:33:36,840 WARNING agent.ai_chain: NVIDIA rate limited (attempt 1), retrying in 10s...
+2026-06-17 18:33:47,392 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-35d3d447-49d7-4ab3-98af-10c61f165988', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: radumarias/rencfs\nTitle: docs: add Windows support implementation research\nLabels: []\nBody: ## Description\n\nAdds a detailed Windows support research note for the native implementation path.\n\nThis is intentionally framed as research, not a claim that rencfs mounts on Windows today. It documents:\n\n- recommended WinFsp backend and alternatives considered;\n- WinFsp licensing/attribution checkpoint for an `MIT OR Apache-2.0` project;\n- Windows-only dependency and delay-load build shape;\n- proposed `src/mount/windows.rs` architecture around the existing `EncryptedFs` layer;\n- operation mapping from WinFsp callbacks to rencfs methods;\n- Windows metadata decisions and unsupported NTFS features for the first milestone;\n- build/CI plan and a manual smoke test for a Windows host with WinFsp installed;\n- acceptance criteria for a truthful first implementation PR.\n\nRelated to the Windows support bounty/research request (`research implementation for Windows`, Opire listing for #3).\n\n---\n\n## Type of change\n\n- [ ] Bug fix (non-breaking change which fixes an issue)\n- [ ] New feature (non-breaking change which adds functionality)\n- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)\n- [x] Documentation update\n\n---\n\n## Checklist:\n\n- [x] I have performed a self-review of my code\n- [ ] I have tested my code on different platforms (if applicable)\n- [x] I have commented my code, particularly in hard-to-understand areas\n- [x] I have added necessary documentation (if appropriate)\n- [x] My changes generate no new warnings\n- [ ] I have added tests that prove my fix is effective or that my feature works\n- [x] New and existing unit tests pass locally with my changes\n\n---\n\n## Verification\n\n- `cargo check` passes locally on macOS/aarch64.\n- I did not install Windows or claim Windows runtime validation. The PR adds a Windows smoke-test checklist for the next implementation step.\n\n---\n\n## AI disclosure\n\nAI-assisted contribution by QuarkAssistant using GPT/Codex tooling. Human-authored repository context and public documentation were reviewe\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'deepseek-ai/deepseek-v4-flash', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:33:47,393 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:33:47,393 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:33:47,401 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016FA68050>
+2026-06-17 18:33:47,402 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002016FA14410> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:33:47,694 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016FA68250>
+2026-06-17 18:33:47,694 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:33:47,694 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:33:47,695 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:33:47,695 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:33:47,695 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:33:47,878 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Wed, 17 Jun 2026 15:33:56 GMT'), (b'Content-Type', b'application/problem+json'), (b'Content-Length', b'42'), (b'Connection', b'keep-alive'), (b'Vary', b'Origin')])
+2026-06-17 18:33:47,879 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-17 18:33:47,879 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:33:47,879 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:33:47,879 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:33:47,880 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:33:47,880 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Wed, 17 Jun 2026 15:33:56 GMT', 'content-type': 'application/problem+json', 'content-length': '42', 'connection': 'keep-alive', 'vary': 'Origin'})
+2026-06-17 18:33:47,880 DEBUG openai._base_client: request_id: None
+2026-06-17 18:33:47,880 DEBUG openai._base_client: Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_base_client.py", line 1085, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://integrate.api.nvidia.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-06-17 18:33:47,882 DEBUG openai._base_client: Re-raising status error
+2026-06-17 18:33:47,882 WARNING agent.ai_chain: NVIDIA rate limited (attempt 2), retrying in 20s...
+2026-06-17 18:34:08,424 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-87984fa1-7f22-4cc1-a8a8-31bdb2fbed74', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: radumarias/rencfs\nTitle: docs: add Windows support implementation research\nLabels: []\nBody: ## Description\n\nAdds a detailed Windows support research note for the native implementation path.\n\nThis is intentionally framed as research, not a claim that rencfs mounts on Windows today. It documents:\n\n- recommended WinFsp backend and alternatives considered;\n- WinFsp licensing/attribution checkpoint for an `MIT OR Apache-2.0` project;\n- Windows-only dependency and delay-load build shape;\n- proposed `src/mount/windows.rs` architecture around the existing `EncryptedFs` layer;\n- operation mapping from WinFsp callbacks to rencfs methods;\n- Windows metadata decisions and unsupported NTFS features for the first milestone;\n- build/CI plan and a manual smoke test for a Windows host with WinFsp installed;\n- acceptance criteria for a truthful first implementation PR.\n\nRelated to the Windows support bounty/research request (`research implementation for Windows`, Opire listing for #3).\n\n---\n\n## Type of change\n\n- [ ] Bug fix (non-breaking change which fixes an issue)\n- [ ] New feature (non-breaking change which adds functionality)\n- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)\n- [x] Documentation update\n\n---\n\n## Checklist:\n\n- [x] I have performed a self-review of my code\n- [ ] I have tested my code on different platforms (if applicable)\n- [x] I have commented my code, particularly in hard-to-understand areas\n- [x] I have added necessary documentation (if appropriate)\n- [x] My changes generate no new warnings\n- [ ] I have added tests that prove my fix is effective or that my feature works\n- [x] New and existing unit tests pass locally with my changes\n\n---\n\n## Verification\n\n- `cargo check` passes locally on macOS/aarch64.\n- I did not install Windows or claim Windows runtime validation. The PR adds a Windows smoke-test checklist for the next implementation step.\n\n---\n\n## AI disclosure\n\nAI-assisted contribution by QuarkAssistant using GPT/Codex tooling. Human-authored repository context and public documentation were reviewe\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'deepseek-ai/deepseek-v4-flash', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:34:08,425 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:34:08,425 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:34:08,430 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016F9CA8A0>
+2026-06-17 18:34:08,431 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002016FA14A10> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:34:08,724 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016F9CA4E0>
+2026-06-17 18:34:08,725 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:34:08,726 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:34:08,726 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:34:08,727 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:34:08,727 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:34:08,914 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Wed, 17 Jun 2026 15:34:17 GMT'), (b'Content-Type', b'application/problem+json'), (b'Content-Length', b'42'), (b'Connection', b'keep-alive'), (b'Vary', b'Origin')])
+2026-06-17 18:34:08,915 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-17 18:34:08,916 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:34:08,917 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:34:08,917 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:34:08,918 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:34:08,918 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Wed, 17 Jun 2026 15:34:17 GMT', 'content-type': 'application/problem+json', 'content-length': '42', 'connection': 'keep-alive', 'vary': 'Origin'})
+2026-06-17 18:34:08,919 DEBUG openai._base_client: request_id: None
+2026-06-17 18:34:08,920 DEBUG openai._base_client: Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_base_client.py", line 1085, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://integrate.api.nvidia.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-06-17 18:34:08,923 DEBUG openai._base_client: Re-raising status error
+2026-06-17 18:34:08,924 WARNING agent.ai_chain: NVIDIA NIM (deepseek-ai/deepseek-v4-flash) failed: Error code: 429 - {'status': 429, 'title': 'Too Many Requests'}
+2026-06-17 18:34:09,978 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-b1b65667-41b1-4354-84d4-1ef4fde4306c', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: radumarias/rencfs\nTitle: docs: add Windows support implementation research\nLabels: []\nBody: ## Description\n\nAdds a detailed Windows support research note for the native implementation path.\n\nThis is intentionally framed as research, not a claim that rencfs mounts on Windows today. It documents:\n\n- recommended WinFsp backend and alternatives considered;\n- WinFsp licensing/attribution checkpoint for an `MIT OR Apache-2.0` project;\n- Windows-only dependency and delay-load build shape;\n- proposed `src/mount/windows.rs` architecture around the existing `EncryptedFs` layer;\n- operation mapping from WinFsp callbacks to rencfs methods;\n- Windows metadata decisions and unsupported NTFS features for the first milestone;\n- build/CI plan and a manual smoke test for a Windows host with WinFsp installed;\n- acceptance criteria for a truthful first implementation PR.\n\nRelated to the Windows support bounty/research request (`research implementation for Windows`, Opire listing for #3).\n\n---\n\n## Type of change\n\n- [ ] Bug fix (non-breaking change which fixes an issue)\n- [ ] New feature (non-breaking change which adds functionality)\n- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)\n- [x] Documentation update\n\n---\n\n## Checklist:\n\n- [x] I have performed a self-review of my code\n- [ ] I have tested my code on different platforms (if applicable)\n- [x] I have commented my code, particularly in hard-to-understand areas\n- [x] I have added necessary documentation (if appropriate)\n- [x] My changes generate no new warnings\n- [ ] I have added tests that prove my fix is effective or that my feature works\n- [x] New and existing unit tests pass locally with my changes\n\n---\n\n## Verification\n\n- `cargo check` passes locally on macOS/aarch64.\n- I did not install Windows or claim Windows runtime validation. The PR adds a Windows smoke-test checklist for the next implementation step.\n\n---\n\n## AI disclosure\n\nAI-assisted contribution by QuarkAssistant using GPT/Codex tooling. Human-authored repository context and public documentation were reviewe\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'qwen/qwen3.5-122b-a10b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:34:09,978 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:34:09,979 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:34:09,988 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016FA282F0>
+2026-06-17 18:34:09,988 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000002016FA14DD0> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:34:10,288 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016FA289F0>
+2026-06-17 18:34:10,289 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:34:10,289 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:34:10,289 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:34:10,290 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:34:10,290 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:35:10,303 DEBUG httpcore.http11: receive_response_headers.failed exception=ReadTimeout(TimeoutError('The read operation timed out'))
+2026-06-17 18:35:10,304 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:35:10,304 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:35:10,482 DEBUG httpcore.connection: close.started
+2026-06-17 18:35:10,483 DEBUG httpcore.connection: close.complete
+2026-06-17 18:35:10,483 DEBUG httpcore.connection: close.started
+2026-06-17 18:35:10,483 DEBUG httpcore.connection: close.complete
+2026-06-17 18:35:10,483 DEBUG httpcore.connection: close.started
+2026-06-17 18:35:10,484 DEBUG httpcore.connection: close.complete
+2026-06-17 18:35:10,484 DEBUG httpcore.connection: close.started
+2026-06-17 18:35:10,484 DEBUG httpcore.connection: close.complete
+2026-06-17 18:35:10,484 DEBUG httpcore.connection: close.started
+2026-06-17 18:35:10,485 DEBUG httpcore.connection: close.complete
+2026-06-17 18:35:10,305 DEBUG openai._base_client: Encountered httpx.TimeoutException
+Traceback (most recent call last):
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+        self.READ_NUM_BYTES, timeout=timeout
+    )
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_base_client.py", line 1037, in request
+    response = self._send_request(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_client.py", line 440, in _send_request
+    return self._send_with_auth_retry(request, stream=stream, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_client.py", line 418, in _send_with_auth_retry
+    response = super()._send_request(request, stream=stream, **kwargs)
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_base_client.py", line 964, in _send_request
+    return self._client.send(request, stream=stream, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+2026-06-17 18:35:10,497 DEBUG openai._base_client: Raising timeout error
+2026-06-17 18:35:10,497 WARNING agent.ai_chain: NVIDIA NIM (qwen/qwen3.5-122b-a10b) failed: Request timed out.
+2026-06-17 18:35:11,111 WARNING agent.ai_chain: Groq (llama-3.3-70b-versatile) failed: 'GROQ_API_KEY'
+2026-06-17 18:35:12,048 DEBUG httpcore.connection: close.started
+2026-06-17 18:35:12,049 DEBUG httpcore.connection: close.complete
+2026-06-17 18:35:15,893 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-17 18:35:15,895 DEBUG httpcore.connection: connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-06-17 18:35:16,187 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172ED8AE0>
+2026-06-17 18:35:16,187 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1D910> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-06-17 18:35:16,408 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172E1DF10>
+2026-06-17 18:35:16,408 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:35:16,408 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:35:16,409 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:35:16,409 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:35:16,409 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:35:17,623 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'X-Gemini-Service-Tier', b'standard'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 17 Jun 2026 15:35:26 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1152'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-06-17 18:35:17,624 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 18:35:17,624 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:35:17,625 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:35:17,625 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:35:17,626 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:35:17,626 WARNING agent.ai_chain: Gemini failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.373324707s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}
+2026-06-17 18:35:18,129 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): openrouter.ai:443
+2026-06-17 18:35:20,069 DEBUG urllib3.connectionpool: https://openrouter.ai:443 "POST /api/v1/chat/completions HTTP/1.1" 200 None
+2026-06-17 18:35:22,802 INFO skills.bounty_hunter: Skipping radumarias/rencfs#3: clarity=0, solvability=0, scope=0 - Could not parse AI assessment
+2026-06-17 18:35:23,350 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-913cd633-c1fa-4c2b-85ff-f750e747838b', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: microg/GmsCore\nTitle: [BOUNTY] RCS Support [14999$]\nLabels: [\'enhancement\', \'bounty\']\nBody: **Feature Description:**\nGoogle Messages is currently the only widely available RCS client for Android. When attempting to use Google Messages with microG, users typically encounter issues such as:\n\nA persistent message stating "RCS chats aren\'t available for this device."\nAn indefinite "Setting up...", where authentication of the phone number never completes.\n\nRecent developments suggest that Google Messages no longer strictly requires device attestation for RCS, making it possible to enable RCS functionality with microG. However, it appears there\'s a missing component or necessary adjustment within microG itself preventing successful setup.\n\nGoogle has effectively monopolized RCS, despite it being a GSMA-backed standard intended as a successor to SMS. Unlike SMS, RCS has become a closed ecosystem under Google\'s control, restricting open interoperability and limiting choice for users and developers. RCS has seen significant adoption, particularly in North America, and recently Apple added support RCS, further increasing its importance as a messaging standard.\n\n**Requested Solution**\n\nProvide a solution that enables Google Messages to successfully connect to and use RCS functionality when operating with microG. Acceptable outcomes include:\n- A fix or enhancement to microG itself, allowing seamless RCS connectivity.\n- Compatibility with recent versions of Google Messages is desired. Solutions that only support a specific Google Messages version from the past year will be awarded half of the bounty amount.\n- Modifications to AOSP or additional permissions changes are acceptable.\n- The solution must work on devices with a locked bootloader.\n\nLimitations\nSolutions relying on rooting, Magisk, or similar root-based tools are not acceptable.\n\n**Additional Information**\n\nGrapheneOS users, who leverage a Play services sandbox, have reported success with enabling RCS by applying permission changes. Although their setup differs from microG, the discussions that were taken in t\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:35:23,351 DEBUG httpcore.connection: close.started
+2026-06-17 18:35:23,351 DEBUG httpcore.connection: close.complete
+2026-06-17 18:35:23,354 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:35:23,355 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:35:23,436 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172E1DD90>
+2026-06-17 18:35:23,437 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1E2D0> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:35:23,737 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016B40C520>
+2026-06-17 18:35:23,737 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:35:23,738 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:35:23,738 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:35:23,738 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:35:23,738 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:35:42,258 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:35:51 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'3234'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'e8bd7432-a899-45ed-b9c4-2f23494c4bc1'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:35:42,261 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:35:42,262 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:35:42,263 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:35:42,264 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:35:42,265 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:35:42,265 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:35:51 GMT', 'content-type': 'application/json', 'content-length': '3234', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': 'e8bd7432-a899-45ed-b9c4-2f23494c4bc1', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:35:42,266 DEBUG openai._base_client: request_id: None
+2026-06-17 18:35:42,287 INFO skills.bounty_hunter: Skipping microg/GmsCore#2994: clarity=6, solvability=3, scope=2 - The issue lacks precise technical details about what microG is missing for RCS (
+2026-06-17 18:35:43,163 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-6bca139c-85f3-4efb-8dad-9c0250e7daa7', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: microg/GmsCore\nTitle: [BOUNTY] WearOS Support [$1340]\nLabels: [\'enhancement\', \'bounty\']\nBody: [**BOUNTY CURRENTLY AT $450**](https://www.bountyhub.dev/en/bounty/view/27a47575-ef9f-49d3-9685-c056d6825f9d) and already the biggest listing on BountyHub by far.\n\n**Is your feature request related to a problem? Please describe.**\n\nWearOS devices do not work with MicroG\n\n**Describe the solution you\'d like**\n\nMicroG framework needed to pair modern, current-gen WearOS devices and get basic functionality - echo phone notifications, provide media controls, run WearOS apps, etc.\n\n**Additional context**\n\nThere has been an issue open for over ten years regarding [MicroG support for WearOS](https://github.com/microg/GmsCore/issues/4#issuecomment-2581553597).  That issue and another [more recent post](https://github.com/microg/GmsCore/issues/2444#issuecomment-2691206945) have inspired some folks to post bounties for this feature, but it\'s buried so far down in the thread it\'s easy to miss.\n\nI personally am posting a $200 bounty for the MicroG framework needed to pair modern, current-gen WearOS devices and get basic functionality - echo phone notifications, provide media controls, run WearOS apps, etc.\n\nHere are the folks who\'ve posted bounties in those threads.  I\'ll invite them to post again here confirming that their offers still stand, but all told, this adds up to over $500 already.\n\n@HyperCriSiS ~~- $100~~\n@realPrix ~~- $100~~\n@NullCode1337 ~~- $50~~\n@TobiPeterG ~~- $100~~\n@doctorgaul ~~- $200~~\n\n*Edit - Amounts now being tracked on the [BountyHub page](https://www.bountyhub.dev/en/bounty/view/27a47575-ef9f-49d3-9685-c056d6825f9d).\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:35:43,165 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:35:43,166 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:35:43,195 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002016D3EB3E0>
+2026-06-17 18:35:43,196 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1D910> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:35:43,486 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172E87430>
+2026-06-17 18:35:43,487 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:35:43,488 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:35:43,489 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:35:43,490 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:35:43,491 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:35:48,800 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:35:57 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'3173'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'3b8dc816-0363-4f16-9391-2234000a6d8f'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:35:48,802 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:35:48,803 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:35:48,804 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:35:48,805 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:35:48,805 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:35:48,806 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:35:57 GMT', 'content-type': 'application/json', 'content-length': '3173', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '3b8dc816-0363-4f16-9391-2234000a6d8f', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:35:48,807 DEBUG openai._base_client: request_id: None
+2026-06-17 18:35:48,823 INFO skills.bounty_hunter: Skipping microg/GmsCore#2843: clarity=5, solvability=3, scope=2 - The request lacks detailed technical specifications (which WearOS APIs, communic
+2026-06-17 18:35:49,869 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-4535c8b4-d242-4d42-b80a-3bd41c68f471', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: microg/GmsCore\nTitle: What\'s the status on Google Cast implementation?\nLabels: [\'📺 Chromecast\']\nBody: I checked the wiki and the implementation page hasn\'t been updated in two years, so I thought I\'d ask.\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:35:49,871 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:35:49,871 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:35:49,881 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172E879D0>
+2026-06-17 18:35:49,882 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1D9D0> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:35:50,257 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172E94E60>
+2026-06-17 18:35:50,257 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:35:50,259 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:35:50,260 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:35:50,261 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:35:50,262 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:35:58,095 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:36:06 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2820'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'90958c16-d442-4a43-887c-a9221099f63a'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:35:58,097 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:35:58,098 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:35:58,099 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:35:58,099 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:35:58,100 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:35:58,101 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:36:06 GMT', 'content-type': 'application/json', 'content-length': '2820', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '90958c16-d442-4a43-887c-a9221099f63a', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:35:58,102 DEBUG openai._base_client: request_id: None
+2026-06-17 18:35:58,119 INFO skills.bounty_hunter: Skipping microg/GmsCore#580: clarity=2, solvability=1, scope=1 - The issue is merely asking for an update on the status of Google Cast implementa
+2026-06-17 18:35:59,057 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-fcae59e0-79b9-4af4-8ef4-c0d18cbe79bc', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: azerothcore/azerothcore-wotlk\nTitle: Feature: Map Partitioning Support for AzerothCore\nLabels: [\'Feature\']\nBody: ### Describe your feature request or suggestion in detail\n\nHi,\n\nI’d like to propose implementing map partitioning for large continent maps, inspired by the following Project-Epoch TrinityCore PR:\n\n- https://github.com/Project-Epoch/TrinityCore/pull/120\n\n### The Problem\n\nCurrently, all continent maps (like Eastern Kingdoms or Kalimdor) are processed on a single thread. With thousands of entities and players, this becomes a performance bottleneck. While instances benefit from parallel processing via separate map threads, continents remain monolithic, even under heavy load.\n\n### The Proposed Approach\n\nThe PR from TrinityCore introduces a `MapPartitioned` class that allows continents to be split into smaller logical partitions. These partitions share the base map data and are processed in parallel, significantly reducing per-tick load.\n\nNotable points from the implementation:\n\n- Seamless player and entity movement across partitions (no loading screens)\n- Entities are assigned dynamically to the correct partition on startup\n- GridUnload removed to simplify logic and improve performance\n- Shared systems (e.g., weather) remain consistent via the base map\n- Cleaner structure for future improvements and easier debugging\n\n### Benefits for AzerothCore\n\n- Better performance on high-population servers\n- Reduced lag in major cities or crowded quest zones\n- Scales better for events like world PvP or Wintergrasp\n- Lays groundwork for more advanced systems (e.g. phasing, regional load balancing)\n\nI don\'t know if it\'s possible to implement a system similat to this, but this could be a significant architectural upgrade and help AzerothCore scale further as adoption grows. I’d love to hear your thoughts on feasibility and whether a similar system could be integrated.\n\nThanks for your time.\n\n### Describe a possible solution to your feature or suggestion in detail\n\n_No response_\n\n### Additional context\n\n_No response_\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:35:59,059 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:35:59,059 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:35:59,085 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172EFC750>
+2026-06-17 18:35:59,086 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1E450> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:35:59,478 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172EFCFD0>
+2026-06-17 18:35:59,479 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:35:59,480 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:35:59,481 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:35:59,483 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:35:59,483 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:36:28,502 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:36:37 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'3137'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'608dff4f-0287-479e-8e70-c26c48cd378f'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:36:28,503 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:36:28,503 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:36:28,504 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:36:28,504 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:36:28,504 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:36:28,505 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:36:37 GMT', 'content-type': 'application/json', 'content-length': '3137', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '608dff4f-0287-479e-8e70-c26c48cd378f', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:36:28,505 DEBUG openai._base_client: request_id: None
+2026-06-17 18:36:28,514 INFO skills.bounty_hunter: Skipping azerothcore/azerothcore-wotlk#22571: clarity=8, solvability=3, scope=2 - The request requires significant architectural design decisions about partitioni
+2026-06-17 18:36:29,124 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e80cda70-df4f-458b-9b44-008c29e5649e', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: SPLURT-Station/S.P.L.U.R.T-tg\nTitle: [BOUNTY] Vore System from Chomp/Vorestation $175+\nLabels: [\'bounty\']\nBody: Basically doing the vore bounty from SPLURT\n\nSince there\'s already a vore system in the works, it would include just adding onto it the desirable features that chompstation has which the current vore system doesn\'t.\n\n- [x] Base vore system\n- [ ] Chomp features and fork edits\n\nThe bounty price set is only the base amount we offer, we can discuss payment to offer you more money than what stated.\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:36:29,125 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:36:29,125 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:36:29,142 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172ED1710>
+2026-06-17 18:36:29,143 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1E690> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:36:29,452 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172ED1780>
+2026-06-17 18:36:29,452 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:36:29,453 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:36:29,453 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:36:29,454 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:36:29,454 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:37:08,874 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:37:17 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'3216'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'50ddcb69-ddb6-4f5c-92b8-e4f64f2807bb'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:37:08,875 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:37:08,876 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:37:08,878 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:37:08,879 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:37:08,879 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:37:08,880 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:37:17 GMT', 'content-type': 'application/json', 'content-length': '3216', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '50ddcb69-ddb6-4f5c-92b8-e4f64f2807bb', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:37:08,881 DEBUG openai._base_client: request_id: None
+2026-06-17 18:37:08,900 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#31: clarity=2, solvability=2, scope=2 - The issue lacks specific details about which Chomp/Vorestation features need to 
+2026-06-17 18:37:09,450 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-000750d3-95c8-4ed1-8361-c546ff054050', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: microg/GmsCore\nTitle: What\'s the status on Google Cast implementation?\nLabels: [\'📺 Chromecast\']\nBody: I checked the wiki and the implementation page hasn\'t been updated in two years, so I thought I\'d ask.\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:37:09,450 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:37:09,451 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:37:09,461 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172EF44D0>
+2026-06-17 18:37:09,461 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1EE10> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:37:09,761 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172EF4590>
+2026-06-17 18:37:09,761 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:37:09,762 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:37:09,762 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:37:09,762 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:37:09,762 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:37:20,671 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:37:29 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2756'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'f30d42d3-e574-4597-bdd2-c93dac407607'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:37:20,672 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:37:20,672 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:37:20,673 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:37:20,673 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:37:20,673 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:37:20,674 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:37:29 GMT', 'content-type': 'application/json', 'content-length': '2756', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': 'f30d42d3-e574-4597-bdd2-c93dac407607', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:37:20,674 DEBUG openai._base_client: request_id: None
+2026-06-17 18:37:20,681 INFO skills.bounty_hunter: Skipping microg/GmsCore#580: clarity=3, solvability=1, scope=1 - The issue is merely asking for an update on the status of Google Cast implementa
+2026-06-17 18:37:21,242 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-87f3845b-f95b-4e3e-88b1-32fe7b426ec8', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: moorcheh-ai/memanto\nTitle: [BOUNTY $100] 🐜 The Great Agentic Memory Showdown: Memanto Benchmarking & Evaluation Challenge\nLabels: [\'bounty\']\nBody: <html>\n<body>\n<!--StartFragment--><html><head></head><body><h3 data-path-to-node="2" style="font-family: &quot;Google Sans&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;"><b data-path-to-node="2" data-index-in-node="0" style="font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;">Description:</b></h3><p data-path-to-node="3" id="p-rc_c203bf6882a033d7-23" style="font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;">As AI agents scale into stateful, production-grade systems in 2026, memory management has shifted from a novelty to the primary architectural bottleneck. <span class="citation-11 citation-end-11" style="font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;">While dedicated platforms like Mem0, Zep (Graphiti), and Hindsight promise persistent recall, production builders still struggle with a massive trade-off: context window bloat, steep token overhead, and background processing latency.<source-footnote ng-version="0.0.0-PLACEHOLDER" _nghost-ng-c3032730111="" style="font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;"><sup _ngcontent-ng-c3032730111="" class="superscript" data-turn-source-index="1" style="font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; font-size: 16px !important; background-color: transparent !important;"><!----></sup></source-footnote></span><sources-carousel-inline ng-version="0.0.0-PLACEHOLDER" _nghost-ng-c4240554462="" style="font-family: &quot;Google Sans Text&quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;">  <source-inline-chip _ngcontent-ng-c4240554462="" _nghost-ng-c2372600268="" class="ng-star-insert\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:37:21,243 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:37:21,243 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:37:21,248 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F1C320>
+2026-06-17 18:37:21,248 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1F350> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:37:21,549 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F1C3C0>
+2026-06-17 18:37:21,549 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:37:21,550 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:37:21,550 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:37:21,550 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:37:21,550 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:37:27,880 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:37:36 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2930'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'6741a78f-3802-42f4-a6b6-bdd8a0efb732'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:37:27,881 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:37:27,881 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:37:27,881 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:37:27,881 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:37:27,882 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:37:27,882 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:37:36 GMT', 'content-type': 'application/json', 'content-length': '2930', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '6741a78f-3802-42f4-a6b6-bdd8a0efb732', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:37:27,882 DEBUG openai._base_client: request_id: None
+2026-06-17 18:37:27,896 INFO skills.bounty_hunter: Skipping moorcheh-ai/memanto#639: clarity=3, solvability=2, scope=4 - The issue description is vague and lacks concrete deliverables; it calls for a b
+2026-06-17 18:37:28,450 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-7f4776fe-5f4c-4e8a-a083-5a81500c30a6', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: SPLURT-Station/S.P.L.U.R.T-tg\nTitle: [BOUNTY] Genital size completion/respriting $100+\nLabels: [\'bounty\']\nBody: # About the bounty\nCurrently our genital sprites are a combination of upstream\'s existing genital sprites and also our old genital sprites from our current codebase. In some cases they cover certain styles and sizes well, but there are many holes in the sprite files that require filling with new sprites for our genital sizes. Not to mention that, in general, the genitals sprites as a whole could use a refresher and better spriting for our codebase. \n\nWe would very much appreciate a good respriting work on our codebases genital sprites, either filling in the holes or straight up respriting the genitals to look better.\n\nHere are some specifications of how the sprites should work for each genital:\n\n## Breasts\n\n- They have three main options: Pair, Quad and Sextuple\n- Each style has two sets of coloring options: Greyscale and Skintone (_s)\n- Breast sizes go from 0 to 19\n- Each breast sprite style has a FRONT and BEHIND sprite state, used for rendering the genital in front and behind the sprite where necessary.\n\n## Penis\n\n- They have 9 main options: Human, Nondescript, Knotted, Flared, (Barbed, Knotted), Tapered, Tentacled, Hemi and Knotted Hemi\n- Each style has two sets of coloring options: Greyscale and Skintone (_s)\n- Each style also has an erect and not erect state.\n- Penis sizes go from 0 to 5\n- Penis sprites mainly use FRONT sprites, but it\'s appreciated to add BEHIND sprites where necessary.\n- Penis sprites also have taur alts, which would need to be added in\n\n## Testicles\n\n- Testicles have two style options: Pair and Sheath\n- Each style has two sets of coloring options: Greyscale and Skintone (_s)\n- Testicle sizes go from 0 to 8\n- Testicle sprites mainly use ADJ sprites, but it\'s appreciated to add BEHIND sprites where necessary.\n- Testicle sprites also have taur alts, which would need to be added in\n\n## Vagina\n\n- Vaginas have 8 styles: Human, Tentacle, Dentata, Hairy, Spade, Furred, Gaping, Cloaca\n- Each style has an aroused and not aroused state\n- They only hav\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:37:28,451 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:37:28,452 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:37:28,477 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F1D220>
+2026-06-17 18:37:28,478 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1F890> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:37:28,761 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F1D2C0>
+2026-06-17 18:37:28,761 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:37:28,761 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:37:28,762 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:37:28,762 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:37:28,762 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:37:49,224 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:37:58 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2683'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'9af058e2-9c18-48d2-91fe-edafe34f1230'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:37:49,226 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:37:49,226 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:37:49,226 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:37:49,227 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:37:49,227 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:37:49,227 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:37:58 GMT', 'content-type': 'application/json', 'content-length': '2683', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '9af058e2-9c18-48d2-91fe-edafe34f1230', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:37:49,227 DEBUG openai._base_client: request_id: None
+2026-06-17 18:37:49,234 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#109: clarity=6, solvability=1, scope=2 - The bounty requires creating new pixel art sprites for many genital variations (
+2026-06-17 18:37:49,790 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-ce7edf8d-6168-4967-9e58-39a12ec1fe20', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: freelensapp/freelens\nTitle: Custom theme and color feature\nLabels: [\'enhancement\', \'help wanted\', \'💰 Bounty 💵\']\nBody: ### What would you like to be added?\n\nIn short, the ability to change the theme colors on Freelens and create new ones as you like.\n\n### Why is this needed?\n\nMany users complain that they don\'t have this option, especially when it comes to colors they would prefer to change.\n\nFor example:\n- https://github.com/freelensapp/freelens/issues/550#issuecomment-3371177938\n- https://github.com/freelensapp/freelens/issues/1237\n- https://github.com/freelensapp/freelens/issues/186\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:37:49,791 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:37:49,791 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:37:49,796 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F1E080>
+2026-06-17 18:37:49,796 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172F24710> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:37:50,094 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F1E120>
+2026-06-17 18:37:50,095 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:37:50,095 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:37:50,095 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:37:50,096 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:37:50,096 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:38:22,859 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:38:31 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'3831'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'3b949e57-f69d-4864-ae2e-0af3b225973d'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:38:22,860 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:38:22,860 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:38:22,861 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:38:22,861 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:38:22,861 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:38:22,861 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:38:31 GMT', 'content-type': 'application/json', 'content-length': '3831', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '3b949e57-f69d-4864-ae2e-0af3b225973d', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:38:22,862 DEBUG openai._base_client: request_id: None
+2026-06-17 18:38:22,868 INFO skills.bounty_hunter: Skipping freelensapp/freelens#1280: clarity=5, solvability=7, scope=4 - The request lacks specific details about which UI elements should be themeable a
+2026-06-17 18:38:23,432 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-7949246e-e32d-43b9-97c5-68a1599fd89e', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: microg/GmsCore\nTitle: [BOUNTY] Support Play Integrity over remote DroidGuard + Server/Guide [$100]\nLabels: [\'bounty\']\nBody: Play Integrity should be supported over the _remote DroidGuard_ functionality and there should be documentation how to set up a phone as a DroidGuard server.\n\n**Why?**\nWhile existing solutions allow getting a sufficiently passing Play Integrity token with a non-integrity-compliant device, there is the following problems that come with it:\n- the requirement for a rooted phone,\n- running the integrity-checking code from google on your phone that\'s purposefully obfuscated and fetched at runtime,\n- running strange bypassing software with root permissions, like the closed-source TrickyStore and\n- all of this has to permanently be kept up-to-date in line with updates to Play Integrity to stay passing\n\nThis is tedious, never-ending work that everyone rather avoids.\nIf you\'re a busy person it\'s also not really feasible. Imagine coming out of a cinema with your friends and heading for a rentable scooter only to realize you\'re device doesn\'t pass Play Integrity anymore.\n\nIf PI would work over another device, like an old, stock one you still have at home, it would fix these problems.\nIt would also open the oppurtunity for commercial integrity-attestation offerings, where you would like pay monthly and they then allow you to use their devices over a server which then serves valid integrity tokens to your device.\n\n**How to implement?**\n- [ ] Fix:\n> remote droidguard currently does not work for play integrity due to play integrity using a multi step droidguard process and the implementation only supports single step (which is used by most other things that use droidguard).\n(https://github.com/microg/GmsCore/issues/2851#issuecomment-3435884995)\n- [ ] Write a _remote DroidGuard server_ to handle the requests\n- [ ] Create a guide/docs on how to set it up\n- [ ] Either\n  - make it run on stock phones or\n  - create software that manages all the integrity-bypassing software on the custom-rom \'server device\' so that it\'s always passes. as far as i know to make a custom phone pass you nee\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:38:23,433 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:38:23,433 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:38:23,443 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F1EF30>
+2026-06-17 18:38:23,443 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172F25850> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:38:23,742 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F1EFD0>
+2026-06-17 18:38:23,742 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:38:23,743 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:38:23,744 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:38:23,744 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:38:23,744 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:38:36,927 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:38:45 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'3011'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'691defcd-6657-407c-8984-9051751ef30d'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:38:36,929 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:38:36,930 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:38:36,930 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:38:36,931 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:38:36,931 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:38:36,931 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:38:45 GMT', 'content-type': 'application/json', 'content-length': '3011', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '691defcd-6657-407c-8984-9051751ef30d', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:38:36,931 DEBUG openai._base_client: request_id: None
+2026-06-17 18:38:36,938 INFO skills.bounty_hunter: Skipping microg/GmsCore#2851: clarity=7, solvability=5, scope=3 - The issue requires fixing multi‑step DroidGuard support, implementing a remote D
+2026-06-17 18:38:37,466 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-cf4b95cf-bc43-4a90-95e0-0cb1e547eef9', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: SPLURT-Station/S.P.L.U.R.T-tg\nTitle: [BOUNTY] Lewd and custom mobs $25+\nLabels: [\'bounty\']\nBody: Add the custom lewd and normal mobs from SPLURT. They might need tweaking and to be made in a better way using the rebase\'s systems.\n\n- [ ] Funclas and all its variants\n- [ ] Wolves\n- [ ] Wendigos\n- [ ] etc.\n\nThe bounty price set is only the base amount we offer, we can discuss payment to offer you more money than what stated.\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:38:37,467 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:38:37,467 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:38:37,472 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F1FE30>
+2026-06-17 18:38:37,472 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172F26150> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:38:37,776 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F1FED0>
+2026-06-17 18:38:37,777 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:38:37,778 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:38:37,779 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:38:37,780 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:38:37,781 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:39:00,089 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:39:09 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'4027'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'fdd51835-7b62-4422-9366-934d852c311d'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:39:00,090 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:39:00,090 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:39:00,090 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:39:00,090 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:39:00,091 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:39:00,091 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:39:09 GMT', 'content-type': 'application/json', 'content-length': '4027', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': 'fdd51835-7b62-4422-9366-934d852c311d', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:39:00,091 DEBUG openai._base_client: request_id: None
+2026-06-17 18:39:00,097 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#30: clarity=3, solvability=4, scope=3 - The issue lacks specific details about which mobs, their behaviors, assets, and 
+2026-06-17 18:39:00,643 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-248b02bc-8d1e-48ea-b545-ac2d4e953efb', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: inventree/InvenTree\nTitle: [Feature] Repair orders\nLabels: [\'enhancement\', \'feature\']\nBody: \n### Discussed in https://github.com/inventree/InvenTree/discussions/7694\n\n> I run a repair service. From what I can see, Inventree is not able to create a repair order, and to track parts and a description of repair work done to a customer\'s unit. Is this a feature that would be likely implemented?\n\n### Concept Requirements\n\n- Determine scope of feature\n- Required DB models\n- Required UI elements\n- Require API flows\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:39:00,644 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:39:00,644 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:39:00,657 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F34CD0>
+2026-06-17 18:39:00,658 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172F26810> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:39:00,963 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F34D70>
+2026-06-17 18:39:00,963 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:39:00,963 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:39:00,964 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:39:00,964 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:39:00,964 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:39:15,740 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:39:24 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'3456'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'420149b9-d34c-45c0-8ade-93288cd696aa'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:39:15,741 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:39:15,741 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:39:15,742 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:39:15,742 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:39:15,742 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:39:15,742 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:39:24 GMT', 'content-type': 'application/json', 'content-length': '3456', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '420149b9-d34c-45c0-8ade-93288cd696aa', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:39:15,743 DEBUG openai._base_client: request_id: None
+2026-06-17 18:39:15,749 INFO skills.bounty_hunter: Skipping inventree/InvenTree#12064: clarity=5, solvability=5, scope=3 - The request lacks detailed specifications (e.g., exact data fields, UI layout, A
+2026-06-17 18:39:16,291 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-c1dbee53-84e0-48af-8b2b-69578639da4d', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: kistek/boss-demo\nTitle: Demo GitHub Issue with Bounty\nLabels: []\nBody: nobody set us up the bomb\r\nmain screen turned off\r\n\r\n/boss $1234\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:39:16,292 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:39:16,292 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:39:16,310 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F35B80>
+2026-06-17 18:39:16,310 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172F26D50> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:39:16,606 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F35C20>
+2026-06-17 18:39:16,606 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:39:16,607 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:39:16,608 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:39:16,608 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:39:16,608 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:39:30,806 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:39:39 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2624'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'29645f25-ef3f-4549-9593-8a545ceda24a'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:39:30,807 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:39:30,807 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:39:30,808 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:39:30,808 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:39:30,808 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:39:30,809 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:39:39 GMT', 'content-type': 'application/json', 'content-length': '2624', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '29645f25-ef3f-4549-9593-8a545ceda24a', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:39:30,809 DEBUG openai._base_client: request_id: None
+2026-06-17 18:39:30,817 INFO skills.bounty_hunter: Skipping kistek/boss-demo#3: clarity=2, solvability=2, scope=3 - The issue contains no clear, actionable requirements; it is essentially a joke o
+2026-06-17 18:39:31,397 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-66fe9247-8914-43d8-bba7-9849f9808691', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: jbilcke-hf/clapper\nTitle: Improve ComfyUI integration\nLabels: [\'new feature\', \'bounty $$$\', \'to refine\']\nBody: ### Context\r\n\r\nComfyUI is all the rage right now, and I would like to use it as one of the supported backends for Clapper.\r\n\r\nCurrently, Clapper only has ultra-basic support for ComfyUI cloud providers, such as Comfy.icu (see this screenshot, the ugly text field at the very bottom):\r\n\r\n<img width="464" alt="Screenshot 2024-07-25 at 20 52 32" src="https://github.com/user-attachments/assets/19b2924b-1f03-443f-a933-2e2ff01a2328">\r\n\r\n\r\n### Goal\r\n\r\nAt minimum, it should be able to use an existing integration running locally or [in the cloud](https://comfy.icu/docs/api)\r\n\r\nBut what I have in mind is more something like this:\r\n\r\n- a list of available workflows straight from from the global ComfyUI community, such as [OpenArt.ai](https://openart.ai/workflows/home)\r\n- a way to easily pick them, eg. click "apply", "use", "install", or some as simple as a drag & drop\r\n- a display of the workflow within the UI (eg. preview of the comfy graph)\r\n\r\n### Limitations / things to checks\r\n\r\nI\'m not a ComfyUI developer (or user), so it\'s gonna be a fun ticket!\r\n\r\n### How to implement\r\n\r\nFor now I\'ve only added some basic code that doesn\'t really work (search for "comfy" and "ComfyIcu" - it\'s related to comfy.icu - in the codebase)\r\n\r\n### Acceptance criteria\r\n\r\nBeing able to run any ComfyUI workflow, for : `image`, `video`, and why no also `sound`, `voice` and `music`\r\n\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:39:31,398 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:39:31,398 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:39:31,415 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F36A30>
+2026-06-17 18:39:31,416 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172F271D0> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:39:31,711 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F36AD0>
+2026-06-17 18:39:31,712 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:39:31,712 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:39:31,713 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:39:31,713 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:39:31,714 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:39:44,218 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:39:53 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'3552'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'bb22a2ee-b6b1-46f6-81ab-efcd209ac66f'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:39:44,219 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:39:44,219 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:39:44,220 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:39:44,220 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:39:44,220 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:39:44,220 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:39:53 GMT', 'content-type': 'application/json', 'content-length': '3552', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': 'bb22a2ee-b6b1-46f6-81ab-efcd209ac66f', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:39:44,221 DEBUG openai._base_client: request_id: None
+2026-06-17 18:39:44,301 INFO skills.bounty_hunter: Skipping jbilcke-hf/clapper#5: clarity=5, solvability=3, scope=2 - The issue involves significant UI/UX decisions (workflow selection, drag‑and‑dro
+2026-06-17 18:39:46,323 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-bcad3749-9664-4dd2-8940-cf580a30f38b', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: spaceandtimefdn/sxt-proof-of-sql\nTitle: Add `FixedSizeBinary` with support up to at least 32 bytes.\nLabels: [\'enhancement\']\nBody: # Background and Motivation\r\n\r\nMany data are binary blobs. In particular, the EVM address and hash types are 20 bytes and 32 bytes respectively. We should support these natively within Proof of SQL. See https://docs.rs/arrow/latest/arrow/datatypes/enum.DataType.html#variant.FixedSizeBinary.\r\n\r\n# Changes Requested\r\n\r\nAdd full support for a `FixedSizeBinary` type. In order to do this there are several considerations.\r\n* Since `Scalar` types support naturally embedding 31 bytes but not 32 bytes, there should be a divergence in how <=31 bytes are handled and 32 bytes are handled.\r\n    * 31 bytes and under should be naturally embedded into the `Scalar` type. This means simply relying on the conversion from `[u64; 4]` to the `Scalar`.\r\n    * 32 bytes should be handled by first hashing the data and then converting it to a `Scalar`. This is identical to how `String`s are handled. See https://github.com/spaceandtimelabs/sxt-proof-of-sql/blob/48b2f0bc8b92dbc3ef9deecfdfc04dfbc2b4460c/crates/proof-of-sql/src/base/scalar/mont_scalar_from.rs#L16.\r\n* `ColumnType` should probably have a new variant `FixedSizeBinary(i32)` added. It is not as clear what the variant for `Column` and `OwnedColumn` should be.\r\n    * My initial suggestion would be `FixedSizeBinary(i32, &\'a [u8])` and `FixedSizeBinary(i32, Vec<u8>)` respectively, but that may not make sense. The reason for this suggestion is because something like `Vec<Vec<u8>>` has a lot of overhead, and `Vec<[u8]>` is not allowed by Rust.\r\n    * Alternatively, it may make sense to have two variants: one for the <=31 bytes case, and one for the 32 bytes case. In this case, it may make sense to have the latter simply be `Binary` instead of `FixedSizeBinary`.\r\n* #228 is partially motivated by this issue, and may make this issue a bit more ergonomic. However, working on them in parallel will likely lead to some branch conflict, so pay attention to that issue.\r\n* The only expression that needs to be supported is equality (`=`) and inequality\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:39:46,326 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:39:46,326 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:39:46,335 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F37930>
+2026-06-17 18:39:46,335 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172F27650> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:39:46,640 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F379D0>
+2026-06-17 18:39:46,641 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:39:46,641 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:39:46,641 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:39:46,642 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:39:46,642 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:40:03,771 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:40:12 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'3712'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'47c6dd9e-3f95-4b06-8298-b359995a6a33'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:40:03,772 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:40:03,772 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:40:03,772 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:40:03,772 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:40:03,773 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:40:03,773 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:40:12 GMT', 'content-type': 'application/json', 'content-length': '3712', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '47c6dd9e-3f95-4b06-8298-b359995a6a33', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:40:03,773 DEBUG openai._base_client: request_id: None
+2026-06-17 18:40:03,782 INFO skills.bounty_hunter: Skipping spaceandtimefdn/sxt-proof-of-sql#229: clarity=7, solvability=6, scope=5 - The issue outlines the desired behavior but leaves open design choices for Colum
+2026-06-17 18:40:05,407 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-59ef463c-eabe-45fe-ac6c-4222bbd5669e', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: jbilcke-hf/clapper\nTitle: Timeline - Create new Tracks and Clips\nLabels: [\'need help\', \'new feature\', \'timeline\', \'bounty $$$\', \'mvp\']\nBody: To make Clapper a proper video creation tool, we need the ability to create content directly in the editor.\r\n\r\nThe first step in this is being able to create new clips. Here are the requirements:\r\n\r\n1. Create new tracks\r\n2. Set the track type from a dropdown list\r\n3. Create clips on tracks, based on the track type\r\n4. Drag clips on the timeline\r\n5. Drag clips from one track to another, as long as the type is the same\r\n\r\nContent creation within the clips will be covered in a separate PR, as this pertains to the entity editor. Primarily this feature should enable tracks and clips to be dynamically created on the timeline.\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:40:05,411 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,412 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,412 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,413 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,413 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,413 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,414 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,414 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,414 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,415 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,415 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,415 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,415 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,416 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,416 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,416 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,417 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,417 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,417 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,418 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,418 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,418 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,419 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,420 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,420 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,420 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,421 DEBUG httpcore.connection: close.started
+2026-06-17 18:40:05,421 DEBUG httpcore.connection: close.complete
+2026-06-17 18:40:05,439 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:40:05,440 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:40:05,468 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172EFBA70>
+2026-06-17 18:40:05,468 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172F27AD0> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:40:05,767 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F37BB0>
+2026-06-17 18:40:05,768 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:40:05,769 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:40:05,769 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:40:05,770 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:40:05,770 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:40:11,030 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:40:20 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'4095'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'780c34c3-b7ff-482d-869d-3c480b5c0417'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:40:11,031 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:40:11,032 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:40:11,032 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:40:11,033 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:40:11,033 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:40:11,033 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:40:20 GMT', 'content-type': 'application/json', 'content-length': '4095', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '780c34c3-b7ff-482d-869d-3c480b5c0417', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:40:11,034 DEBUG openai._base_client: request_id: None
+2026-06-17 18:40:11,042 INFO skills.bounty_hunter: Skipping jbilcke-hf/clapper#10: clarity=8, solvability=8, scope=6 - The requirements are clear and implementable with code changes, but adding track
+2026-06-17 18:40:12,285 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-ff61b749-83d2-48b8-bed1-d37245abcd88', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: Qortal/qortal\nTitle: BOUNTY: ($250) Enhancing Scalability & Performance of the Qortal Blockchain\nLabels: []\nBody: <a href="https://www.boss.dev/issue/github/I_kwDOEJLUl85mXGD6"><img src="https://img.shields.io/endpoint.svg?url=https://api.boss.dev/badge/bounty%3Fgid%3Dboss%2F6bv4shzsp57t2u7tos63z" /></a> \r\n\r\nAs the Qortal community continues to expand and the adoption rate of decentralized applications (Q-Apps) built on the Qortal blockchain accelerates, a pivotal focus on enhancing scalability and performance has become a necessity. This bounty issue is designed to attract skilled developers who can contribute their knowledge and innovative ideas to reinforce Qortal\'s core infrastructure, leading to a more efficient and robust blockchain ecosystem.\r\n\r\n### **Background:**\r\n\r\nQortal is a distinctive blockchain platform with true decentralization, loaded with a rich array of features. It\'s designed to provide a secure environment for decentralized applications. The platform is fully functional with its mainnet operational, and it offers a range of functionalities, including asset creation, name registration, decentralized trading, website hosting, video hosting, , chat, groups, music playlist, Q-Apps, blogs, tipping, mail, and messaging, among others.\r\n\r\n### **Objective:**\r\n\r\nThe main aim of this bounty issue is to invite new developers to join the Qortal community and assist in crafting solutions that address the scalability and performance issues that the platform currently faces.\r\n\r\n### **Suggested Tasks:**\r\n\r\n1. **Conduct a Comprehensive Analysis:** Carry out an in-depth study of the existing Qortal architecture to identify potential bottlenecks and areas that require improvement.\r\n2. **Develop Scalability Strategies:** Create methods to enhance block propagation and synchronization, thereby reducing latency and boosting network efficiency.\r\n3. **Implement Optimization Techniques:** Deploy advanced caching mechanisms and database optimizations to improve overall performance and diminish response times.\r\n4. **Perform Rigorous Testing:** Conduct meticulous testing and benchmark\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:40:12,299 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:40:12,301 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:40:12,330 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F37840>
+2026-06-17 18:40:12,330 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1FE90> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:40:12,622 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F34370>
+2026-06-17 18:40:12,622 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:40:12,623 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:40:12,623 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:40:12,624 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:40:12,624 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:40:50,821 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:40:59 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2663'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'9d4f3d03-d8e3-462d-8050-63134741c8f2'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:40:50,822 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:40:50,823 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:40:50,824 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:40:50,824 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:40:50,824 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:40:50,824 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:40:59 GMT', 'content-type': 'application/json', 'content-length': '2663', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '9d4f3d03-d8e3-462d-8050-63134741c8f2', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:40:50,824 DEBUG openai._base_client: request_id: None
+2026-06-17 18:40:50,832 INFO skills.bounty_hunter: Skipping Qortal/qortal#122: clarity=3, solvability=2, scope=2 - The issue is a high‑level call for scalability and performance improvements with
+2026-06-17 18:40:51,773 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-ba6680a4-7126-46a7-ba52-cccb2e427c43', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: jaseg/python-mpv\nTitle: Stuck in threading on macOS\nLabels: []\nBody: Hello,\r\n\r\nconsider the following code:\r\n```python\r\nimport mpv\r\n\r\n_url = \'test.webm\'\r\nmpv = mpv.MPV()\r\nmpv.loadfile(_url)\r\nprint(\'waiting\')\r\nmpv.wait_for_playback()\r\nprint(\'done\')\r\n```\r\n\r\nOn Linux, this will print `waiting`, then play `test.webm`, and finally print `done` as expected.\r\n\r\nOn macOS 10.12.6 using Python 3.6 and MPV 0.27 however, it only prints `waiting` and is then stuck forever while the Python-Rocket starts jumping in my Dock.\r\n\r\nI looked into python-mpv\'s code, and for `mpv.wait_for_playback()` it is stuck in [line 557](https://github.com/jaseg/python-mpv/blob/master/mpv.py#L557), which is:\r\n```python\r\nself._playback_cond.wait()  # _playback_cond is threading.Condition\r\n```\r\nUsing `mpv.wait_for_property(\'filename\', lambda x: x is None)` instead, makes it stuck in [line 569](https://github.com/jaseg/python-mpv/blob/master/mpv.py#L569), which is:\r\n```python\r\nsema.acquire()  # sema is threading.Semaphore\r\n```\r\n\r\nThe problem thus seems to somehow be related to the handling of the `threading` library.\r\nDo you have any suggestion what might be causing this?\r\n\r\nThis is also possibly a duplicate of #59.\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'nvidia/nemotron-3-super-120b-a12b', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:40:51,774 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:40:51,775 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:40:51,973 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F36CB0>
+2026-06-17 18:40:51,974 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1FB90> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:40:52,535 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F360D0>
+2026-06-17 18:40:52,535 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:40:52,537 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:40:52,538 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:40:52,539 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:40:52,539 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:41:10,747 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 17 Jun 2026 15:41:19 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'7578'), (b'Connection', b'keep-alive'), (b'Access-Control-Expose-Headers', b'nvcf-reqid'), (b'Nvcf-Reqid', b'5629f232-fc25-45c6-9c4d-80d78bb0c754'), (b'Nvcf-Status', b'fulfilled'), (b'Server', b'uvicorn'), (b'Vary', b'Origin')])
+2026-06-17 18:41:10,748 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:41:10,748 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:41:10,764 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:41:10,764 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:41:10,764 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:41:10,764 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "200 OK" Headers({'date': 'Wed, 17 Jun 2026 15:41:19 GMT', 'content-type': 'application/json', 'content-length': '7578', 'connection': 'keep-alive', 'access-control-expose-headers': 'nvcf-reqid', 'nvcf-reqid': '5629f232-fc25-45c6-9c4d-80d78bb0c754', 'nvcf-status': 'fulfilled', 'server': 'uvicorn', 'vary': 'Origin'})
+2026-06-17 18:41:10,765 DEBUG openai._base_client: request_id: None
+2026-06-17 18:41:11,480 DEBUG openai._base_client: Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-678ba702-59f2-4624-b738-3ee05b78aed4', 'security': {'bearer_auth': True}, 'content': None, 'json_data': {'messages': [{'role': 'user', 'content': 'Analyze this GitHub bounty issue and assess if an AI agent can solve it.\n\nRepository: jaseg/python-mpv\nTitle: Stuck in threading on macOS\nLabels: []\nBody: Hello,\r\n\r\nconsider the following code:\r\n```python\r\nimport mpv\r\n\r\n_url = \'test.webm\'\r\nmpv = mpv.MPV()\r\nmpv.loadfile(_url)\r\nprint(\'waiting\')\r\nmpv.wait_for_playback()\r\nprint(\'done\')\r\n```\r\n\r\nOn Linux, this will print `waiting`, then play `test.webm`, and finally print `done` as expected.\r\n\r\nOn macOS 10.12.6 using Python 3.6 and MPV 0.27 however, it only prints `waiting` and is then stuck forever while the Python-Rocket starts jumping in my Dock.\r\n\r\nI looked into python-mpv\'s code, and for `mpv.wait_for_playback()` it is stuck in [line 557](https://github.com/jaseg/python-mpv/blob/master/mpv.py#L557), which is:\r\n```python\r\nself._playback_cond.wait()  # _playback_cond is threading.Condition\r\n```\r\nUsing `mpv.wait_for_property(\'filename\', lambda x: x is None)` instead, makes it stuck in [line 569](https://github.com/jaseg/python-mpv/blob/master/mpv.py#L569), which is:\r\n```python\r\nsema.acquire()  # sema is threading.Semaphore\r\n```\r\n\r\nThe problem thus seems to somehow be related to the handling of the `threading` library.\r\nDo you have any suggestion what might be causing this?\r\n\r\nThis is also possibly a duplicate of #59.\n\nRate the following (1-10 each):\n- Clarity: How clear is the requirement?\n- Solvability: Can this be solved with code changes alone (no human design decisions)?\n- Scope: Is this small enough to solve in <2 hours of coding?\n\nIf all three scores are >= 7, suggest a brief implementation approach (2-3 sentences).\n\nRespond in JSON:\n{"clarity": N, "solvability": N, "scope": N, "feasible": true/false, "approach": "...", "reason": "..."}'}], 'model': 'deepseek-ai/deepseek-v4-flash', 'max_tokens': 500, 'temperature': 0.2}}
+2026-06-17 18:41:11,480 DEBUG openai._base_client: Sending HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions
+2026-06-17 18:41:11,481 DEBUG httpcore.connection: connect_tcp.started host='integrate.api.nvidia.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-06-17 18:41:11,504 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F35360>
+2026-06-17 18:41:11,505 DEBUG httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020172E1F290> server_hostname='integrate.api.nvidia.com' timeout=60.0
+2026-06-17 18:41:12,068 DEBUG httpcore.connection: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020172F341E0>
+2026-06-17 18:41:12,068 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-06-17 18:41:12,068 DEBUG httpcore.http11: send_request_headers.complete
+2026-06-17 18:41:12,069 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-06-17 18:41:12,069 DEBUG httpcore.http11: send_request_body.complete
+2026-06-17 18:41:12,069 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-06-17 18:41:12,295 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Wed, 17 Jun 2026 15:41:21 GMT'), (b'Content-Type', b'application/problem+json'), (b'Content-Length', b'42'), (b'Connection', b'keep-alive'), (b'Vary', b'Origin')])
+2026-06-17 18:41:12,295 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-17 18:41:12,296 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-06-17 18:41:12,296 DEBUG httpcore.http11: receive_response_body.complete
+2026-06-17 18:41:12,297 DEBUG httpcore.http11: response_closed.started
+2026-06-17 18:41:12,297 DEBUG httpcore.http11: response_closed.complete
+2026-06-17 18:41:12,297 DEBUG openai._base_client: HTTP Response: POST https://integrate.api.nvidia.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Wed, 17 Jun 2026 15:41:21 GMT', 'content-type': 'application/problem+json', 'content-length': '42', 'connection': 'keep-alive', 'vary': 'Origin'})
+2026-06-17 18:41:12,297 DEBUG openai._base_client: request_id: None
+2026-06-17 18:41:12,298 DEBUG openai._base_client: Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_base_client.py", line 1085, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kelvin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://integrate.api.nvidia.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-06-17 18:41:12,300 DEBUG openai._base_client: Re-raising status error
+2026-06-17 18:41:12,300 WARNING agent.ai_chain: NVIDIA rate limited (attempt 1), retrying in 10s...

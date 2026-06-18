@@ -1,0 +1,111 @@
+2026-06-17 18:10:25,775 INFO skills.bounty_hunter: Bounty hunting cycle starting...
+2026-06-17 18:10:30,328 INFO skills.bounty_hunter: Opire: rodrigompy/bugb#1 closed, $5472 stranded
+2026-06-17 18:10:30,336 INFO skills.bounty_hunter: Opire: Readd support for web platform exports when using ... skipped (8 claimers)
+2026-06-17 18:10:30,336 INFO skills.bounty_hunter: Opire: Donation/funding for german language... skipped (6 claimers)
+2026-06-17 18:10:31,956 INFO skills.bounty_hunter: Opire: uswriting/zeroperl#7 closed, $1500 stranded
+2026-06-17 18:10:31,966 INFO skills.bounty_hunter: Opire: Crash found in fuzzer... skipped (14 claimers)
+2026-06-17 18:10:31,966 INFO skills.bounty_hunter: Opire: Migration generation drops and creates columns ins... skipped (23 claimers)
+2026-06-17 18:10:31,967 INFO skills.bounty_hunter: Opire: Add Wayland support... skipped (12 claimers)
+2026-06-17 18:10:33,260 INFO skills.bounty_hunter: Opire: zed-industries/zed#4642 closed, $345 stranded
+2026-06-17 18:10:35,202 INFO skills.bounty_hunter: Opire: secondlife/viewer#4445 closed, $220 stranded
+2026-06-17 18:10:36,581 INFO skills.bounty_hunter: Opire: qtop/qtop#433 closed, $220 stranded
+2026-06-17 18:10:37,862 INFO skills.bounty_hunter: Opire: Leantime/leantime#1099 closed, $200 stranded
+2026-06-17 18:10:39,210 INFO skills.bounty_hunter: Opire: keycloak/keycloak#14644 closed, $200 stranded
+2026-06-17 18:10:40,428 INFO skills.bounty_hunter: Opire: esp-rs/esp-hal#4163 closed, $170 stranded
+2026-06-17 18:10:44,777 INFO skills.bounty_hunter: Opire: qtop/qtop#337 closed, $117 stranded
+2026-06-17 18:10:47,080 INFO skills.bounty_hunter: Opire: storybookjs/storybook#12641 closed, $110 stranded
+2026-06-17 18:10:49,475 INFO skills.bounty_hunter: Opire: alisteuber4ee1/API-Integration-Pagination#1 closed, $100 stranded
+2026-06-17 18:10:50,747 INFO skills.bounty_hunter: Opire: FalkorDB/FalkorDB#622 closed, $100 stranded
+2026-06-17 18:10:55,658 INFO skills.bounty_hunter: Opire: go-gitea/gitea#24635 closed, $80 stranded
+2026-06-17 18:10:55,663 INFO skills.bounty_hunter: Opire: 500 Server Error - Auto Solve hcapcha... skipped (11 claimers)
+2026-06-17 18:10:55,663 INFO skills.bounty_hunter: Opire: Open target URLs not in PWA but in default browser... skipped (17 claimers)
+2026-06-17 18:10:58,494 INFO skills.bounty_hunter: Opire: electron/electron#48191 closed, $70 stranded
+2026-06-17 18:11:02,859 INFO skills.bounty_hunter: Opire: bogeeee/restfuncs#6 closed, $70 stranded
+2026-06-17 18:11:04,137 INFO skills.bounty_hunter: Opire: formbricks/formbricks#3302 closed, $60 stranded
+2026-06-17 18:11:08,168 INFO skills.bounty_hunter: Opire: sebastianbergmann/phpunit#4440 closed, $50 stranded
+2026-06-17 18:11:09,848 INFO skills.bounty_hunter: Opire: ToolJet/ToolJet#6655 closed, $45 stranded
+2026-06-17 18:11:13,341 INFO skills.bounty_hunter: Opire: 3 open bounties from 30 total
+2026-06-17 18:11:13,345 INFO skills.bounty_hunter: Opire: found 3 open bounties
+2026-06-17 18:11:25,362 INFO skills.bounty_hunter: BountyHub: electron/electron#48191 closed, $400 stranded
+2026-06-17 18:11:28,003 INFO skills.bounty_hunter: BountyHub: emersion/hydroxide#207 closed, $250 stranded
+2026-06-17 18:11:29,280 INFO skills.bounty_hunter: BountyHub: go-gitea/gitea#24635 closed, $200 stranded
+2026-06-17 18:11:33,104 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#76 closed, $150 stranded
+2026-06-17 18:11:39,119 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#16954 closed, $100 stranded
+2026-06-17 18:11:41,519 INFO skills.bounty_hunter: BountyHub: SPLURT-Station/S.P.L.U.R.T-tg#115 closed, $75 stranded
+2026-06-17 18:11:44,521 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20250 closed, $50 stranded
+2026-06-17 18:11:45,902 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#20741 closed, $50 stranded
+2026-06-17 18:11:47,239 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#11462 closed, $50 stranded
+2026-06-17 18:11:52,150 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#21317 closed, $10 stranded
+2026-06-17 18:11:54,688 INFO skills.bounty_hunter: BountyHub: azerothcore/azerothcore-wotlk#13842 closed, $10 stranded
+2026-06-17 18:11:54,693 INFO skills.bounty_hunter: BountyHub: 12 open bounties from 23 total
+2026-06-17 18:11:54,699 INFO skills.bounty_hunter: BountyHub: found 12 open bounties
+2026-06-17 18:12:07,006 INFO skills.bounty_hunter: Boss.dev: sveltejs/svelte#1639 closed, $125 stranded
+2026-06-17 18:12:10,717 INFO skills.bounty_hunter: Boss.dev: allure-framework/allure2#1108 closed, $100 stranded
+2026-06-17 18:12:12,023 INFO skills.bounty_hunter: Boss.dev: 9 open bounties from 12 total
+2026-06-17 18:12:12,038 INFO skills.bounty_hunter: Boss.dev: found 9 open bounties
+2026-06-17 18:14:55,556 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:14:55,577 INFO skills.bounty_hunter: Skipping denoland/deno#18147: clarity=8, solvability=5, scope=4 - The request is clear: show Deno test coverage inline in the VSCode editor via LS
+2026-06-17 18:15:07,795 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:15:07,802 INFO skills.bounty_hunter: Skipping microg/GmsCore#2843: clarity=5, solvability=3, scope=2 - The request lacks concrete technical details (specific APIs, data formats, inter
+2026-06-17 18:15:34,997 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:15:38,336 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:15:38,343 INFO skills.bounty_hunter: Skipping radumarias/rencfs#3: clarity=9, solvability=6, scope=3 - The issue is a research/documentation task, not a code implementation. It requir
+2026-06-17 18:15:53,027 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:15:53,036 INFO skills.bounty_hunter: Skipping microg/GmsCore#2994: clarity=6, solvability=4, scope=2 - The issue description lacks specific technical details about which microG compon
+2026-06-17 18:16:00,667 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:16:00,675 INFO skills.bounty_hunter: Skipping microg/GmsCore#2843: clarity=3, solvability=2, scope=1 - The request lacks specific technical details about which WearOS APIs or services
+2026-06-17 18:16:20,800 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:16:23,754 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:16:23,762 INFO skills.bounty_hunter: Skipping microg/GmsCore#580: clarity=2, solvability=1, scope=1 - The issue is not a technical specification or bug report; it is a general status
+2026-06-17 18:16:36,723 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:16:36,986 INFO skills.bounty_hunter: Skipping azerothcore/azerothcore-wotlk#22571: clarity=8, solvability=3, scope=2 - The request involves a major architectural redesign (map partitioning, thread-sa
+2026-06-17 18:16:53,700 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:16:53,707 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#31: clarity=3, solvability=2, scope=2 - The issue lacks specific details about which Chomp/Vorestation features are need
+2026-06-17 18:17:54,585 WARNING agent.ai_chain: NVIDIA NIM (nvidia/nemotron-3-super-120b-a12b) failed: Request timed out.
+2026-06-17 18:17:58,394 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:17:58,402 INFO skills.bounty_hunter: Skipping microg/GmsCore#580: clarity=8, solvability=6, scope=5 - The issue is clear in asking for an update on the Google Cast implementation sta
+2026-06-17 18:18:05,004 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:18:05,013 INFO skills.bounty_hunter: Skipping moorcheh-ai/memanto#639: clarity=3, solvability=2, scope=2 - The issue description is poorly formatted and lacks concrete, actionable require
+2026-06-17 18:18:50,956 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:18:50,964 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#109: clarity=6, solvability=2, scope=3 - The bounty requires creating new pixel art sprites (genital graphics) rather tha
+2026-06-17 18:18:59,925 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:18:59,932 INFO skills.bounty_hunter: Skipping freelensapp/freelens#1280: clarity=6, solvability=7, scope=4 - The request is vague about UI specifics, storage mechanism, and integration poin
+2026-06-17 18:19:21,402 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:19:26,581 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:19:26,611 INFO skills.bounty_hunter: Skipping microg/GmsCore#2851: clarity=8, solvability=6, scope=5 - While the requirements are clear (clarity=8), the solution requires non-trivial 
+2026-06-17 18:20:00,118 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:20:00,125 INFO skills.bounty_hunter: Skipping SPLURT-Station/S.P.L.U.R.T-tg#30: clarity=3, solvability=5, scope=4 - The issue lacks specific details about which mobs, their behaviors, assets, or h
+2026-06-17 18:20:20,217 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:20:20,224 INFO skills.bounty_hunter: Skipping inventree/InvenTree#12064: clarity=5, solvability=4, scope=2 - The request lacks detailed specifications (fields, relationships, UI layout, API
+2026-06-17 18:20:33,668 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:20:33,675 INFO skills.bounty_hunter: Skipping kistek/boss-demo#3: clarity=2, solvability=2, scope=3 - The issue contains only a joke/reference with no clear functional requirement, m
+2026-06-17 18:20:39,716 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:20:39,724 INFO skills.bounty_hunter: Skipping jbilcke-hf/clapper#5: clarity=6, solvability=4, scope=3 - The request involves designing a UI for browsing, previewing, and applying Comfy
+2026-06-17 18:21:40,642 WARNING agent.ai_chain: NVIDIA NIM (nvidia/nemotron-3-super-120b-a12b) failed: Request timed out.
+2026-06-17 18:21:46,750 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:21:46,758 INFO skills.bounty_hunter: Candidate: spaceandtimefdn/sxt-proof-of-sql#229 $1000.0 | clarity=8 solvability=7 scope=6 | EV=$700
+2026-06-17 18:22:03,739 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:22:03,750 INFO skills.bounty_hunter: Skipping jbilcke-hf/clapper#10: clarity=8, solvability=8, scope=6 - While the requirements are clear and implementable via code changes, the scope (
+2026-06-17 18:22:13,909 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:22:13,920 INFO skills.bounty_hunter: Skipping Qortal/qortal#122: clarity=2, solvability=2, scope=2 - The issue is a high‑level call for scalability and performance improvements with
+2026-06-17 18:22:28,952 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:22:33,275 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:22:33,285 INFO skills.bounty_hunter: Skipping jaseg/python-mpv#61: clarity=8, solvability=6, scope=5 - The issue is clear in describing the symptom (stuck on threading primitives on m
+2026-06-17 18:22:45,589 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:22:45,606 INFO skills.bounty_hunter: Skipping jlord/sheetsee-tables#24: clarity=3, solvability=2, scope=4 - The issue asks for a step‑by‑step manual and fixes to non‑working demos, which i
+2026-06-17 18:23:21,287 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:23:21,307 INFO skills.bounty_hunter: Skipping OpenSword/OpenIsopix#1: clarity=3, solvability=4, scope=2 - The requirement relies on an unspecified README list, making the goal unclear; a
+2026-06-17 18:23:26,926 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:23:26,952 INFO skills.bounty_hunter: Candidate: Alexays/Waybar#3693 $50.0 | clarity=8 solvability=9 scope=8 | EV=$42
+2026-06-17 18:23:26,952 INFO skills.bounty_hunter: Best candidate: spaceandtimefdn/sxt-proof-of-sql#229 from Boss.dev $1000.0 (EV=$700)
+2026-06-17 18:23:26,952 INFO skills.bounty_hunter: Target: spaceandtimefdn/sxt-proof-of-sql#229: Add `FixedSizeBinary` with support up to at least 32 bytes. (Boss.dev $1000.0)
+2026-06-17 18:23:29,840 INFO skills.bounty_hunter: Intent comment posted: True
+2026-06-17 18:23:29,841 INFO skills.bounty_hunter: MASAI: attempting fix for $1000.0 bounty at spaceandtimefdn/sxt-proof-of-sql#229
+2026-06-17 18:23:53,665 INFO skills.bounty_hunter: MASAI: using 3-phase solver for $1000.0 bounty
+2026-06-17 18:23:53,665 INFO agent.masai_solver: MASAI: solving 'Add `FixedSizeBinary` with support up to at least 32 bytes....'
+2026-06-17 18:24:09,753 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:24:09,776 INFO agent.masai_solver: MASAI phase 1 (reproduce): OK
+2026-06-17 18:24:14,654 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:24:14,669 INFO agent.masai_solver: MASAI phase 2 (localize): 5 files
+2026-06-17 18:25:02,836 INFO httpx: HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 18:25:02,863 INFO agent.masai_solver: MASAI phase 3 (fix): 0 patches
